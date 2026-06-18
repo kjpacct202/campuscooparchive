@@ -1,4 +1,4 @@
-// prepare-data.mjs — build-time step (npm "predev"/"prebuild").
+// prepare-data.mjs: build-time step (npm "predev"/"prebuild").
 //
 // Produces the slim client search payload consumed by the Browse page, the
 // command palette, and the export menu. It is the Node port of the slim-field
@@ -92,6 +92,6 @@ mkdirSync(OUT_DIR, { recursive: true });
 writeFileSync(join(OUT_DIR, "plans.slim.json"), JSON.stringify(slim));
 
 console.log(
-  `prepare-data: wrote public/data/plans.slim.json — ${slim.length} plans, ` +
+  `prepare-data: wrote public/data/plans.slim.json: ${slim.length} plans, ` +
     `${deepCount} deep-coded (source: ${DATA_DIR})`
 );

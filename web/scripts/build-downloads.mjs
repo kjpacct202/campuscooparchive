@@ -1,4 +1,4 @@
-// build-downloads.mjs — build-time step (npm "predev"/"prebuild"), runs after
+// build-downloads.mjs: build-time step (npm "predev"/"prebuild"), runs after
 // prepare-data.mjs. Emits the free, AI-ready downloadable dataset into
 // web/public/downloads/ (git-ignored, regenerated each build). The Python masters
 // in ../data remain the single source of truth; this only re-shapes them.
@@ -136,10 +136,10 @@ const BENCHMARK_KEYS = [
   ["academic_instructional_continuity", "Academic / instructional continuity"],
   ["tests_training_exercises", "Tests, training & exercises"],
 ];
-const dictionary = `# Campus COOP Archive — Data Dictionary
+const dictionary = `# Campus COOP Archive: Data Dictionary
 
 This download is a fully sourced catalog of publicly published US college & university
-continuity plans — Continuity of Operations Plans (COOP), Business Continuity Plans/Programs
+continuity plans: Continuity of Operations Plans (COOP), Business Continuity Plans/Programs
 (BCP), academic-continuity plans, and IT disaster-recovery plans. **Every plan record is
 traceable to a primary source:** it carries a direct \`source_url\`, the \`date_accessed\`, and a
 verbatim \`evidence_quote\`. Source documents remain the work of their institutions and are
@@ -147,13 +147,13 @@ linked, not redistributed.
 
 ## Files
 
-- \`plans.{json,csv,xls}\` — master catalog, one row per plan (210 plans).
-- \`deep_analysis.{json,csv,xls}\` — the subset read in full and scored against the
+- \`plans.{json,csv,xls}\`: master catalog, one row per plan (210 plans).
+- \`deep_analysis.{json,csv,xls}\`: the subset read in full and scored against the
   22-component continuity benchmark (40 plans), keyed by \`plan_id\`.
-- \`institutions.{json,csv}\` — one row per institution (207 institutions).
-- \`campus-coop-archive-everything.json\` — all of the above plus aggregate stats in one file
+- \`institutions.{json,csv}\`: one row per institution (207 institutions).
+- \`campus-coop-archive-everything.json\`: all of the above plus aggregate stats in one file
   (best for uploading to an AI tool).
-- \`DATA_DICTIONARY.md\` — this file.
+- \`DATA_DICTIONARY.md\`: this file.
 
 Join key: \`plan_id\` is a slug of the institution name (optionally suffixed for multiple plans)
 and links \`plans\`, \`deep_analysis\`, and \`institutions\` (via \`institution_id\` / \`plan_ids\`).
@@ -183,12 +183,12 @@ ${readDoc("schema/taxonomies.md") || "(taxonomies unavailable)"}
 - \`alternate_facility_model\`: physical-alternate-site / telework-distributed / reciprocal-mutual-aid / cloud-hosted / multiple / none-stated.
 - \`essential_functions\`: array of identified essential/critical functions.
 - \`rto_tiers\`, \`succession_depth\`, \`vital_records_approach\`, \`tte_cadence\`, \`devolution_treatment\`, \`reconstitution_treatment\`, \`academic_continuity_treatment\`, \`it_continuity_treatment\`, \`interdependencies_treatment\`: prose summaries of how each is handled.
-- \`unusual_decisions\`: array of { decision, quote } — notable design choices, each with a verbatim quote.
+- \`unusual_decisions\`: array of { decision, quote }, one per notable design choice, each with a verbatim quote.
 - \`analyst_notes\`: human-readable summary of the full-text reading.
 
 ### The 22-component continuity benchmark (keys used in benchmark_missing)
 
-${BENCHMARK_KEYS.map(([k, l], i) => `${i + 1}. \`${k}\` — ${l}`).join("\n")}
+${BENCHMARK_KEYS.map(([k, l], i) => `${i + 1}. \`${k}\`: ${l}`).join("\n")}
 `;
 write("DATA_DICTIONARY.md", dictionary);
 

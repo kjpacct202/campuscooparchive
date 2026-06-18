@@ -26,7 +26,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!plan) return { title: "Plan not found" };
   const deepNote = getDeep(params.id) ? " Deep-coded against the 22-component continuity benchmark." : "";
   return {
-    title: `${plan.institution_name} — ${plan.plan_type}`,
+    title: `${plan.institution_name}, ${plan.plan_type}`,
     description: `${plan.institution_name} (${plan.state}) ${plan.plan_type}. Sourced from a publicly published document with a verbatim evidence quote.${deepNote}`,
   };
 }
@@ -151,11 +151,11 @@ export default function PlanPage({ params }: { params: { id: string } }) {
                   <div className="tags">
                     {[...missingSet].map((k) => (
                       <span className="tag" key={k}>
-                        &#8212; {componentLabel(k)}
+                        &#10007; {componentLabel(k)}
                       </span>
                     ))}
                     {missingSet.size === 0 && (
-                      <span className="muted small">Nothing missing — a perfect 22/22.</span>
+                      <span className="muted small">Nothing missing: a perfect 22/22.</span>
                     )}
                   </div>
                 </div>

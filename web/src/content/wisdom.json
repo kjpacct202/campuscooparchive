@@ -1,10 +1,10 @@
 {
-  "headline": "Across the corpus, campuses are good at naming WHAT must continue but weak at pre-wiring WHO acts and from WHERE when leadership or a building is lost — and the cheapest transferable fixes are devolution clauses to a sister campus, pre-delegated succession and continuity authority in writing, quantitative activation triggers instead of judgment calls, and treating academic and research continuity as first-class essential functions.",
+  "headline": "Across the corpus, campuses are good at naming WHAT must continue but weak at pre-wiring WHO acts and from WHERE when leadership or a building is lost, and the cheapest transferable fixes are devolution clauses to a sister campus, pre-delegated succession and continuity authority in writing, quantitative activation triggers instead of judgment calls, and treating academic and research continuity as first-class essential functions.",
   "themes": [
     {
       "title": "Name a sister campus as your devolution site",
       "category": "Operations",
-      "insight": "Devolution — the pre-arranged handoff of essential functions to a different team in a different place when your own people or building are gone — is the single most-missing benchmark component in the corpus. Most plans stop at orders of succession, which only re-staff the same campus. The strongest plans go further by naming a concrete external destination: University of Houston-Downtown devolves statutory responsibility for its essential functions to another University of Houston System campus, using reciprocal sister campuses as both the relocation site and the devolution endpoint that can provide classrooms, labs, library and computing within twelve hours. For any campus inside a multi-institution system, this is a nearly free clause to copy — the partner facilities already exist.",
+      "insight": "Devolution, the pre-arranged handoff of essential functions to a different team in a different place when your own people or building are gone, is the single most-missing benchmark component in the corpus. Most plans stop at orders of succession, which only re-staff the same campus. The strongest plans go further by naming a concrete external destination: University of Houston-Downtown devolves statutory responsibility for its essential functions to another University of Houston System campus, using reciprocal sister campuses as both the relocation site and the devolution endpoint that can provide classrooms, labs, library and computing within twelve hours. For any campus inside a multi-institution system, this is a nearly free clause to copy, because the partner facilities already exist.",
       "takeaway": "Write a devolution clause that names a specific sister campus (or system partner) as the destination for your essential functions, and confirm it can host operations within hours.",
       "evidence": [
         {
@@ -24,7 +24,7 @@
     {
       "title": "Write a quantitative activation trigger, not a vibe",
       "category": "Operations",
-      "insight": "Most plans say continuity activates after a \"major\" or \"significant\" disruption and leave the threshold to judgment in the moment — which is exactly when judgment is scarce. The best plans pre-decide the number. California State University, Bakersfield defines a \"business disruption\" objectively as the loss of any instructional component or any critical function for two consecutive instructional days or three consecutive calendar days, removing the argument over whether to activate. Florida State University fixes the other end of the clock the same way, setting a 12-hour activation window and a 30-day sustainment horizon as explicit planning parameters. A bright-line trigger costs nothing to write and removes the meeting from the first hour of a crisis.",
+      "insight": "Most plans say continuity activates after a \"major\" or \"significant\" disruption and leave the threshold to judgment in the moment, which is exactly when judgment is scarce. The best plans pre-decide the number. California State University, Bakersfield defines a \"business disruption\" objectively as the loss of any instructional component or any critical function for two consecutive instructional days or three consecutive calendar days, removing the argument over whether to activate. Florida State University fixes the other end of the clock the same way, setting a 12-hour activation window and a 30-day sustainment horizon as explicit planning parameters. A bright-line trigger costs nothing to write and removes the meeting from the first hour of a crisis.",
       "takeaway": "Replace \"major disruption\" language with a numeric trigger (hours of downtime, or a fixed activation window and sustainment horizon) that a single duty officer can apply without convening leadership.",
       "evidence": [
         {
@@ -44,7 +44,7 @@
     {
       "title": "Pre-position contingent contracts so you can stand up a site",
       "category": "Continuity facilities",
-      "insight": "Naming an alternate facility is common; guaranteeing you can actually equip and run one is rare. The gap is logistics — power, water, sanitation, fencing, food — that no campus can source on demand during a regional disaster when every other organization is competing for the same vendors. California State University, Bakersfield closes that gap by signing contingent contracts in advance, so it can erect and sustain a temporary tented operating site for up to thirty days the moment it is needed. Pre-negotiated standby contracts convert a paper alternate-site plan into a capability, and they can be executed before any specific threat is known.",
+      "insight": "Naming an alternate facility is common; guaranteeing you can actually equip and run one is rare. The gap is logistics (power, water, sanitation, fencing, food) that no campus can source on demand during a regional disaster when every other organization is competing for the same vendors. California State University, Bakersfield closes that gap by signing contingent contracts in advance, so it can erect and sustain a temporary tented operating site for up to thirty days the moment it is needed. Pre-negotiated standby contracts convert a paper alternate-site plan into a capability, and they can be executed before any specific threat is known.",
       "takeaway": "Sign standby contingent contracts now for tents, generators, water, sanitation and food so an alternate site can be equipped and sustained for weeks, not just designated on a map.",
       "evidence": [
         {
@@ -58,7 +58,7 @@
     {
       "title": "Run continuity through a living web tool, not binders",
       "category": "Program foundation",
-      "insight": "A continuity plan that lives in a static PDF goes stale the day it is signed: contacts change, units reorganize, and vital-records inventories drift out of date. Cornell University addresses the maintenance problem structurally by providing a university-wide, web-based software tool (C-COOP) as the central repository where every unit records its essential services, recovery priorities, personnel and resource needs, and vital-records mapping. Centralizing the data in a living tool makes the corpus continuously auditable and turns annual review from a document rewrite into a data refresh — a model any campus large enough to have many units can replicate.",
+      "insight": "A continuity plan that lives in a static PDF goes stale the day it is signed: contacts change, units reorganize, and vital-records inventories drift out of date. Cornell University addresses the maintenance problem structurally by providing a university-wide, web-based software tool (C-COOP) as the central repository where every unit records its essential services, recovery priorities, personnel and resource needs, and vital-records mapping. Centralizing the data in a living tool makes the corpus continuously auditable and turns annual review from a document rewrite into a data refresh. Any campus large enough to have many units can replicate the model.",
       "takeaway": "Move unit-level continuity data into a single living web tool that owns essential functions, priorities, contacts and vital records, so the plan updates by edit rather than by reissue.",
       "evidence": [
         {
@@ -70,9 +70,9 @@
       ]
     },
     {
-      "title": "Treat research continuity — including live animals — as essential",
+      "title": "Treat research continuity, including live animals, as essential",
       "category": "Higher-ed extensions",
-      "insight": "Continuity templates borrowed from government and the private sector model offices and data, not laboratories — yet a research university can lose irreplaceable specimens, samples and living animals in hours if no one planned for them. Florida State University treats continuity of research, explicitly including the care and management of animals used for education and research, as a first-class essential function with its own support resources and space requirements. University of Vermont elevates Research Continuity to a named continuity domain alongside academic and administrative continuity, defining it as the capability to maintain or quickly reconstitute research equipment, data and specimens. These are higher-ed-specific obligations that generic COOP boilerplate silently omits.",
+      "insight": "Continuity templates borrowed from government and the private sector model offices and data, not laboratories, yet a research university can lose irreplaceable specimens, samples and living animals in hours if no one planned for them. Florida State University treats continuity of research, explicitly including the care and management of animals used for education and research, as a first-class essential function with its own support resources and space requirements. University of Vermont elevates Research Continuity to a named continuity domain alongside academic and administrative continuity, defining it as the capability to maintain or quickly reconstitute research equipment, data and specimens. These are higher-ed-specific obligations that generic COOP boilerplate silently omits.",
       "takeaway": "Add research continuity as its own essential function, naming live animals, specimens, unique data and specialized utilities so they are not left to a generic office-recovery template.",
       "evidence": [
         {
@@ -92,7 +92,7 @@
     {
       "title": "Sequence business continuity after life-safety stabilization",
       "category": "Concept of operations",
-      "insight": "Plans that blur emergency response and continuity into one undifferentiated effort tend to either start restoring operations before the campus is safe, or stall recovery waiting for the crisis to fully resolve. San Jose State University avoids both by formally sequencing business continuity as a distinct phase that begins only after a major disruption has been stabilized — restarting mission-critical operations as a deliberate, separately-triggered step rather than something attempted in parallel with life-safety response. Naming the phase boundary clarifies who is in charge of what and when, and prevents continuity work from competing with the immediate protection of people.",
+      "insight": "Plans that blur emergency response and continuity into one undifferentiated effort tend to either start restoring operations before the campus is safe, or stall recovery waiting for the crisis to fully resolve. San Jose State University avoids both by formally sequencing business continuity as a distinct phase that begins only after a major disruption has been stabilized, restarting mission-critical operations as a deliberate, separately-triggered step rather than something attempted in parallel with life-safety response. Naming the phase boundary clarifies who is in charge of what and when, and prevents continuity work from competing with the immediate protection of people.",
       "takeaway": "Define business continuity as a named phase that begins after life-safety stabilization, with its own activation step, so recovery does not compete with the immediate emergency response.",
       "evidence": [
         {
@@ -106,8 +106,8 @@
     {
       "title": "Delegate continuity authority explicitly, in writing",
       "category": "Pillars",
-      "insight": "Continuity programs fail quietly when no single named officer owns them — the plan exists but no one is accountable for maintaining or activating it. The strongest programs fix ownership in writing. California State University, Fullerton has the President formally delegate continuity authority to the Chief of Police as Campus Continuity Coordinator, making one named role responsible for developing, implementing and maintaining the program. The Ohio State University centralizes the function in a dedicated Business Continuity Management Office that directs continuity for the whole university and its units. Written, named delegation is what separates a maintained program from a binder no one tends.",
-      "takeaway": "Put continuity ownership in writing — a signed delegation to a named coordinator or a chartered continuity office accountable for developing, maintaining and activating the program.",
+      "insight": "Continuity programs fail quietly when no single named officer owns them. The plan exists, but no one is accountable for maintaining or activating it. The strongest programs fix ownership in writing. California State University, Fullerton has the President formally delegate continuity authority to the Chief of Police as Campus Continuity Coordinator, making one named role responsible for developing, implementing and maintaining the program. The Ohio State University centralizes the function in a dedicated Business Continuity Management Office that directs continuity for the whole university and its units. Written, named delegation is what separates a maintained program from a binder no one tends.",
+      "takeaway": "Put continuity ownership in writing: a signed delegation to a named coordinator or a chartered continuity office accountable for developing, maintaining and activating the program.",
       "evidence": [
         {
           "institution": "California State University, Fullerton",

@@ -1,4 +1,4 @@
-// Structured form of docs/CONTINUITY_BENCHMARK.md — the 22-component continuity
+// Structured form of docs/CONTINUITY_BENCHMARK.md: the 22-component continuity
 // scoring checklist (grouped) plus the federal/national source frameworks, with
 // the verbatim URLs from that document. Used by the /benchmark page. Component
 // keys match deep_analysis.json `benchmark_missing` and format.ts COMPONENT_LABEL.
@@ -37,7 +37,7 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
         key: "standards_alignment",
         label: "Standards alignment",
         description:
-          "Explicit alignment to recognized doctrine/standards — FCD 1/2, FEMA CGC, NIST 800-34, ISO 22301, NFPA 1600, NIMS, or a state continuity mandate — rather than an ad-hoc local format.",
+          "Explicit alignment to recognized doctrine/standards (FCD 1/2, FEMA CGC, NIST 800-34, ISO 22301, NFPA 1600, NIMS, or a state continuity mandate) rather than an ad-hoc local format.",
       },
       {
         key: "budgeting_resources",
@@ -54,7 +54,7 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
     ],
   },
   {
-    name: "B. Analysis — the BIA spine",
+    name: "B. Analysis: the BIA spine",
     blurb:
       "The business-impact analysis spine: what must continue, how fast, and what it depends on.",
     components: [
@@ -86,14 +86,14 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
         key: "interdependencies",
         label: "Interdependencies",
         description:
-          "Explicit mapping of internal and external interdependencies — supporting units, vendors/suppliers, utilities, shared IT systems, mutual-aid partners — on which essential functions rely.",
+          "Explicit mapping of internal and external interdependencies (supporting units, vendors/suppliers, utilities, shared IT systems, mutual-aid partners) on which essential functions rely.",
       },
     ],
   },
   {
-    name: "C. The continuity pillars — FCD 1 elements",
+    name: "C. The continuity pillars: FCD 1 elements",
     blurb:
-      "The FCD 1 continuity elements — who acts, from where, with what records and communications.",
+      "The FCD 1 continuity elements: who acts, from where, with what records and communications.",
     components: [
       {
         key: "orders_of_succession",
@@ -117,7 +117,7 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
         key: "continuity_communications",
         label: "Continuity communications",
         description:
-          "Continuity communications capabilities that are resilient and interoperable — how leadership, responders, and the community stay connected when primary channels fail.",
+          "Continuity communications capabilities that are resilient and interoperable, covering how leadership, responders, and the community stay connected when primary channels fail.",
       },
       {
         key: "vital_records_management",
@@ -172,7 +172,7 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
         key: "academic_instructional_continuity",
         label: "Academic / instructional continuity",
         description:
-          "Provisions for continuing the academic mission — instruction (pivot-to-remote / alternate delivery), the academic calendar, research continuity (animals, samples, freezers, grants), and student services.",
+          "Provisions for continuing the academic mission: instruction (pivot-to-remote / alternate delivery), the academic calendar, research continuity (animals, samples, freezers, grants), and student services.",
       },
     ],
   },
@@ -200,7 +200,7 @@ export interface FrameworkSource {
 
 export const FRAMEWORK_SOURCES: FrameworkSource[] = [
   {
-    name: "FCD 1 — Federal Continuity Directive 1",
+    name: "FCD 1: Federal Continuity Directive 1",
     publisher: "FEMA / DHS",
     date: "January 17, 2017",
     url: "https://www.gpo.gov/docs/default-source/accessibility-privacy-coop-files/January2017FCD1-2.pdf",
@@ -208,7 +208,7 @@ export const FRAMEWORK_SOURCES: FrameworkSource[] = [
       "The keystone U.S. continuity directive. Defines the four phases of continuity and the program elements every COOP is built from: essential functions, orders of succession, delegations of authority, continuity facilities, communications, vital records, human capital, TT&E, devolution, and reconstitution.",
   },
   {
-    name: "FCD 2 — Federal Continuity Directive 2",
+    name: "FCD 2: Federal Continuity Directive 2",
     publisher: "FEMA / DHS",
     date: "June 13, 2017",
     url: "https://www.fema.gov/sites/default/files/2020-07/Federal_Continuity_Directive-2_June132017.pdf",
@@ -216,15 +216,15 @@ export const FRAMEWORK_SOURCES: FrameworkSource[] = [
       "The analytic companion to FCD 1. Provides the Business Process Analysis (BPA) and Business Impact Analysis (BIA) methodology used to identify and prioritize essential functions, map their dependencies, and expose single points of failure.",
   },
   {
-    name: "CGC — Continuity Guidance Circular",
+    name: "CGC: Continuity Guidance Circular",
     publisher: "FEMA National Continuity Programs",
     date: "February 2018 (2024 update issued)",
     url: "https://www.fema.gov/sites/default/files/2020-07/Continuity-Guidance-Circular_031218.pdf",
     summary:
-      "Translates FCD 1/2 doctrine for the whole community — including higher education. The single most directly applicable federal document for a university COOP, and the basis of FEMA's Continuity Plan Template for Non-Federal Governments.",
+      "Translates FCD 1/2 doctrine for the whole community, including higher education. The single most directly applicable federal document for a university COOP, and the basis of FEMA's Continuity Plan Template for Non-Federal Governments.",
   },
   {
-    name: "NIST SP 800-34 Rev. 1 — Contingency Planning Guide for Federal Information Systems",
+    name: "NIST SP 800-34 Rev. 1: Contingency Planning Guide for Federal Information Systems",
     publisher: "NIST",
     date: "May 2010",
     url: "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf",
@@ -232,7 +232,7 @@ export const FRAMEWORK_SOURCES: FrameworkSource[] = [
       "The standard for the IT disaster-recovery / system-contingency dimension of continuity: the contingency-planning process, the relationship between the BIA, ISCP, DRP, and BCP/COOP, plus RTO/RPO/MTD definitions and backup/alternate-site strategies.",
   },
   {
-    name: "ISO 22301 — Business continuity management systems · Requirements",
+    name: "ISO 22301: Business continuity management systems · Requirements",
     publisher: "ISO",
     date: "2019 (Amd. 1, 2024)",
     url: "https://www.iso.org/standard/75106.html",
@@ -240,12 +240,12 @@ export const FRAMEWORK_SOURCES: FrameworkSource[] = [
       "The international BCMS standard. A Plan-Do-Check-Act management system spanning context, leadership & policy, planning, support, operation (incl. BIA and risk assessment), performance evaluation, and improvement.",
   },
   {
-    name: "NFPA 1600 — Standard on Continuity, Emergency, and Crisis Management",
+    name: "NFPA 1600: Standard on Continuity, Emergency, and Crisis Management",
     publisher: "NFPA",
     date: "2019 edition (7th ed.)",
     url: "https://www.nfpa.org/codes-and-standards/nfpa-1600-standard-development/1600",
     summary:
-      "The overarching U.S. preparedness/resilience standard. Defines the interconnected program elements — program management, risk assessment, business impact analysis, prevention/mitigation, emergency management, business continuity, and crisis management — aligned to PDCA.",
+      "The overarching U.S. preparedness/resilience standard. Defines the interconnected program elements (program management, risk assessment, business impact analysis, prevention/mitigation, emergency management, business continuity, and crisis management), all aligned to PDCA.",
   },
   {
     name: "Higher-ed academic & instructional continuity (supporting)",
