@@ -1,0 +1,72 @@
+[
+  {
+    "plan_id": "florida-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": ["budgeting_resources", "devolution"],
+    "essential_functions": [],
+    "rto_tiers": "Annex C prioritizes functions 1-5 each with an RTO; recovery resource needs scoped at 24h / 72h / 1 week / later.",
+    "succession_depth": "Two named successors per leadership position (Successor 1 / Successor 2).",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "ITS backs up central databases/files to secure offsite locations; per-department vital records, systems and equipment itemized in Annex C under IT DR Policy 4-OP-H-10.",
+    "tte_cadence": "Recommended at least annually; tabletop exercises plus annual functional IT-recovery tests verifying restore from backup and RTO/RPO.",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Annex A reconstitution checklist: salvage/inventory, long-term recovery plans, transition from alternate site back to a designated facility, staff debrief.",
+    "academic_continuity_treatment": "Dedicated Continuity of Research section covering specialized utilities, third-party vendors, hazardous materials, and the care and management of research animals; educational priorities referenced.",
+    "it_continuity_treatment": "Defers to FSU Policy 4-OP-H-10 (IT Disaster Recovery and Backup Data); requires units to maintain a written BC plan for critical assets with recurring backup and recovery procedures.",
+    "interdependencies_treatment": "Personnel Contact List includes vendors & contractors; resource requirements table includes third-party services and supply chain.",
+    "unusual_decisions": [
+      {
+        "decision": "Invokes a Florida public-records statute to control distribution of the COOP as sensitive (not classified) information.",
+        "quote": "While a Continuity of Operations Plan (COOP) is not considered a classified document, it does contain sensitive information and its handling and distribution should be controlled and limited, both electronically and in hard copy."
+      },
+      {
+        "decision": "Treats continuity of research — including live research animals — as a first-class essential function.",
+        "quote": "Applicable research (including the care and management of animals used for education and research), required support resources, and any unique space requirements were considered in the development of this COOP"
+      },
+      {
+        "decision": "Fixes a 12-hour activation window and a 30-day sustainment horizon as planning parameters.",
+        "quote": "The COOP should be implemented no later than 12 hours after an incident has occurred that has disrupted business operations and provide guidance to sustain operations for up to 30 days."
+      }
+    ],
+    "analyst_notes": "Read in full (PDF text, ~35 pp). FSU's university-issued unit COOP template built on the FCD continuity elements (succession, delegations, alert/notification, vital records, research, alternate facilities, communications, essential functions) and mandated by Policy 4-OP-E-10. Operates as a unit-level plan that works in concert with FSU's Primary COOP, so coop_treatment is 'separate'. Strong on the analytic/operational spine (risk table, RTOs, alternate facilities, reconstitution checklist) but, as a template, budget/acquisition and devolution are not addressed.",
+    "date_coded": "2026-06-17"
+  },
+  {
+    "plan_id": "appalachian-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "continuity_policy_promulgation", "budgeting_resources",
+      "business_impact_analysis", "recovery_time_objectives",
+      "risk_threat_assessment", "interdependencies", "orders_of_succession",
+      "delegations_of_authority", "vital_records_management", "devolution",
+      "it_disaster_recovery", "academic_instructional_continuity"
+    ],
+    "essential_functions": [],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": "At least annual review; plan testing plus training and exercises occur in Phase I (Readiness & Preparedness).",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Phase IV Reconstitution: return to original facility/staffing, relocate long-term if needed, and review how well the plan worked using team feedback.",
+    "academic_continuity_treatment": null,
+    "it_continuity_treatment": null,
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Organizes the entire unit-COOP program explicitly around the four FEMA continuity phases.",
+        "quote": "There are four phases of the continuity process, beginning with developing your COOP and training to stay prepared."
+      },
+      {
+        "decision": "Explicitly equates COOP and Business Continuity Plan terminology for its campus audience.",
+        "quote": "A Continuity of Operations Plan (COOP), also known as a Business Continuity Plan (BCP) is a collection of resources, actions, procedures, and information that is developed, tested and kept ready in the event of a disruption of operations."
+      }
+    ],
+    "analyst_notes": "Read in full (HTML program page). App State's Emergency Preparedness office runs a phase-based COOP program that pushes operational planning down to departments via a Quick Start Guide, so coop_treatment is 'program'. The page thoroughly describes the four phases, essential-function prioritization, alternate/telework operations, activation, and reconstitution, but as a program landing page it does not itself contain a BIA, RTOs, succession/delegation tables, or vital-records detail — those live in the unit plans.",
+    "date_coded": "2026-06-17"
+  }
+]

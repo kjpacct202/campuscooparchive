@@ -1,0 +1,1962 @@
+[
+  {
+    "plan_id": "california-state-university-bakersfield",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [],
+    "essential_functions": [
+      "Leadership / command and control",
+      "Public safety",
+      "Emergency management",
+      "Public health and medical",
+      "Infrastructure",
+      "Information technology",
+      "Communications",
+      "Facilities",
+      "Financial matters / Fiscal Services",
+      "Personnel / Human Resources",
+      "Housing and Residential Life",
+      "Food Services",
+      "Student Health & Counseling",
+      "Academic Affairs / instruction",
+      "Payroll"
+    ],
+    "rto_tiers": "Operational capability within 12 hours of activation, sustained up to 30 days (90 days for pandemic flu); implementation timeline appendix sequences actions at 0:00/2:00/4:00/8:00 hours and within 1 day / 3 days; 'business disruption' trigger = loss of an instructional component or any critical function for 2 consecutive instructional days or 3 consecutive calendar days",
+    "succession_depth": "Two named alternates deep per key position (Appendix A), plus a Cabinet succession line; President -> Alternate 1 -> Alternate 2 with departmental successions",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Off-site 'GO KIT' with hardcopy Business Process Guides, vital-records list and computer access pathways, essential electronic files on flash/CD; PeopleSoft vital records on Salt Lake City server with annual Chancellor's Office backup exercise; facilities blueprints/as-builts on-site",
+    "tte_cadence": "Every business unit performs at least one tabletop exercise per year (each sub-unit within 7 years); not less than every seventh year a full-scale mock exercise from emergency response through BCP; FEMA IS-546/547/548/520/522 courses recommended; after-action reports within 30/90 days",
+    "devolution_treatment": "Listed as a consolidated continuity element and named as an operational endpoint ('sustained operations for up to 30 days... or until devolution'), though devolution mechanics are lighter than the named alternate-site/relocation procedures",
+    "reconstitution_treatment": "Dedicated 'How Will CSUB Return to Normal?' section: BCP IC plus Chief of UPD and Response Team determine completion; President in collaboration with Cabinet sets conditions for resuming normal operations; after-action report within 30 days",
+    "academic_continuity_treatment": "Class relocation, modified syllabi/schedules, web-based classes, Deans Council convened for alternate teaching protocols; Class 3 (communicable disease) recovery includes alternate instruction delivery; Provost confers with Chancellor's Office and faculty on course delivery and academic credit",
+    "it_continuity_treatment": "Separate IT Recovery Plan and Kuali plan referenced throughout; clustered servers/redundant VMs, contingent contracts with CENIC/Dell/Verizon/PBX vendors, Data Center Disaster Recovery Plan, automatic Chancellor's Office web failover, mobile trailer/terminal reconnection of the My CSUB portal within 24 hours",
+    "interdependencies_treatment": "Three incident classes scaled by impact on interdependencies; contingent vendor contracts enumerated; mutual aid and cooperative agreements with other CSU campuses (e.g., payroll input at CSU Fresno) and local agencies/hospitals",
+    "unusual_decisions": [
+      {
+        "decision": "Explicitly maps the plan to the consolidated COOP/COG continuity-program elements drawn from the Cal EMA template",
+        "quote": "A viable Business Continuity Plan identifies essential functions and consists of plans and procedures, alternate facilities, interoperable communications, data support systems, and is reinforced by comprehensive training, orientation, and exercise programs."
+      },
+      {
+        "decision": "Pre-positions contingent contracts for tents, water, generators, sanitation, food and trash so the campus can stand up a temporary tented operating site for up to 30 days",
+        "quote": "Contingent contracts (vendors listed below) may be utilized during an event to procure items such as temporary tents, sanitation facilities, water, food, fencing, generators, trash removal, and computers. These contracts provide the campus with the ability to sustain operations for a period of up to 30 days."
+      },
+      {
+        "decision": "Defines a precise quantitative activation trigger tied to instructional/critical-function downtime",
+        "quote": "A \"business disruption\" is defined as the loss or anticipated loss of a) any instructional component, or b) any critical function for two consecutive instructional days or three consecutive calendar days."
+      }
+    ],
+    "analyst_notes": "Read all 48 pages. CSUB's BCP is the most complete plan in this batch, explicitly structured around the consolidated continuity-of-operations/continuity-of-government elements from the Cal EMA template and authorized under CSU EO 1014, EO 921, HSPD-20/NSPD-51, and NIMS. It covers all 22 benchmark components: signed-policy authority, three-incident-class CONOPS, BIA/risk assessment, essential functions with 12h/30d/90d objectives, two-deep succession (Appendix A) and a delegations-of-authority table with triggers/limits, multiple alternate-facility models (reciprocal CSU campuses, tented sites, telework), off-site GO-KIT vital records, a standalone IT Recovery/Data Center DR plan, academic continuity, devolution, a return-to-normal reconstitution section, and a tiered TT&E program (annual tabletops, septennial full-scale mock, FEMA courses, AARs).",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 22,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "university-of-houston-downtown",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [],
+    "essential_functions": [
+      "EF#1 University Leadership (President, Provost, VP Administration & Finance) - RTO 4 hours",
+      "EF#2 Public Safety - continuous (no recovery time)",
+      "EF#3 Communications (alert notification, police dispatch, executive/media) - tools RTO 30 min / content RTO 4 hours",
+      "EF#4 Basic Services (food, emergency maintenance, access control, transportation) - RTO 6-12 hours",
+      "EF#5 Fiscal Operations and Functional Processes (payroll, purchasing, contracts, critical data) - RTO 3 hours",
+      "EF#6 Academic Continuity (instruction, research, space, pivot to virtual) - RTO 3 days, some research continuous"
+    ],
+    "rto_tiers": "Per-Mission-Essential-Function recovery times (30 minutes to 3 days); operational capability within 12 hours of activation; academic classes reinstated within 2 weeks; sustained operations up to 30 days",
+    "succession_depth": "At least three positions deep where possible; orders-of-succession tables for seven offices (President, Academic Affairs, Administration & Finance, Advancement & University Relations, Enrollment Management, Human Resources, Student Success & Student Life), described by position/title and including devolution counterparts",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Extensive Essential Records section keyed to Texas Government Code 441.180 'vital State record'; records digitized and accessible virtually, IT responsible for security/recovery, hard copies scanned to network/portable drive; access available at continuity facility within 12 hours; BIA and insurance policies designated essential records",
+    "tte_cadence": "Dedicated Test, Training, Exercises section; colleges/divisions/departments train on their COOP and exercise it annually, submitting documentation to the Continuity Coordinator by April 1; After-Action Review, Corrective Action Plan, and remedial action plan; successors and continuity personnel participate",
+    "devolution_treatment": "Dedicated Devolution of Control and Direction section: transfers statutory authority and responsibility for essential functions from UHD's primary staff/facilities to a University of Houston System campus's employees/facilities if leadership/staff are unavailable, sustained for an extended period",
+    "reconstitution_treatment": "Phase 4 Reconstitution in the CONOPS plus a dedicated Reconstitution section; surviving/replacement personnel resume normal operations; redeployment plans for return to the primary facility",
+    "academic_continuity_treatment": "Academic Continuity is Mission Essential Function #6 (maintain instruction, research, and space; transition to a virtual environment when campus is untenable; RTO 3 days, some research continuous); plan targets reinstating classes within 2 weeks",
+    "it_continuity_treatment": "Supplemented by an extensive IT COOP and Disaster Recovery Plan maintained by the AVP of IT (an essential record); IT responsible for security/recovery of vital state records in digital format; computer systems backed up regularly with access available at the Emergency Relocation Site",
+    "interdependencies_treatment": "Departments report dependencies and business processes via the BIA process; assumptions detail reliance on UH System resources, utilities, telecom, financial/public-health/security/transportation services; coordination with HDMD, City of Houston, Harris County",
+    "unusual_decisions": [
+      {
+        "decision": "Uses reciprocal University of Houston System campuses as the Emergency Relocation Site and as the devolution destination, providing classrooms/labs/library/computing within 12 hours",
+        "quote": "If UHD is unable to deploy an ERG to an ERS due to loss of personnel, UHD will devolve to one of the University of Houston System campuses."
+      },
+      {
+        "decision": "Sets distinct recovery-time objectives for communications tools versus communications content",
+        "quote": "The recovery time objective for the tools needed to communicate is 30 minutes while the recovery time objective for the content needed to communicate is four (4) hours."
+      },
+      {
+        "decision": "Designates the key personnel relocated under the plan as a named Emergency Relocation Group operating from an Emergency Relocation Site or virtual environment",
+        "quote": "Key personnel relocated under this plan are collectively known as the UHD Emergency Relocation Group (ERG). Upon plan activation, these members may move to a virtual environment or deploy to a continuity facility and establish operational capability to perform essential functions within 12 hours from the time of plan activation up to a 30-day period or until normal operations can be resumed."
+      }
+    ],
+    "analyst_notes": "NOTE: the supplied 2023 URL returned HTTP 404; I coded UHD's current 2025-2026 COOP (same institution, same full-coop document type) fetched from uhd.edu (2025-uhd-coop-campus.pdf). Read all 55 pages. This is a complete FCD-element COOP: signed promulgation statement, four-phase CONOPS (Readiness/Activation/Operations/Reconstitution), six Mission Essential Functions with explicit RTOs, three-deep succession tables across seven offices, delegations of authority with triggers/limits, a robust Essential Records section, alternate ERS facilities plus telework, interoperable communications, a dedicated devolution section, a budgeting & acquisition section, a TT&E program with AAR/CAP, and citations to FEMA's Continuity Guidance Circular, PPD-40/NSPD-51 National Continuity Policy, and Texas statutes. All 22 components present.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 22,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "san-jose-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "devolution"
+    ],
+    "essential_functions": [
+      "Essential/critical campus departments identified via BIA as top priority to restore after a disaster (top-down campus-wide BCP with departmental BCPs as building blocks); critical functions defined as those whose loss within a specified time would cause unmanageable curtailment/suspension/termination of University operations"
+    ],
+    "rto_tiers": "Predetermined recovery time objectives referenced (BIA identifies priority of restoration and recovery requirements); activation flowchart uses 0-24 hrs and 0-48 hrs decision windows; no published numeric tier table in the master plan",
+    "succession_depth": "President succession 9 positions deep via Presidential Directive 2009-03: President; Provost/VP Academic Affairs; VP Administration & Finance/CFO; VP Student Affairs; VP University Advancement; President's Chief of Staff; (for major disasters) Vice Provost for Academic Planning & Budgets; Chief of Police; VP IT/CIO",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Records Retention Policy (BCP Team manages records per CSU policy and law; Records Retention Schedule); BCP manual stored offsite with offsite data backup storage media location, insurance contracts and means to reestablish physical records",
+    "tte_cadence": "Section 4 Testing and Validation (with treatment of test failures); ongoing maintenance testing - oversight & remedial (ICQ 16): information update/testing, testing/validation of technical solutions, testing/verification of organization recovery procedures; Section 6 Business Continuity Training; plan re-evaluated after an exercise",
+    "devolution_treatment": "Not addressed as devolution to a separate unit/site (succession + Emergency Relocation Site relocation cover related ground)",
+    "reconstitution_treatment": "BCP Conditions of Termination: Emergency Director declares normal operations may resume when facilities/infrastructure/services are sustainable and reliable; activation flowchart includes 'Implement Reconstitution Plans' and 'Return to Normal Operations'",
+    "academic_continuity_treatment": "First BCP Guiding Principle is Continuity of student learning: 'Ensure access to and consistent delivery of, academic education and related support services to students (existing and prospective) within the current and projected capacity of the University'",
+    "it_continuity_treatment": "Disaster recovery infrastructure supporting work-process recovery within RTOs; testing and validation of technical solutions (virus definitions, technical deployments); offsite data backup storage; BCP manual includes technical requirements/readiness",
+    "interdependencies_treatment": "BCP manual captures clients and vendors contact info, offsite data backup location, supply chain (means to establish a new supply chain); maintenance triggers include changes to important vendors/suppliers and their contact details",
+    "unusual_decisions": [
+      {
+        "decision": "Treats BCP as a phase distinct from crisis management, formally sequenced to begin only after campus stabilization",
+        "quote": "Business Continuity: This phase involves restarting mission-critical (essential) business operations after a major disruption occurs."
+      },
+      {
+        "decision": "Hands BCP activation/operation authority to the Emergency Director rather than the BCP Coordinator, integrating BCP under emergency management command",
+        "quote": "Upon the Emergency Director’s declaration of BCP activation, the BCP Coordinator coordinates BCP operation with the EOC Section Chiefs and the Emergency Management Recovery Team (Recovery Manager and Recovery Coordinators)."
+      },
+      {
+        "decision": "Runs the program through a monthly Business Continuity Steering Committee that reviews, prioritizes, assigns and signs off on BCP tasks division-by-division",
+        "quote": "BCSC is scheduled to meet once a month. These meetings are designed to be worksessions"
+      }
+    ],
+    "analyst_notes": "A genuinely comprehensive Business Continuity Planning Master Plan (v3.0) under CSU EO 1014, with a clear authority/delegation chain (VP Admin & Finance delegated by the President; Presidential Directive 2009-03 nine-deep succession), a full CONOPS (activation/operation/termination phases plus a COOP/ERS/reconstitution flowchart), three formal analyses (BIA, Risk/Vulnerabilities, Threat), a monthly Steering Committee, records retention, offsite backup, secondary work sites, testing/validation with treatment of failures, training, and a maintenance cycle. It satisfies all benchmark components except an explicit devolution of essential functions to a separate organizational unit. One of the strongest documents in the batch.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 21,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "cornell-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "devolution",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Utilities (potable water, electricity/steam, chilled water)",
+      "Cornell Police (law enforcement, dispatch)",
+      "Information Technology (network & data, telephone, IT services)",
+      "Environmental Health & Safety (fire/rescue, EMS, hazmat)",
+      "Emergency Management operations",
+      "University Relations (public communications, government relations)",
+      "Campus Life Enterprise Services (housing, dining)",
+      "University Health Services (medical, mental health)",
+      "Facilities and Campus Services (transportation, facilities management)",
+      "Procurement Services",
+      "Animal Care (CARE)",
+      "Human Resources (personnel & volunteer management)",
+      "Dean of Students (student & community crisis support)"
+    ],
+    "rto_tiers": "Essential services prioritized; Emergency Support Functions carry 'immediate recovery time objectives'; activation within 12 hours of a significant disruption, sustained up to 30 days; academic-suspension timing rules (first three weeks = semester lost; last three weeks = may be completed)",
+    "succession_depth": "University Order of Succession three deep (President -> Provost -> Secretary of the Corporation -> CFO -> Dean of Weill Medical College), Table 6.1, defined by University bylaws",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Section H Vital Files, Records, and Databases with a Vital Records Maintenance Strategy table (develop a process, identify vital records via the C-COOP tool, review protection needs); content not media determines criticality; CIT network security plan supports secure records",
+    "tte_cadence": "Not established as a program; TT&E appears only in the COOP definition ('validate the capability through tests, training, and exercises') and as an after-action review/corrective action step during reconstitution; no training plan, exercise types, or recurring cadence",
+    "devolution_treatment": "Not addressed (succession is provided but no devolution of essential functions to a separate unit/site)",
+    "reconstitution_treatment": "Dedicated 'Reconstitution and Recovery' section: demobilize resources, supervise orderly return to normal/temporary/new facility, verify systems, conduct an after-action review and corrective/remedial action plan",
+    "academic_continuity_treatment": "Detailed Academic Continuity section (alternative course delivery/distance learning, semester-timing rules for suspension, equitable treatment of students lacking technology) plus a separate Research Operations Continuity section (space/equipment documentation, inter-college sharing agreements, data/organism backup)",
+    "it_continuity_treatment": "Section I Critical Business Applications and Technology Resources: connectivity and system access required at the continuity location, servers backed up frequently at more than one location, CIT maintains a disaster continuity and contingency plan for central service applications",
+    "interdependencies_treatment": "Establishes communication with supporting and supported organizations and stakeholders; inter-college agreements to share space; coordination with CIT, Office of Space Planning, Registrar; C-COOP tool maps unit resource needs",
+    "unusual_decisions": [
+      {
+        "decision": "Provides a university-wide web-based continuity-planning tool (C-COOP) as the central repository for unit essential services, priorities, personnel/resource needs, and vital-records mapping",
+        "quote": "To facilitate alignment with continuity of operations guiding principles, the University provides a robust, web-based software tool called C-COOP (www.coop.ehs.cornell.edu)."
+      },
+      {
+        "decision": "Codifies academic-calendar decision rules for how much of a term is lost based on when instruction is suspended",
+        "quote": "As a very general presumption, if the suspension of instruction occurs within the first three weeks of a term, the semester will be considered to be lost and will need to be repeated in its entirety. If the suspension of instruction occurs in the last three weeks of the term, the semester may be considered to be completed, subject to course-specific exceptions."
+      },
+      {
+        "decision": "Treats extraordinary preparation costs as a unit responsibility funded from unit reserves, with central funding only via the annual budget process",
+        "quote": "Such costs will generally be considered a financial responsibility of the operating unit, to be funded out of current available resources including unit reserves... funding may be requested as part of the annual budget process to the university Operating Plans Committee."
+      }
+    ],
+    "analyst_notes": "Read all 18 pages. Cornell's COOP v3.0 is an exemplary FCD-element plan: a concept of operations, NIMS/National Disaster Recovery Framework alignment with a formal Authorities and References appendix (NFPA 1600, EMAP, FEMA CPG 101/201, SUNY requirements) and a Policy 8.3 promulgation statement, essential services (ESF table), succession (Table 6.1, three deep), delegations of authority, continuity locations, vital records, financial/budget guidance, IT continuity (CIT), and strong academic and research continuity. The two clear gaps are devolution (succession is not devolution) and a structured TT&E program (tests/training/exercises are only named in the definition and an after-action step, with no training plan, exercise types, or cadence).",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 20,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "csu-fullerton-continuity-program-2026",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "orders_of_succession",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Academic Admission",
+      "Athletics",
+      "Basic Needs Services",
+      "Contracts",
+      "Counseling and Psychological Services",
+      "Donations, Funding, and Grants",
+      "Emergency Services",
+      "Facilities",
+      "Fiscal Services",
+      "Healthcare",
+      "Housing of Campus Community",
+      "Infrastructure",
+      "Payroll",
+      "Research",
+      "Student services",
+      "Teaching Facilitation or Instruction"
+    ],
+    "rto_tiers": "RTO priority ratings with maximum allowed recovery times: < 4 hours, < 24 hours, < 1 week; each department assigns an RTO to every essential function in its continuity plan",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Business-unit continuity plan template includes a Vital Records table (name, vendor, primary location, alternate location) plus Publications/Programs-and-Software tables with primary/alternate locations",
+    "tte_cadence": "Multi-Year Training and Exercise Plan (MYTEP, Appendix E) integrating EM and continuity programs; training in workshops/seminars/role-specific formats and exercises of ranging size/type; after-action reports and a Corrective Action Program; business units exercise plans at least annually",
+    "devolution_treatment": "Not addressed (term does not appear)",
+    "reconstitution_treatment": "Framed as the recurring objective of 'return to normal university operations'; Continuity Plan defined as procedures to 'respond, recover, resume, and restore university essential functions to a predefined level'; no distinct reconstitution process/section",
+    "academic_continuity_treatment": "Program explicitly encompasses 'academic, business, and information technology (IT) continuity of operations plans'; teaching/instruction and research are named essential functions; academic units (all colleges, Academic Senate, Pollak Library) are designated business units that must hold COOPs",
+    "it_continuity_treatment": "Separate CSUF Information Technology Disaster Recovery Plan (ITDR) under the Division of IT covers recovery of technology facilities/platforms; the Campus Continuity Coordinator aligns DRPs and continuity plans and ensures RTOs/RPOs are communicated to IT with gap remediation",
+    "interdependencies_treatment": "BIA determines 'essential functions, respective business units, and interdependencies'; business-unit template has a dedicated Interdependencies section; coordination with other CSU campuses and local/state/federal agencies",
+    "unusual_decisions": [
+      {
+        "decision": "Continuity authority is delegated from the President to the Chief of Police as Campus Continuity Coordinator, with the Emergency Management & Continuity Coordinator as backup and an EM&C Assistant as tertiary backup",
+        "quote": "The President delegates authority to the Chief of Police to prioritize the development, implementation and maintenance of a Cal State Fullerton Continuity Program to ensure compliance with the CSU System Continuity Program."
+      },
+      {
+        "decision": "Explicitly aligns the program's guiding principles to the university's six Guiding Principles of Social Justice",
+        "quote": "Social Justice: The CP intentionally aligns with CSUF's six Guiding Principles of Social Justice, including: Enhance Equitable Learning; Expand Intentional Outreach; Amplify Hispanic Serving Institution Designation & Radiate an Identity of Inclusion; Building a Professorial-to-Leadership Pipeline; Recognize History and Catalyze Change; and Create an Antiracist Community."
+      },
+      {
+        "decision": "Treats academic, business, and IT continuity as three coordinated COOP streams feeding one campus CONOPS",
+        "quote": "Each individual essential function listed on page 4 has responsibility over their individual plans that feed into the overall CSUF Continuity Concept of Operations Plan (CONOPS), which is maintained by the OEMC."
+      }
+    ],
+    "analyst_notes": "Read all 82 pages. CSUF's 2026 Continuity Program is a polished FCD-element/program-level document with a President-signed delegation of authority (12/11/2025), a continuity CONOPS, a hazard/risk assessment (Table B.1), a BIA with three RTO tiers, an essential-functions/business-unit inventory (34 units), a crisis communication plan, a vital-records and interdependencies business-unit template, a separate IT-DR plan, and a MYTEP with AAR/Corrective Action Program. The two clear gaps are orders of succession for leadership positions (only continuity-coordinator backups are named; the word 'succession' never appears) and devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 20,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "florida-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "budgeting_resources",
+      "devolution"
+    ],
+    "essential_functions": [],
+    "rto_tiers": "Annex C prioritizes functions 1-5 each with an RTO; recovery resource needs scoped at 24h / 72h / 1 week / later.",
+    "succession_depth": "Two named successors per leadership position (Successor 1 / Successor 2).",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "ITS backs up central databases/files to secure offsite locations; per-department vital records, systems and equipment itemized in Annex C under IT DR Policy 4-OP-H-10.",
+    "tte_cadence": "Recommended at least annually; tabletop exercises plus annual functional IT-recovery tests verifying restore from backup and RTO/RPO.",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Annex A reconstitution checklist: salvage/inventory, long-term recovery plans, transition from alternate site back to a designated facility, staff debrief.",
+    "academic_continuity_treatment": "Dedicated Continuity of Research section covering specialized utilities, third-party vendors, hazardous materials, and the care and management of research animals; educational priorities referenced.",
+    "it_continuity_treatment": "Defers to FSU Policy 4-OP-H-10 (IT Disaster Recovery and Backup Data); requires units to maintain a written BC plan for critical assets with recurring backup and recovery procedures.",
+    "interdependencies_treatment": "Personnel Contact List includes vendors & contractors; resource requirements table includes third-party services and supply chain.",
+    "unusual_decisions": [
+      {
+        "decision": "Invokes a Florida public-records statute to control distribution of the COOP as sensitive (not classified) information.",
+        "quote": "While a Continuity of Operations Plan (COOP) is not considered a classified document, it does contain sensitive information and its handling and distribution should be controlled and limited, both electronically and in hard copy."
+      },
+      {
+        "decision": "Treats continuity of research — including live research animals — as a first-class essential function.",
+        "quote": "Applicable research (including the care and management of animals used for education and research), required support resources, and any unique space requirements were considered in the development of this COOP"
+      },
+      {
+        "decision": "Fixes a 12-hour activation window and a 30-day sustainment horizon as planning parameters.",
+        "quote": "The COOP should be implemented no later than 12 hours after an incident has occurred that has disrupted business operations and provide guidance to sustain operations for up to 30 days."
+      }
+    ],
+    "analyst_notes": "Read in full (PDF text, ~35 pp). FSU's university-issued unit COOP template built on the FCD continuity elements (succession, delegations, alert/notification, vital records, research, alternate facilities, communications, essential functions) and mandated by Policy 4-OP-E-10. Operates as a unit-level plan that works in concert with FSU's Primary COOP, so coop_treatment is 'separate'. Strong on the analytic/operational spine (risk table, RTOs, alternate facilities, reconstitution checklist) but, as a template, budget/acquisition and devolution are not addressed.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 20,
+    "benchmark_band": "20-22"
+  },
+  {
+    "plan_id": "california-state-university-maritime-academy-template",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "budgeting_resources",
+      "risk_threat_assessment",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery"
+    ],
+    "essential_functions": [
+      "Essential/Critical Functions per Federal Preparedness Circular 65 (Cal Maritime uses 'Critical Function' for Essential Function): provide vital/mission-critical services, exercise civil authority, maintain public safety, sustain industrial/economic base; mission-critical functions named include instruction to enrolled students, facility security and employee communication; Essential/Critical Function Summary and Detail worksheets"
+    ],
+    "rto_tiers": "Four-level criticality classification: Critical 1 = cannot pause, necessary to life/health/security; Critical 2 = continue if at all possible, reduced/alternative mode; Critical 3 = may pause but must resume within 30 days or sooner; Critical 4 = deferrable, resume when conditions permit (applied to both functions and IT systems)",
+    "succession_depth": "Leadership successor captured for the unit head ('a person who would be an appropriate substitute if the head of the unit is absent'; explicitly noted as usually not an officially-designated position); Key Personnel and Alternates collected",
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": "'Vital Records and Information' is a required field in the Essential/Critical Function Detail worksheet (resource requirements), alongside network requirements and facilities/equipment; planning prompts include 'What if network data is not available?'",
+    "tte_cadence": "Per EO 1014: testing of some parts of the BCP annually and all parts every seven years to identify plan deficiencies; initial training to all individuals responsible for developing/implementing the plan, with additional training as necessary; a review log maintained",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Stated as a goal ('respond to an event and return to performing its essential functions as quickly as possible') but no reconstitution/return-to-normal process; broader recovery referenced out to the Emergency Preparedness Guidelines",
+    "academic_continuity_treatment": "Instruction to enrolled students named as a mission-critical function; classroom instruction classified Critical 3; work-from-home and remote connectivity action items for faculty/students when office/lab space is damaged; research addressed",
+    "it_continuity_treatment": "IT system criticality is assessed per department (same four-tier scale), but IT disaster recovery is explicitly out of scope ('The disaster recovery plans for the University’s network and servers are outside the scope of this document')",
+    "interdependencies_treatment": "Upstream and downstream dependencies captured in the Function Detail worksheet; framing questions 'who produces what we need?' and 'who needs what we produce?'; network requirements (campus network for e-mail/Internet) listed as a resource requirement",
+    "unusual_decisions": [
+      {
+        "decision": "Anchors essential-function definitions in Federal Preparedness Circular 65 while renaming them 'Critical Functions' for local use",
+        "quote": "An Essential Function (as defined in the Federal Preparedness Circular 65) is a function that enables an organization to [Note: Cal Maritime uses the term Critical Function to describe Essential Functions]"
+      },
+      {
+        "decision": "Explicitly carves IT network/server disaster recovery out of the departmental BCP scope",
+        "quote": "The disaster recovery plans for the University’s network and servers are outside the scope of this document."
+      },
+      {
+        "decision": "Defines delegation of authority as a written instrument and prompts departments to treat action items as ideas rather than resource-bound commitments",
+        "quote": "A formal delegation of authority is an assignment of authority and responsibility to perform specified acts on behalf of the organization. This assignment is almost always granted via a written document."
+      }
+    ],
+    "analyst_notes": "A 14-page Department Business Continuity Plan template (v2.0) under CSU EO 1014, which uniquely cites Federal Preparedness Circular 65 for essential functions. It is well-structured around essential/critical functions with a four-tier criticality scale doubling as RTO bands, an effectively BIA-style function-detail worksheet (upstream/downstream dependencies, vital records, network/facility resources and 'what-if' impact prompts), leadership successor and key-personnel capture, a defined delegation of authority, telework/off-campus continuity, plan maintenance with a review log, and EO 1014 testing/training cadence. It is promulgated via versioned approval. It lacks a continuity budget, a systematic threat/hazard assessment, devolution, a reconstitution process, and IT disaster recovery (explicitly out of scope).",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 17,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "university-of-vermont",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "budgeting_resources",
+      "recovery_time_objectives",
+      "interdependencies",
+      "devolution",
+      "reconstitution"
+    ],
+    "essential_functions": [
+      "Organizational-level functions that must be continued throughout, or resumed as rapidly as possible after, a disruption; units determine priority of and perform unit essential functions in order of priority; Academic Continuity, Administrative Continuity and Research Continuity defined as preservation of academic core, administrative core and research capabilities"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Unit order of succession required as a COOP goal; University President succession governed by a separate Delegation of Authority University Operating Procedure (referenced, not enumerated in the policy)",
+    "alternate_facility_model": "physical-alternate-site",
+    "vital_records_approach": "COOP goal to 'Establish means for identifying, backing-up and accessing unit vital records, files and databases'; Working Group includes Associate CIO, Information Security Officer and Director of IT Systems Architecture",
+    "tte_cadence": "COOP Working Group develops and conducts Continuity of Operations training, exercises and continuous-improvement efforts; Emergency Operations Group Planning Team plans training/exercises and maintains the Integrated Preparedness Plan; emergency management teams train and conduct drills with Vermont Dept. of Public Safety partners",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Recovery named as an emergency-management phase and Disaster Recovery defined ('quickly resume mission-essential functions'); Research Continuity references quickly reconstituting research resources; no dedicated institution-level reconstitution/return-to-normal process",
+    "academic_continuity_treatment": "Academic Continuity defined ('preserving the functions of the academic core...including teaching and learning, scholarship, and research'); Registrar assigned Academic Continuity role; Research Continuity separately defined and addressed",
+    "it_continuity_treatment": "Cyber Security Incident Response Team led by Information Security Officer; ISO 'ensures that a University system-wide, disaster recovery and incident response plan is in place'; IT/Security provides Cybersecurity/IT Support; Telecom and Network Services provide Communications/IT Support",
+    "interdependencies_treatment": "IT, Procurement, Telecommunications and other support roles enumerated, but no explicit internal/external dependency, vendor, utility or mutual-aid mapping",
+    "unusual_decisions": [
+      {
+        "decision": "Defines three parallel continuity domains (academic, administrative, research) as first-class concepts in the policy",
+        "quote": "Research Continuity: The capability to maintain critical research equipment, supplies, computers, unique data and specimens/samples, and records during disruptive events, or the capability to quickly reconstitute these resources and resume research after a disruptive event."
+      },
+      {
+        "decision": "Charters a standing, IT-heavy Continuity of Operations Working Group to produce the COOP, a simplified BIA and an all-hazard risk heat map",
+        "quote": "produce a simplified business impact analysis; 3) produce and maintain a Continuity of Operations plan; 4) assist department Emergency Response Teams to develop unit continuity of operations plans; and 5) develop and conduct Continuity of Operations training, exercises and continuous improvement efforts."
+      },
+      {
+        "decision": "Acknowledges municipal/state authority can supersede University command and employ University assets in a larger response",
+        "quote": "their emergency management functions may, to the extent of applicable law, supersede those of the University and employ University assets in the larger, coordinated response."
+      }
+    ],
+    "analyst_notes": "An institutional Emergency Management and Continuity of Operations Policy (v3.25.1, approved by the President, with revision history) that integrates emergency management and COOP under NIMS/ICS and an all-hazards approach. It cleanly defines essential functions and three continuity domains (academic, administrative, research), charters a COOP Working Group to produce a simplified BIA and risk heat map, and lists COOP goals covering succession, delegation, alternate facilities, vital records and human capital. As a policy it stops short of numeric RTOs, dependency mapping, a budget/acquisition program, devolution, and a dedicated reconstitution process. Strong governance and definitional spine; operational detail is deferred to the COOP plan and unit plans it mandates.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 17,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "bowie-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_communications",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Academic Affairs administration",
+      "Admissions (grad/undergrad)",
+      "Financial Aid award cycle",
+      "Registration/grade submission",
+      "International Student Services",
+      "HR (classification, employment, staff relations)",
+      "Procurement/Purchasing",
+      "Bursar (payments, billing)",
+      "Accounts Payable/Receivable",
+      "Payroll",
+      "Budget",
+      "Contract & Grants Accounting",
+      "Facilities operations & maintenance",
+      "Public Safety (emergency response, dispatch, EOC activation)",
+      "Research administration (OPAA, IRB)",
+      "Student Affairs / Health Center / Counseling",
+      "Residential facilities & housing",
+      "Institutional Advancement / Alumni",
+      "University Relations / Public Information",
+      "Division of IT core services"
+    ],
+    "rto_tiers": "Per-process 'Allowable Downtime' (e.g., None/0-1 day/½ day/1-2 days/2-3 days/5 days/peak vs off-peak) plus 'Priority for Recovery' High/Medium/Low across all divisions",
+    "succession_depth": null,
+    "alternate_facility_model": "physical-alternate-site",
+    "vital_records_approach": "Unit plans must 'provide for the ongoing back up of critical data and protection of critical equipment' and 'store at least one current copy in an off-site facility with immediate availability'; DIT runs a separate Disaster Recovery Plan for core systems",
+    "tte_cadence": "Unit BCPs must be exercised at least once every two years (objectives, validation, documented results, corrections); annual unit-head review; training for staff and within 120 days for new employees",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Unit plans must 'establish procedures for return to full, normal operations of the operating unit, including that of non-critical functions'",
+    "academic_continuity_treatment": "'Learning and Teaching' is one of three critical-process categories (lecture & teaching, research, continuing education, graduation, student support services); college/library/academic-unit recovery deferred to college-level plans",
+    "it_continuity_treatment": "Division of Information Technology 'maintains a separate Disaster Recovery Plan that addresses the recovery and the continuity of those services'; DIT core services treated as basic to recovery of all other processes",
+    "interdependencies_treatment": "BIA explicitly built on 'interdependencies between these processes'; unit plans must ensure depended-on departments and external suppliers also have continuity plans; risk analysis extracted from the campus Disaster Recovery Plan",
+    "unusual_decisions": [
+      {
+        "decision": "The university-wide document plus all collected unit plans together constitute the complete BCP, with the VP for Student Affairs as compiler",
+        "quote": "The Vice President for Student Affairs will be responsible for collecting all unit plans and the combination of this document and the unit plans will constitute the University's complete business Continuity Plan."
+      },
+      {
+        "decision": "Cross-unit prioritization during activation is reserved to the President's Cabinet after the fact rather than pre-scripted",
+        "quote": "In the event plan activation requires prioritization among units for the recovery of services or allocation of limited resources, that prioritization will be accomplished by the President's Cabinet after consideration of the exact circumstances surrounding the plan activation."
+      },
+      {
+        "decision": "Activation authority is tiered: unit managers for local events, Cabinet for university-wide events",
+        "quote": "The determination that an interruption has occurred may be made by the individual unit manager for local occurrences or by the Cabinet for university-wide occurrences."
+      }
+    ],
+    "analyst_notes": "Read all 14 pages. BSU's BCP is a university-wide, division-by-division plan: a detailed BIA inventory across every division with allowable-downtime and recovery priority, a risk assessment and hazard matrix, a continuity-management process figure (pre-incident planning / incident response / maintenance), a 'Policy' section assigning continuity authority to division EPP committees and the President's Cabinet, and unit-plan requirements covering alternate sites, off-site data backup, activation triggers, and return-to-normal procedures. IT-DR is delegated to a standalone DIT plan. Missing: recognized continuity-doctrine citations, budgeting, orders of succession, delegations of authority, resilient/interoperable continuity communications, and devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 16,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "ohio-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_communications",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Critical functions defined per unit via BIA (no enumerated university list); examples reference Education and Human Ecology, Office of the CIO, Optometry, Student Life; functional domains include teaching, learning, research, outreach and engagement, student life, patient care, and supporting business operations"
+    ],
+    "rto_tiers": "Units provide RTOs and RPOs annually for the systems/applications they own; BIA gives guidelines on tolerable down time; no fixed tier scheme in the policy",
+    "succession_depth": null,
+    "alternate_facility_model": "physical-alternate-site",
+    "vital_records_approach": null,
+    "tte_cadence": "Units conduct BCP testing exercises every two years, type chosen by the BCM Office and unit (live/simulation, real-world, review/discussion, scenario/tabletop); annual BCP review/approval; BIA every two years; risk assessment every three years; performance scorecard, continuous improvement, lessons learned",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "BCRs develop procedures for the 'recovery phases' and the program aims to 'restore the university community back to normal in the case of a disruption'",
+    "academic_continuity_treatment": "Policy commits to 'ensuring the continuity of teaching, learning, research, outreach and engagement, student life experiences, patient care experiences, business operations, and the critical functions that support them'; academic college clusters represented on the steering committee",
+    "it_continuity_treatment": "BCR continuity strategies for loss of applications/systems (alternative storage, back-up of systems, manual workaround); Enterprise Security Disaster Recovery sits on the BCM Steering Committee; external references to ISO 27031 IT-DR alignment with ISO 22301",
+    "interdependencies_treatment": "BCM Office provides an annual 'gap report of operational need versus systems and applications (dependencies) capability'; BCR strategies address supplier/supply-chain loss; RTOs/RPOs communicated across units",
+    "unusual_decisions": [
+      {
+        "decision": "Centralizes BCM in a dedicated Business Continuity Management Office in Business and Finance with a cross-cluster Steering Committee reporting to the Risk Management Committee and Board of Trustees",
+        "quote": "The Business Continuity Management Office in the Office of Business and Finance is responsible for directing business continuity management (BCM) for the university and units."
+      },
+      {
+        "decision": "Aligns the program explicitly with recognized BCM standards and external bodies",
+        "quote": "To set requirements for BCM, maintain continued availability of critical functions, and align university practices with BCM industry standards."
+      },
+      {
+        "decision": "Treats noncompliance as an enforceable policy matter with tracked exceptions and possible corrective action up to termination",
+        "quote": "The university may enforce corrective action, up to and including termination, in accordance with applicable policies or rules."
+      }
+    ],
+    "analyst_notes": "Read all 5 pages. Ohio State's Business Continuity Management University Policy (issued 2020, edited 2023 and 2025) is a strong governance framework: a promulgated university policy with a responsible office, explicit alignment to ISO 22301/ISO 27031 and BCI/DRII, critical-function/BIA/risk-assessment requirements, RTO/RPO collection, a BCM Office and Steering Committee, biennial multi-type testing exercises with a performance scorecard and continuous improvement, alternate-site and IT-recovery strategies, and academic/patient-care continuity. As a policy it does not establish orders of succession, formal delegations of authority, a resilient continuity-communications capability, a vital-records program, activation triggers/decision authority, or devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 16,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "south-texas-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "delegations_of_authority",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Incident analysis and insurance claims",
+      "(College-wide reference list provided: College Leadership; Safety and Security; Communications; Basic Services; Information Technology)"
+    ],
+    "rto_tiers": "Template frames essential functions as those with a Recovery Time Objective of 0-24 hours, with instruction to note functions whose RTO is greater than 24 hours; Critical Interruption Worksheet records per-function tolerable downtime (e.g., claims function 'could be delayed by a few days at most').",
+    "succession_depth": "'Line of Succession' with Primary/Secondary/Tertiary slots (worked example fills Primary = Ken Lyons, Risk Manager; Secondary/Tertiary N/A).",
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": "No dedicated vital-records register; critical IT systems/databases listed by priority with hosting location, and workaround processes specified if technology unavailable.",
+    "tte_cadence": "Captures 'Date of last testing of your restoration process' and 'Date of next testing'; worked example cites the COVID-19 remote-work period (Mar 23 - May 1, 2020) as the last test; next testing 'TBD'.",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "'Resumption of Normal Operations' section: 'Once authorities have deemed it safe to return to the office, key personnel would simply pick up where they left off working remotely.'",
+    "academic_continuity_treatment": null,
+    "it_continuity_treatment": "Technology Equipment and critical IT systems/software/databases tables (priority, hosting on/off campus) plus an explicit workaround narrative ('operations can still function through the use of mobile hotspots, smart phones, tablets, etc.').",
+    "interdependencies_treatment": "Separate Internal Dependencies (e.g., e-mail, phone, shared drive, OneDrive provided by IT, frequency Continuous) and External Dependencies (consultation, claims processing vendors with frequency) tables.",
+    "unusual_decisions": [
+      {
+        "decision": "Uses a real prior event (COVID-19 remote work) as evidence the restoration process was tested",
+        "quote": "Accountability, Risk and Compliance worked remotely due to the COVID-19 pandemic for a period of 6weeks in early 2020. The department was able to effectively resume its functions with no downtime."
+      },
+      {
+        "decision": "Embeds a pre-work 'Critical Interruption Worksheet' that asks how long the unit can function without power, comms, and enterprise systems (e.g., Banner)",
+        "quote": "How long can your department be without the use of enterprise information systems (ex:Banner)?Indefinitely. Insurance claims reporting and management do not require the use of Banner or any other similar system."
+      }
+    ],
+    "analyst_notes": "A departmental COOP template completed as a worked example for STC's Accountability, Risk & Compliance unit; explicitly essential-functions-based and tied to activation of the STC All Hazards Emergency Plan. Strong coverage of essential functions, RTO framing, succession, internal/external dependencies, alternate (telework) site, IT workarounds, restoration testing dates, and resumption of normal operations. Legitimately omits a formal BIA, threat/hazard assessment, standards citations, budgeting, delegations of authority, and devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 16,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "university-of-maryland-baltimore-county",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_communications",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery"
+    ],
+    "essential_functions": [
+      "UEF 1 Innovation & Vitality",
+      "UEF 2 Research & Creative Achievement",
+      "UEF 3 Strengthen Maryland & its Communities",
+      "UEF 4 Student Opportunity & Success",
+      "UEF 5 Teaching & Learning",
+      "plus a tiered hierarchy of State Essential Functions, Institutional Essential Functions, Primary Mission Essential Functions, Mission Essential Functions, Essential Supporting Activities, and Mission Enhancing Activities defined per College/Division/School/Office"
+    ],
+    "rto_tiers": "Defines Max Tolerable Downtime (MTD), Recovery Time Objective (RTO), and Recovery Point Objective (RPO) for each MEF; PMEFs must remain continuous or resume within 12 hours and be maintained up to 30 days or until normal operations resume; BIA scores impact 0 (none) to 5 (severe)",
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": "BPA Step 9 requires identifying 'standard operating procedures, essential records, and reference materials'; MEF data sheet documents required records; no central vital-records protection/storage program (responsibility pushed to departmental plans)",
+    "tte_cadence": "Continuity Coordinators attend initial and annual continuity training; Deans/VPs ensure plans are 'developed, coordinated, exercised, and capable of being implemented'; emergency action procedures activated during continuity exercises; BIA review/validation at least every two years; no exercise-type structure or formal after-action/improvement cycle",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Not addressed as a distinct process; 'until normal operations resume' is a stated endpoint only",
+    "academic_continuity_treatment": "Teaching & Learning (UEF 5), Student Opportunity & Success (UEF 4), and Research (UEF 2) are University Essential Functions; framework relies on remote work, noting COVID-19 showed many MEFs can continue virtually while some have mandatory in-person components",
+    "it_continuity_treatment": "BPA Step 7 requires identifying communications/information-system requirements, data-access needs, system dependencies and interfaces; RPO defined; but no IT disaster-recovery program, backup strategy, or alternate-processing capability is established (identification only)",
+    "interdependencies_treatment": "Strong: work-function inventory links interdependencies, BPA Step 4 identifies dependencies/interdependencies (partners, points of contact, support type, timelines), and MEFs are prioritized when they support multiple PMEFs across Colleges/Divisions",
+    "unusual_decisions": [
+      {
+        "decision": "Builds a seven-level essential-functions hierarchy (State -> Institutional -> University -> Primary Mission -> Mission -> Essential Supporting Activities -> Mission Enhancing Activities) cascading from State of Maryland and USM requirements down to office level",
+        "quote": "Essential functions are the building blocks of continuity... Each level us supported by the functions below, and dependent on the functions above."
+      },
+      {
+        "decision": "Maps the five University Essential Functions directly onto the five pillars of the UMBC Strategic Plan",
+        "quote": "UMBC has five UEFs that mirror the five strategic pillars detailed in the UMBC Strategic Plan and form the basis for all our continuity decisions."
+      },
+      {
+        "decision": "Deliberately designs the framework for non-expert staff for whom continuity is a collateral duty, generating data sheets automatically from online BPA/BIA worksheets",
+        "quote": "simplified planning and training will help minimize confusion and enable effective decision-making in a time of crisis."
+      }
+    ],
+    "analyst_notes": "Read all 30 pages. NOTE: the supplied 2025-UMB-COOP-Plan.pdf URL was a different institution (University of Maryland, Baltimore) and returned HTTP 404; this object codes the document actually mapped to the umbc.edu police-site URL given, UMBC's EOP Annex 3 COOP (Rev. May 2026), a framework/methodology plan. It is a strategic-level framework with a signed approval (Chief of Police), USM VI-13.00 / State of Maryland MDEM COOP-guide authority, an integrated-response concept of operations, a rigorous four-phase planning process (Identify MEFs -> BPA -> BIA -> Prioritize/Document), MTD/RTO/RPO, an HVRA-based threat assessment, deep interdependency mapping, budget/resource and essential-records identification, continuity personnel (CWG/EMAG), activation triggers, and academic continuity via remote work. Because it is a planning framework that pushes execution to departmental DEAPs, it omits orders of succession, formal delegations of authority, a resilient continuity-communications capability, devolution, a reconstitution process, and an IT disaster-recovery program (IT needs are identified per-MEF but no DR/backup program is established).",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 16,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "itawamba-community-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "delegations_of_authority",
+      "vital_records_management",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Critical Support Services (safety/life support systems)",
+      "Critical Operational Services (college-wide infrastructure disaster response/recovery)",
+      "Essential Operational Services (protect assets / support educational activities)",
+      "Important Services (normal college operations)",
+      "Areas of Critical Responsibility: Admissions & Records, Athletics, Auxiliary Services, Business/Finance, Career & Technical, Community Relations, eLearning, EH&S, Facilities, Health Science, HR, IT, Instructional Services, Campus Police, Residential Life, Student Affairs"
+    ],
+    "rto_tiers": "Four-tier targeted RTO / minimum RRO table: Critical Support = maintained at all times; Critical Operational = 1 day (RRO 3 days); Essential Operational = 3 days (RRO 3 weeks); Important = 3 weeks (RRO ~1 year)",
+    "succession_depth": "Incident Commander succession by campus, ranked 'highest available person' (Fulton 3 deep, Tupelo 2 deep, Belden 2 deep); no broader org orders of succession",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Not addressed as vital records; data center repair/IT recovery site covers data restoration but no vital-records identification/protection program",
+    "tte_cadence": "Quarterly ERT meetings; >=1 EMC meeting/year; one tabletop exercise/year; building-evacuation drills/testing; annual ERT plan exercises; after-action Program Review",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Recovery of Normal College Operations and gradual return to normal; College-wide Recovery steps executed if impact exceeds 72 hours; Crisis and Continuity Program Review revises documentation",
+    "academic_continuity_treatment": "eLearning pivot: 'By utilizing eLearning and the Internet, maintaining ongoing academics should be possible under emergency situations even where multiple buildings are damaged, destroyed or if access to the campus is denied'; Instructional Services prepared to use eLearning; backup EOC at eLearning Center",
+    "it_continuity_treatment": "IT maintains/restores intranet, data, video, voice, wireless; activates IT recovery site if severe; comprehensive damage assessment and repair/replacement of main data center; alternative emergency communications if cell towers down; appendix glossary covers redundant/hot/warm/cold site concepts",
+    "interdependencies_treatment": "Mutual aid agreements with all state-supported higher-ed institutions and local high schools (athletics); outsourced food/water/bookstore providers required to have Business Continuity Plans; Appendix E Critical Suppliers and Contractors",
+    "unusual_decisions": [
+      {
+        "decision": "Frames recovery time tiers in business-survival terms tied to semester cancellation and institutional viability",
+        "quote": "On the other hand, if this cannot be accomplished within three weeks or so, the College may be facing the cancellation of a semester and a refunding of tuitions."
+      },
+      {
+        "decision": "Requires all outsourced service providers to maintain their own continuity plans as a contracting condition",
+        "quote": "Outsourcing – Food, water and bookstore operations are outsourced on an ongoing basis. All outsource providers are required to have “Business Continuity Plans” in place."
+      },
+      {
+        "decision": "Designates physical bunkering / pre-positioning mitigation (storm shutters, sandbags, sump pumps) ahead of forecastable hazards",
+        "quote": "Bunkering – The College has storm shutters for most critical buildings that can be deployed in advance of a tornado. The College also has sandbags and sump pumps that can be deployed in advance of a flood."
+      }
+    ],
+    "analyst_notes": "A 67-page institutional COOP integrated with a Crisis/Risk Management Plan and departmental Emergency Operations Plans, organized around six emergency-response priorities and a four-action-step recovery flow (Immediate Actions, Initial Recovery, College-wide Recovery, Program Review). Strongest on RTO/RRO tiering, recovery strategies, alternate/recovery sites, mutual aid and TT&E. Notably lacks formal FCD/NIMS doctrine citation, a true BIA, a hazard/vulnerability assessment, delegations of authority, vital-records management and devolution. Succession exists only for the Incident Commander role.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 15,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "orange-coast-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "budgeting_resources",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "devolution",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "(Service/asset based) Mission-critical IT services and applications; Data Center operations; network/LAN/core/wireless; telecommunications (VOIP); business applications and databases identified by the Infrastructure Emergency Response Team (IERT)"
+    ],
+    "rto_tiers": "Explicit Recovery Response Times: Data Recovery 30 minutes to an hour (volume-dependent); System Recovery - Simple Systems < 1 day, Moderately Complex Systems > 1 day < 3 days, Complex Systems > 3 days. Security-standards section further requires departmental BCPs to document Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Recovery teams must ensure documentation for standards, operations, and 'vital records maintenance' and application programs is stored securely and reassembled at standby facilities; data backups classified, archived offsite (CCCD IT Data Center), retained 1 year on media, 15-day on-site tape retention, disk-to-disk-to-tape with offsite vaulting.",
+    "tte_cadence": "The IERT 'is responsible for testing of the disaster recovery plan at least annually to ensure the viability of the plan.'",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Recovery teams (Operations, Network) restore computer processing and data/wide-area communications to minimum processing requirements and reassemble at standby facilities; framed as system restoration/recovery rather than a separate reconstitution phase.",
+    "academic_continuity_treatment": null,
+    "it_continuity_treatment": "This is the document's core: enterprise backup solution (daily/weekly/monthly), offsite tape vaulting, server/workstation rebuild-from-template strategy, dual Data Centers with partial CRAC/UPS/generator redundancy, network and VOIP redundancy posture, recovery response times, and recovery-team roles - backed by a full Information Technology Security Standards manual.",
+    "interdependencies_treatment": "Identifies vendor dependencies for recovery (e.g., Avaya and Carousel for VOIP) and assigns Networks/Operations teams to restore inter-system links; departmental BCPs assign Business Recovery Coordinators who coordinate across business areas.",
+    "unusual_decisions": [
+      {
+        "decision": "Adopts a rebuild-from-template recovery model and deliberately does not back up workstations or static data",
+        "quote": "Workstations are not backed up as: all business data is stored on servers and workstations, like servers, can be recreated from build templates."
+      },
+      {
+        "decision": "Separates departmental Business Continuity Plans (with Business Recovery Coordinators) from the IT Disaster Recovery Plan, defining the relationship between them",
+        "quote": "Each business area is responsible for documenting a Business Continuity Plan and designating a Business Recovery Coordinator who will develop and maintain their plan and participate in notification and recovery activities."
+      }
+    ],
+    "analyst_notes": "An IT Disaster Recovery Plan for Orange Coast College (Coast Community College District) bundled with a comprehensive Information Technology Security Standards and Protocols manual designed to meet PCI-DSS. The DR plan is strong on backups/offsite storage, data-center and network redundancy, explicit recovery-response/recovery-time tiers, recovery-team roles, vital-records-maintenance-at-standby-facilities, annual DR testing, and it points to departmental BCPs that must carry RTO/RPO and disaster-declaration/activation procedures. Standards alignment is present (PCI-DSS). As an IT-DR document it legitimately lacks academic-instructional continuity, a formal BIA, an enterprise threat/hazard assessment, leadership succession/delegations, and devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 15,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "university-of-montana",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "continuity_facilities",
+      "vital_records_management",
+      "devolution",
+      "it_disaster_recovery"
+    ],
+    "essential_functions": [
+      "Functions deemed critical to the continuity of UM business operations (evaluated by the Policy Group)",
+      "Departmental Business Continuity Plans identify critical functions and staff to maintain essential functions during emergency operations",
+      "Continuation of academic activities (Academic Impact Unit) and restoration of essential services"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "University President Succession of Authority (line of succession if President unavailable); Liaison Officer Succession of Authority; alternate staff designations for unavailable EOC positions",
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": null,
+    "tte_cadence": "Dedicated Training and Exercises section; EHS coordinates after-action reviews; EOP updated as informed by drills and exercises; CPRG reviews EOP annually",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Recovery section plus Deactivation, Demobilization & Plan Reassessment; Business and Administrative Continuity restores administrative/business functions; Resumption of Academic Learning with Policy Group initial recovery planning",
+    "academic_continuity_treatment": "Academic Impact Unit addresses academic impacts with the Business Continuity Branch; Resumption of Academic Learning: 'This may involve relocating students, conducting classes in alternative locations, implementing online learning and implementing temporary academic and financial procedures'",
+    "it_continuity_treatment": "Not addressed as IT disaster recovery (CIO is on the EOP distribution list, but no system contingency/backup/alternate-processing content)",
+    "interdependencies_treatment": "Heavy reliance on Missoula City and County for law enforcement/fire resources and statewide/regional response; Liaison Officer and Joint Information Center interface with external agencies; control of large incidents passes by statute to responding external agency",
+    "unusual_decisions": [
+      {
+        "decision": "Scales the University's role inversely to incident magnitude, ceding command to external agencies as scope grows",
+        "quote": "The larger the emergency in terms of area affected, people at risk and magnitude of external response, the smaller relative role UM plays in the overall response."
+      },
+      {
+        "decision": "Stands up a dedicated Business Continuity Branch within the EOC Operations Section and a separate Academic Impact Unit",
+        "quote": "The Academic Impact Unit will address needs, concerns and issues related to academic impacts resulting from the emergency in concert with the Business Continuity Branch under the Operations Section."
+      },
+      {
+        "decision": "Tasks the Policy Group to formally prepare a delegation of authority when mobilizing the incident management team",
+        "quote": "Mobilize the incident mgt. team, prepare a delegation of authority, and be available to liaise with the Team on University priorities."
+      }
+    ],
+    "analyst_notes": "A 2023-24 all-hazards Emergency Operations Plan built on NIMS/ICS with ESF-style functional annexes, signed via a Letter of Promulgation (President, AVP Campus Operations, EHS Director). Although primarily a response plan, it embeds meaningful continuity content: a Business Continuity Branch and Academic Impact Unit, President and Liaison Officer succession of authority, an incident delegation of authority, departmental BCPs identifying essential functions, a recovery section with deactivation/demobilization/reassessment, and resumption of academic learning (online/alternative locations). It lacks a continuity budget, BIA, RTOs, dedicated alternate continuity facilities, vital-records management, devolution and IT disaster recovery, reflecting its EOP (rather than COOP) center of gravity.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 15,
+    "benchmark_band": "15-19"
+  },
+  {
+    "plan_id": "athens-technical-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "devolution",
+      "reconstitution",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Emergency Communication",
+      "External Communication",
+      "Public Information",
+      "Classroom Instruction",
+      "Distance Instruction",
+      "Computer Classroom Instruction",
+      "Laboratory Instruction",
+      "Library Services",
+      "Utilities Delivery",
+      "Core IT Systems",
+      "Payroll",
+      "Procurement",
+      "Facilities Repair",
+      "Internal Communication",
+      "Mail Services",
+      "General Accounting Services",
+      "Admissions",
+      "Registration",
+      "Transcript Issuance"
+    ],
+    "rto_tiers": "Allowable-downtime tiers per critical mission function: 0-24h / 0-48h / 24-48h / 24-72h / 48+h, plus priority High/Medium/Low; per-function MAD and RTO in worksheets (e.g., Finance MAD 40 hours, RTO 24-40 hours; Academic Affairs RTO 24-72 hours)",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Databases backed up nightly/weekly with copies stored off-site (bank vault safe-deposit box holds DRP, backup media, administrator info); manual checks held in Administrative Services vault; functional backup rather than a labeled vital-records program",
+    "tte_cadence": "States BCP 'is exercised and reviewed annually'; some work-around procedures marked tested; no structured TT&E program, exercise types, training plan, or after-action/improvement cycle described",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Not addressed as a distinct return-to-normal process; recovery framed per-function",
+    "academic_continuity_treatment": "Strong: Academic Affairs worksheet pivots instruction to Blackboard Ultra online platform (all courses have master online shells, faculty trained), relocation to nearest campus or external/local-school sites; MAD 24-72h tied to TCSG instructional contact-hour standards",
+    "it_continuity_treatment": "Detailed IT Disaster Recovery Plan covering 13+ systems (telephone, network, PeopleSoft, Banner, Active Directory, email, web, document imaging, etc.) with pre-disaster protection (nightly/weekly off-site backups, bank-vault storage), post-disaster recovery steps, RTO priorities and cost/time estimates",
+    "interdependencies_treatment": "Per-function vendor/utility/contractor dependencies identified (Parker Fiber, AT&T/BellSouth, GTA, Georgia Power, banks), reliance on TCSG and other technical colleges for mutual aid and alternate sites",
+    "unusual_decisions": [
+      {
+        "decision": "Plan is built entirely as per-division fill-in worksheets submitted annually to the state system office rather than a single narrative COOP",
+        "quote": "Once the Committees' review is complete the Plan is reviewed by the College President and submitted to the Emergency Manager at TCSG by May 1 st of each year."
+      },
+      {
+        "decision": "Cashiering/finance continuity drops to hand-written receipts reconciled in Excel until Banner is restored",
+        "quote": "If Banner is unavailable, a hand-written receipt will be given to the student and the receipt number will be recorded on the excel spreadsheet. Student detail information will be recorded and reconciled every day manually in an excel spreadsheet until the system is restored."
+      },
+      {
+        "decision": "Operating bank account kept accessible to three signatories so any one can act if the others are unavailable",
+        "quote": "We would have to make sure that our operating account remained fully accessible to at least three different people with security to make decisions in the absence of one or both of the other two."
+      }
+    ],
+    "analyst_notes": "Read all 30 pages. ATC's 2025-2026 BCP is a state-mandated (TCSG Policy 3.4.1) departmental-worksheet plan: signed promulgation page, Critical Mission Functions chart with allowable-downtime tiers, a Hazard Vulnerability Assessment, per-division recovery worksheets (Finance, Economic Development, IT, Student Affairs, Academic Affairs), an embedded IT-DRP, and emergency contacts. Strongest on academic continuity (online pivot) and IT-DR; absent are succession orders, delegations of authority, a four-phase CONOPS, devolution, reconstitution-as-process, recognized continuity-doctrine citations, budgeting, and a structured TT&E program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 14,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "grayson-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "vital_records_management",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Level 1: Computer Services Area & Central Computer Room",
+      "Level 2: Central Telephone Services; 911 Emergency Services; Network Infrastructure and Services; Cable Plant",
+      "Level 3: File & Print Services; ERP Services (CAMS); Email Services; Web Services; Campus Card Services; Student Residential Network (ResNet); Academic Instructional Technology Classrooms; Student Computer Laboratory Services"
+    ],
+    "rto_tiers": "Three severity/priority levels driving recovery order: Level 1 (central computer room/servers - highest priority), Level 2 (network and VOIP/911), Level 3 (specific applications/services); 'Level 1 risks will be given increased priority over other levels...same holds true for Level 2 versus Level 3 risks.' (priority-tier recovery rather than numeric RTO/RPO)",
+    "succession_depth": null,
+    "alternate_facility_model": "physical-alternate-site",
+    "vital_records_approach": "Backup/Recovery Tapes defined as copies of all software and data on central servers used to return servers to pre-incident readiness; email retention governed by the GC Information Handling Backup and Retention Standard; no formal vital-records register.",
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": "General Disaster Response and Recovery Guidelines plus per-service restore procedures (isolate cause, restore service, assess workarounds incl. temporary outsourcing, notify campus when restored); framed as service restoration, not a separate reconstitution phase.",
+    "academic_continuity_treatment": "Addressed only through IT-service recovery for instruction: Level 3 'Academic Instructional Technology Classrooms' (Technology Enhanced Classrooms and dual-purpose student computer labs) and Student Computer Laboratory Services; no academic-calendar or instructional-delivery continuity.",
+    "it_continuity_treatment": "The document's core: a phased IT Disaster Recovery Plan with introduction, objectives, assumptions, disaster definition, general response/recovery guidelines, a three-level IT Risk Assessment covering each major service area, backup/recovery tapes, environmental controls, an alternate restore site (Van Alstyne), maintenance section, and appendices (DR Action Items, Vendor Contacts).",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Candidly documents single points of failure - no full offsite backup facility and no fire suppression in the computer room",
+        "quote": "There is no off-site backup facility, currently identified, that could entirely replace the functions of the Central Computer Room if it is rendered inoperable by an environmental or manmade disaster. The Van Alstyne facility however could be used to restore our on-line presence"
+      },
+      {
+        "decision": "Subordinates all IT recovery priorities to life safety in its planning assumptions",
+        "quote": "The safety of students, staff, and faculty is of paramount; the safeguard of such will supersede concerns specific to hardware, software, and other recovery needs."
+      }
+    ],
+    "analyst_notes": "Grayson College's 2016-2020 Technology Plan with an embedded IT Disaster Recovery Plan (revision history from 2009, last updated 12-11-2020). The DR plan is phase/level-based: it uses a three-level 'IT Risk Assessment' that doubles as a priority-tier recovery scheme, defines disaster declaration/activation, backup-and-recovery tapes, environmental risks, an alternate restore facility (Van Alstyne), and a maintenance section with a document change page (version control). Distinctively honest about single points of failure. As an IT-DR plan it lacks a formal BIA, enterprise interdependency mapping, leadership succession/delegations, vital-records register, devolution, continuity-standards citations, and budget detail; academic continuity appears only as classroom/lab IT-service recovery.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 14,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "mitchell-community-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "budgeting_resources",
+      "plan_maintenance",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_communications",
+      "devolution",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Curriculum Instruction (provide instruction for all programs; maintain Programs of Study; faculty contracts)",
+      "LRC/Library (research support; collection; circulation records)",
+      "Developmental Studies (tutoring)",
+      "Continuing Education (instruction/training)",
+      "Student Services: Veterans (VA-ONCE certification), Financial Aid, Registration & Admissions, Counseling",
+      "Administration: Payroll & Fringe, Cash Receipting, Accounts Receivable, Purchasing, Accounts Payable, Financial Reporting",
+      "Information Technology Systems"
+    ],
+    "rto_tiers": "Per-function 'Maximum amount time area could operate without function' (MTD-style): ranges from None (instruction, faculty contracts) to 1 hour or less (financial aid/registration), 1 day (cash receipting), 2 days (library collection/circulation), 30 days (veterans). No numeric RTO/RPO bands.",
+    "succession_depth": "Not addressed (cross-training and 'backup' staff named per function, but no orders of succession)",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "IT backup procedures: daily full backups (Datatel via UFSdump on DLT tape autoloader; AD/Netware via Veritas); backup logs reviewed; tapes stored in a 2nd on-campus location (Grier Science Building) and removed by staff if computer room threatened; cloud-based survivability for Moodle/Gmail; off-campus system backups for payroll/AR",
+    "tte_cadence": "No continuity-plan TT&E program; general institutional emergency procedures 'exercised...no less often than once a year' via safety committee",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Explicit 'Return to Normal Operations (Reconstitution Phase)' in IT Continuity Plan and Disaster Recovery Plan: recovery activities terminated and normal operations restored/transferred back to MCC's computer operations facility",
+    "academic_continuity_treatment": "Distance/online learning continuity: back-up Blackboard server or alternate distance-learning delivery; Moodle cloud-based; temporary instructional locations via use agreements with local school systems; cross-training to backup non-instructional functions",
+    "it_continuity_treatment": "Full embedded IT Contingency Plan + Disaster Recovery Plan (pages 18-77): CONOPS, BIA, disaster risks/prevention, information-security policies, backup procedures, disaster notification list, damage assessment, alternate site (any wired building / off-site processing), return-to-normal/reconstitution",
+    "interdependencies_treatment": "NCCCS System Office (NCCCSO) and mutual aid sites for compatible backups; common course library; payment services; off-site payroll/AR processing; cloud vendors (Gmail/Moodle); use agreements with Iredell/Statesville and Mooresville school systems; local healthcare agency equipment",
+    "unusual_decisions": [
+      {
+        "decision": "Directs IT staff to physically remove and personally safeguard the latest backup tape if the computer room is threatened, but never at personal risk",
+        "quote": "In the event of a threat to the computer room facilities, administrative computer department personnel shall remove the latest backup tape from the computer room and maintain personal possession until a secure environment can be obtained. In no case shall personnel place themselves in undue personal jeopardy to obtain the tape from the computer room."
+      },
+      {
+        "decision": "Reserves use of an alternate site for catastrophic full-campus shutdown to the President's discretion",
+        "quote": "In this event, select applications such as payroll could be performed by use of an alternate site at the discretion of the President."
+      },
+      {
+        "decision": "Built the entire plan on a 2004 NCCCS state mandate for a Financial Services Continuity Plan, then broadened it institution-wide",
+        "quote": "The North Carolina Community College System (NCCCS) mandated in 2004 that each college should implement an appropriate Financial Services Continuity Plan to “ensure the timely delivery of critical functions and services to its stakeholders”."
+      }
+    ],
+    "analyst_notes": "A 2011-2012 plan in two distinct halves: a department-by-department Risk Assessment / Business Continuity section (critical function, MTD, and facilities/personnel/technology threats-and-plans per unit) and a robust embedded IT Contingency + Disaster Recovery Plan with CONOPS, BIA, backup procedures and an explicit reconstitution phase. Driven by the NCCCS state mandate. Strong on essential functions, BIA, IT-DR, vital-data backup and reconstitution; weak on promulgation authority, formal maintenance cadence, succession, delegations, resilient continuity communications, devolution and a continuity-specific TT&E program. A 'Reviewed May 11, 2007' signature block exists but functions as a review record rather than a promulgation grant.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 14,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "new-mexico-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "plan_maintenance",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "delegations_of_authority",
+      "activation_triggers",
+      "devolution"
+    ],
+    "essential_functions": [
+      "Department's functions essential to operational continuity and/or recovery, each with responsible position title, primary and alternate (cross-trained) personnel (Section F worksheet); university objectives include continuing functions essential to university operations"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Leadership Succession (Section G): Head of Operations, First Successor, Second Successor, Third Successor (3 deep) who can make operational decisions if the head is absent",
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": "Section E Emergency Access to Information and Systems: identify critical data/records, whether backed up on-site or off-site (off-site data backup, backup files on flash drives, hard copies), and simulate a failure scenario that tests the ability to recover lost critical data",
+    "tte_cadence": "Section K Exercising Your Plan: staff orientation meeting, call tree drill, tabletop exercise, interdepartmental exercise, emergency assembly drill, emergency communication test, off-site information access test, unscheduled work-at-home day, with scheduled dates and staff distribution date",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Section L Recovery: plan to fully resume operations as soon as possible after the crisis, addressing resumption/scheduling of normal activities, work backlog, resupply of inventories, absenteeism and emotional needs",
+    "academic_continuity_treatment": "University objective to 'Resume normal teaching, research and service operations as soon as possible'; departments classify principal nature of operations (Instruction, laboratory/other research, research support); departments state teaching/research/service objectives",
+    "it_continuity_treatment": "Section E covers emergency access to information/systems: remote access (or authorization), contacting IT support, Blackboard, off-site data backup, backup files, hard copies, alternate email; includes a recovery-test of lost critical data",
+    "interdependencies_treatment": "Section H Key Internal (within NMSU) Dependencies (ICT, Payroll, Purchasing, Business & Finance, Fire/Police, HR, Facilities & Services, plus department-listed) and Section I Key External Dependencies (suppliers/providers with primary/alternate, encouraged to prepare their own COOP)",
+    "unusual_decisions": [
+      {
+        "decision": "Embeds employee household/family preparedness into the institutional COOP on the premise that staff will not report if their families are unsafe",
+        "quote": "Past experience has taught us that employees may not show up for work if they are concerned for the safety and security of their families."
+      },
+      {
+        "decision": "Builds a recoverability self-test directly into the template by asking departments to simulate a data-loss scenario",
+        "quote": "Simulate a failure scenario that tests the ability to recover “lost” critical data."
+      },
+      {
+        "decision": "Encourages departments to push continuity planning out to their external suppliers",
+        "quote": "We recommend that you encourage them to prepare continuity of operations plan."
+      }
+    ],
+    "analyst_notes": "A six-page fillable All-Hazards COOP template for NMSU departments, structured around essential functions and recovery and submitted to a Dean/VP for approval. Despite its brevity it captures an unusually broad set of components: an all-hazards threat list, essential functions with primary/alternate cross-trained personnel, three-deep leadership succession, internal and external dependency inventories, emergency communications with backups, emergency access to systems (off-site data backup and a recovery self-test), mitigation strategies including telework, an exercise menu with dates, and a recovery section. It lacks named doctrine, a continuity budget, a maintenance cadence, a true BIA, RTOs, formal delegations of authority with triggers, explicit activation procedures and devolution.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 14,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "virginia-state-university-it-contingency-6135",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "activation_triggers",
+      "devolution",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "IT systems necessary to recover essential business functions or dependent business functions (each identified with RTO/RPO); identification of all critical data, applications, documentation, personnel, facilities and support items necessary during recovery"
+    ],
+    "rto_tiers": "Recovery time objectives (RTOs) and recovery point objectives (RPOs) established by System/Data Owners for each IT system, based on the BIA and Risk Assessment; alternate processing site resumption within an organization-defined time period consistent with RTO/RPO",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Data Backup and Restoration plan with secure off-site storage of backup media; full/incremental backup scheme; periodic test restores; retention per State Library of Virginia records retention policies; e-discovery readiness",
+    "tte_cadence": "Backup/recovery procedures tested at least annually (not to exceed one year between tests, documented); annual exercise (or more often) of the VSU COOP and IT DR components; review and revision of IT DR components following each exercise",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Transfer and resumption of information system operations for essential missions/business functions at an alternate processing site; ensures IT services can be resumed following an event causing loss of data",
+    "academic_continuity_treatment": "Not addressed (IT contingency scope; academic continuity resides in the broader VSU COOP)",
+    "it_continuity_treatment": "Entire policy is IT contingency planning / disaster recovery: BIA-driven IT-system RTO/RPO, backup and recovery plan, off-site and alternate storage site with agreements, alternate processing site with equivalent security safeguards, test restores, incident notification, local/remote access communication methods",
+    "interdependencies_treatment": "Recovers 'essential business functions or dependent business functions'; scope covers contractors, employees, vendors and student interns; alternate storage/processing sites require necessary agreements; business partners follow best practices",
+    "unusual_decisions": [
+      {
+        "decision": "Designates a dedicated IT 'TS COOP Coordinator' to collaborate with the university COOP coordinator as the focal point bridging IT-DR and institutional COOP",
+        "quote": "The Technology Services (TS) Continuity of Operations (COOP) Coordinator is the designated IT employee responsible for collaboration with the university’s Continuity Plan (CP) Coordinator as the focal point for IT aspects of Continuity Plan and related Disaster Recovery (DR) planning activities."
+      },
+      {
+        "decision": "Requires the alternate storage and processing sites to provide information-security safeguards equivalent to the primary site",
+        "quote": "ensures that the alternate storage site provides information security safeguards equivalent to that of the primary site."
+      },
+      {
+        "decision": "Ties electronic-records management explicitly to legal-discovery producibility and the State Library of Virginia retention schedule",
+        "quote": "Retention of the data handled by an IT system must be in accordance with the State Library of Virginia records retention policies and procedures."
+      }
+    ],
+    "analyst_notes": "A five-page IT Contingency Planning Policy (6135, approved by the President 9/6/17) structured around NIST 800-34/800-53-style contingency controls though without naming the doctrine in-text. It is explicitly the IT-DR component of the university's broader VSU COOP, assigning roles to System/Data Owners and a TS COOP Coordinator and requiring a BIA, IT-system RTOs/RPOs, backup/restoration with off-site and alternate storage, an alternate processing site, test restores, annual exercises and post-exercise revision. Promulgated by the President. As an IT-DR policy it omits a CONOPS, succession, delegations, activation triggers, devolution and academic continuity, which live in the parent COOP.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 14,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "boston-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "delegations_of_authority",
+      "devolution",
+      "reconstitution",
+      "academic_instructional_continuity",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Conducting classes",
+      "Maintaining animal living environment",
+      "Payroll",
+      "Research"
+    ],
+    "rto_tiers": "Per-function RTO column on Worksheet #1: Conducting classes < 1 Week; Maintaining animal living environment 24 Hours; Payroll < 1 Week; Research < 1 Week. Each function also has an Impact and Priority (all Priority 1).",
+    "succession_depth": "Worksheet #4 'Orders of Succession' provides a line-of-succession table (Name/Title/Alternate Name/Alternate Title) with rule that a higher person resuming availability assumes responsibility; table is a blank/sample fill-in (Director shown), depth not numerically fixed.",
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Worksheet #3 'Vital Records, Forms and Documents' lists each record with storage location, format, update frequency, backup method, and point of contact; recommends copying web-based forms to DVD/CD/USB for emergency use.",
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Recovery checklist (Sections H/I) includes long-term recovery steps ('Develop long term recovery plans', 'Test systems to ensure they are working properly', 'Conduct transition of all functions, personnel'), but no distinct return-to-normal/reconstitution phase is labeled.",
+    "academic_continuity_treatment": "Conducting classes is treated as a critical function (RTO < 1 Week) with alternatives (hold classes off campus, arrange transportation, use local aquariums' facilities/labs); no broader academic-calendar or instructional-continuity program.",
+    "it_continuity_treatment": "Worksheet #2 maps software applications supporting critical functions with location, backup method and BC/external support contacts; recovery checklist includes contacting IT Help Desk, ordering replacement hardware, testing user logins, and restoring site-specific services.",
+    "interdependencies_treatment": "Each critical function on Worksheet #1 lists Dependencies (power, key personnel, working computers, lab/equipment); applications worksheet identifies internal (BC Data Center) and external (vendor) support providers.",
+    "unusual_decisions": [
+      {
+        "decision": "Built-in cross-training matrix pairing each function with primary performers and named cross-trained backups",
+        "quote": "Worksheet #11: Essential Personnel and Cross-TrainingFunction Performs this Function Can be Cross Trained Commentspayroll 1. Dean2. Associate Dean1. Professor"
+      },
+      {
+        "decision": "Living-animal welfare drives the tightest RTO and a pre-arranged reciprocal aquarium agreement",
+        "quote": "agreements have been made with local aquarium in the event animals have to be moved. The aquarium will provide tanks, food, and vehicles and crates to transport animals"
+      }
+    ],
+    "analyst_notes": "A fully worked departmental BCP template (illustrated with a fictional 'Deep Sea Studies Department'), organized around FCD-style program elements expressed as worksheets: critical functions + RTO, applications, vital records, resources/personnel, succession, alternate facilities, and a detailed activation/recovery checklist. As a template it legitimately omits a real BIA, formal risk/threat assessment, standards citations, budgeting, delegations of authority, devolution, and a TT&E program. Reconstitution is only implied within the recovery checklist rather than as a distinct phase.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 13,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "sandhills-community-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "devolution",
+      "reconstitution"
+    ],
+    "essential_functions": [
+      "Sector 1: Information Systems/Business Technologies",
+      "Sector 2: Human Risk/Threats (campus safety)",
+      "Sector 3: Physical Plant/Facilities",
+      "Sector 4: Weather/Natural Disaster Risks",
+      "Sector 5: Campus Health/Environmental Risk",
+      "Sector 6: E-learning Service Interruption"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Chief Public Information Officer (CPIO) role shared by the President and named proxies, one per building/area (Ron Layne COO, Dr. Rebecca Roush, Kellie Shoemake, Dr. Fallon Brewington, Germaine Elkins, Dr. Julie Voigt, Dr. Twana Mc...)",
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": "Not addressed (off-campus backup referenced only as a Campus-Level risk: 'off-campus backup failures')",
+    "tte_cadence": "Emergency Response Procedures distributed annually via mandatory employee training; per-sector 'Periodic Campus Testing or Training' (e.g., annual network-closet/WiFi inspection; ongoing end-user training; ongoing review with Risk Assessment Team and Emergency Management Team)",
+    "devolution_treatment": "Not addressed (CPIO proxies are a succession/role-sharing mechanism, not devolution to a separate unit/site)",
+    "reconstitution_treatment": "Not addressed as a distinct phase; 'recovery' appears within each sector's Intervention and Recovery Strategy but no return-to-normal/reconstitution process",
+    "academic_continuity_treatment": "Sector 6 E-learning Access Interruptions: faculty-based e-learning team maintains and monitors student access for virtual/hybrid courses; impact-level intervention and recovery for learning platforms",
+    "it_continuity_treatment": "Sector 1 covers IT/Business interruptions with five impact levels (User/Classroom/Building/Campus/NCCCS-System), points-of-contact, ransomware/phishing emergency response, and the NCCCS Cyber Incident Response Call Tree (NC Joint Cyber Security Task Force, MCNC NOC); no formal DR plan with backups/alternate processing",
+    "interdependencies_treatment": "NCCCS system-level dependencies (Colleague, IIPS, common course library, payment services); MCNC Network Operations Center; NC Joint Cyber Security Task Force; auxiliary campuses (Hoke County, Robbins Center, Larry Caddell Training Center)",
+    "unusual_decisions": [
+      {
+        "decision": "Uses a five-tier 'impact zone' escalation (User to NCCCS-system level) instead of time-based recovery objectives to drive intervention and formality",
+        "quote": "The scale of impact determines whether Intervention and Recovery involves additional guidance and /or formal procedures."
+      },
+      {
+        "decision": "Distributes the Chief Public Information Officer authority across the President and building-assigned proxies",
+        "quote": "A key figure in implementation of any portion of this plan is the Chief Public Information Officer (CPIO)—a title shared by the college President, Brenda Jackson, and her proxies in that role"
+      },
+      {
+        "decision": "Embeds a real, dated cyber incident-response example (spoofed VoIP voicemail phishing) directly into the IT sector as operational guidance",
+        "quote": "Yesterday the System Office was hit with a number of malicious emails containing malware."
+      }
+    ],
+    "analyst_notes": "A color-coded, sector/risk-based Continuity/Crisis Management Plan (six sectors), reviewed annually as part of the Strategic Plan and Policies & Procedures Manual. It organizes around likelihood-ordered risk sectors rather than essential-function inventories or time-based RTOs, assigning intervention/recovery strategies, escalating impact levels and points-of-contact per sector. Strong on risk-sector coverage, communications/call-trees, cyber incident response, NCCCS interdependencies, and an e-learning academic-continuity sector. Lacks promulgation authority, BIA, RTOs, delegations, alternate-facility strategy, vital-records management, devolution and an explicit reconstitution phase.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 13,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "texas-womans-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "activation_triggers",
+      "devolution",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "Mission-critical Information Resources and business functions identified in the Contingency Plan with associated contingency requirements; addresses maintaining essential mission and business functions despite disruption/compromise/failure"
+    ],
+    "rto_tiers": "Recovery objectives, restoration priorities and metrics provided in the Contingency Plan; recovery and reconstitution to a known state within the specified recovery time and recovery point objectives (RTO/RPO)",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Information System Backup of system-level and critical user-level information plus system/security/privacy documentation; daily/weekly/monthly backups per system; daily backups copied to an offsite backup location at a geographically independent server room",
+    "tte_cadence": "CIO tests, reassesses and maintains the Contingency Plan annually (virtual or simulated; an actual event satisfies the requirement); contingency training on assignment, on plan changes and periodically; lessons learned incorporated",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Explicit 'Information System Recovery and Reconstitution' section: recovery and reconstitution of an Information System to a known state within specified RTO/RPO; eventual full Information System restoration without deterioration of controls",
+    "academic_continuity_treatment": "Not addressed (IT/Information-System scope; instructional continuity resides in the separately-maintained TWU COOP)",
+    "it_continuity_treatment": "Entire policy is IT/Information-System contingency planning: alternate storage site, alternate telecommunications services, alternate communications protocols, information system backup, recovery and reconstitution, resilience (load-balancing, off-site replication, monitoring), aligned to NIST SP 800-53 CP controls",
+    "interdependencies_treatment": "Defines Contractors/Vendors, governmental-agency employees and TWU-Affiliated institutions in scope; alternate telecommunications via necessary agreements; coordinates contingency with incident handling",
+    "unusual_decisions": [
+      {
+        "decision": "Explicitly maps its provisions to a named, partially-adopted NIST control set, disclosing the gaps in the state's adoption",
+        "quote": "The State of Texas has chosen to adopt a select number of Contingency Planning (“CP”) principles established in NIST SP 800-53 “Contingency Planning” guidelines... so there are gaps in the numbering sequence."
+      },
+      {
+        "decision": "Counts an actual contingency activation as fulfilling the annual test requirement",
+        "quote": "If an actual event occurs that requires that the Contingency Plan be executed, that event fulfills the annual test requirement."
+      },
+      {
+        "decision": "Mandates geographically independent, access-controlled server rooms with equivalent controls at the alternate site",
+        "quote": "ITS shall maintain geographically independent server rooms where data is stored in a secure, environmentally safe, locked facility accessible only to TWU representatives."
+      }
+    ],
+    "analyst_notes": "A NIST-aligned Information System Contingency Planning regulation (URP 04.775) that is explicitly the IT/DR companion to TWU's separately-maintained Continuity of Operations Plan (held by Risk Management under URP 04.410). It cites NIST SP 800-53 CP-1 through CP-11, 1 TAC Ch. 202 and the Texas DIR Security Standards Catalog, and covers mission-critical functions, RTO/RPO, alternate storage and telecommunications sites, backups, recovery and reconstitution, training and annual testing. As an IT-DR policy it omits a CONOPS narrative, BIA (deferred to the COOP), threat assessment, succession, delegations, activation triggers, devolution and academic continuity. Strong, doctrine-grounded IT contingency coverage.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 13,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "ummc-department-disaster-business-continuity-template",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "devolution",
+      "reconstitution"
+    ],
+    "essential_functions": [
+      "(Defined, not inventoried) 'a definition of essential personnel and mission-critical functions' to be supplied by each department"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Calls for unit policies on the emergency 'chain of command' but provides no orders-of-succession structure.",
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": "Preparedness guidance directs departments to back up cultures/data and keep offsite duplicates of critical data; recovery worksheet asks 'Who is responsible for backing up vital records/information? Where are copies of information stored?' - process prompts rather than a vital-records register.",
+    "tte_cadence": "Directs that the plan be shared annually and that evacuation drills be conducted annually ('Conduct evacuation drills annually'); no broader continuity exercise program.",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Recovery section covers support services/assistance, documenting outcomes, and detailed space/equipment/personnel impact assessments to drive program restoration; framed as recovery rather than formal reconstitution.",
+    "it_continuity_treatment": "Addressed only as data/culture backup and offsite duplication within preparedness; no system contingency/IT DR plan.",
+    "interdependencies_treatment": "States UMMC is 'an interdependent community' and that department plans support the institution's Emergency Operations Plan / NIMS-based Incident Command; no dependency mapping.",
+    "unusual_decisions": [
+      {
+        "decision": "Requires managers to keep a copy of the plan at home and to brief all new personnel and re-share annually",
+        "quote": "Keep multiple copies of the Plan in accessible locations throughout the department Ensure that managers keep a copy of the Plan at home"
+      },
+      {
+        "decision": "Roots departmental continuity in NIMS and the Vice Chancellor's activation of the EOP/ICS",
+        "quote": "During a major emergency or disaster, the Vice Chancellor and his/her designee will activate the Emergency Operations Plan and the Incident Command Structure will be utilized following the National Incident Management System guidelines."
+      }
+    ],
+    "analyst_notes": "A medical-center departmental Disaster and Business Continuity Plan template organized into three phases - Preparedness, Response, Recovery - with checklists, team rosters, evacuation tools, emergency communications systems, and post-event impact assessment forms. It supports UMMC's institution-wide EOP/ICS (NIMS). Strong on personnel/team organization, communications, preparedness, response, and recovery, but as a phase-based template it lacks RTOs, a formal BIA, alternate continuity facilities, orders of succession, delegations of authority, devolution, and standards/budget detail. NIMS is referenced as the institutional ICS framework; coded as integrated departmental plan.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 13,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "university-of-texas-health-science-center-houston",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "devolution",
+      "reconstitution"
+    ],
+    "essential_functions": [
+      "UT Police (building access controls, crowd control)",
+      "Facilities (building integrity, power, debris removal)",
+      "Information Technology/Communications",
+      "Office of Public Affairs Communications Team",
+      "Environmental Health & Safety and Risk Management (sanitation, hazardous waste, insurance assessments)",
+      "Center for Laboratory Animal Medicine and Care (animal care)",
+      "Financial (procurement, billing, cash, capital assets)",
+      "Human Resources / Payroll",
+      "Medical billing",
+      "Registrar's Office (courses/grades, applications)",
+      "Auxiliary Enterprises (housing, parking, mail, shuttle, dining, bookstore)"
+    ],
+    "rto_tiers": "IT Disaster Recovery RTO under 48 hours for ~30 critical systems, RPO ranging from minutes to hours; non-critical systems vary with some rebuilds up to 30 days; plan governs the 30-day post-event window",
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Data protection via network/offsite backups and a 'Protection of Data' worksheet (network-drive saves, physically separate backups, recovery of locally retained data); asset documentation for insurance recovery; IT-DRP replicates critical systems to secondary datacenters (Guhn Rd, Arlington) or offsite backup",
+    "tte_cadence": "IT-DR maintenance schedule lists annual 'Critical system DR/end-user testing' and 'Update testing schedule' tasks with scheduled reviews; no broader BCP exercise program (tabletop/functional), training program, or after-action/improvement cycle for the BCP itself",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Not addressed as a distinct return-to-normal process; plan scope is limited to the ~30-day post-event recovery window",
+    "academic_continuity_treatment": "Limited to academic-support continuity: Registrar's Office tracks courses/grades for fulfillment of academic requirements and processes new applicants; Canvas LMS and academic systems are in the IT-DRP; no instructional pivot-to-remote plan",
+    "it_continuity_treatment": "Detailed standalone IT Disaster Recovery Plan for ~30 critical systems (PeopleSoft FMS/HRMS, COUPA, Epic EHR, Canvas) using ASP-contracted DR, secondary-datacenter replication, or offsite backup/rebuild; RTO under 48h, RPO minutes-to-hours; dedicated IT Disaster Recovery Team feeds status to Public Affairs",
+    "interdependencies_treatment": "Operational entities explicitly rely on the eleven institutional infrastructure services; functional-process tables show affected systems/impacts; critical-vendor and peer-to-peer (in/out of region) support identified in worksheets; financial transactions dependent on IT-infrastructure status",
+    "unusual_decisions": [
+      {
+        "decision": "Scopes the entire plan to the 30-day post-event window, justified by lessons from Tropical Storm Allison",
+        "quote": "Based upon the experience with Tropical Storm Allison, 30 days post event is the most critical timeframe with regard to immediate recovery decisions, resource procurement, and the establishment of temporary means and locations of essential functions."
+      },
+      {
+        "decision": "Builds the support-services BCP as paper-form 'Disaster Recovery Mode' workflows for procurement, cash, HR, payroll and asset management to run when information systems are down",
+        "quote": "In the absence of institution-wide information system access, the tables following on pages 8-12 provide an overview of the processes related to procurement, capital asset management, cash management, human resources/payroll, and Auxiliary Enterprises parking."
+      },
+      {
+        "decision": "Designates a color-coded (green/yellow/red) building-and-operational status updated twice daily during impairment",
+        "quote": "This form is to be completed by the authorized facility/operations coordinator while a facility remains in a yellow or red status and/or operations are impaired."
+      }
+    ],
+    "analyst_notes": "Read all 73 pages. This is UTHealth Houston's 'Business Continuity Plan - Infrastructure (Support Services),' a March 2025 companion to the Emergency Management Plan and IT Disaster Recovery Plan; the latter half (Appendices I-III) is operational flowcharts, disaster-preparedness/building-status worksheets, and manual finance/HR/equipment forms (the form fields seen on download). It is strong on essential infrastructure functions, business-process analysis, IT-DR with RTO/RPO, interdependencies, communications, vital-data protection, version control, and an IT testing schedule. As a deliberately narrow support-services companion document it omits a signed promulgation, a continuity CONOPS, recognized continuity-doctrine citations (only a worksheet 'adapted from ready.gov'), a threat/hazard assessment (deferred to the EMP), budgeting, orders of succession, delegations of authority, devolution, and a reconstitution/return-to-normal process.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 13,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "university-of-colorado-colorado-springs",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "interdependencies",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "academic_instructional_continuity",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "(Defined as a concept, not inventoried) 'The critical activities performed by organizations, especially after a disruption of normal activities' - examples given: ensuring public safety, maintenance/repair of infrastructure, conducting damage assessments, identifying/leasing alternative facilities, funding disaster recovery"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Defines 'Orders of Succession - Provisions for the assumption of senior university offices during an emergency in the event that any of those officials are unavailable to execute their duties' as a required element; not a populated list.",
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": "Defines 'Vital Records Management - the identification, protection and ready availability of electronic and hard copy documents, references, records, information systems, data management...' as a required element.",
+    "tte_cadence": "States the COOP 'should be tested, at a minimum, once a year' as a general principle, but no exercise program/types are defined.",
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": "Mentions continuity of student courses as a planning question ('Can we ensure accountability of students and continue student courses during a disruption?') but provides no instructional-continuity procedures.",
+    "it_continuity_treatment": "Treated within continuity-facilities/communications and vital-records definitions (information systems, data management); no standalone IT DR section.",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Explicitly warns planners not to assume the normal management hierarchy will be available and to empower alternates",
+        "quote": "It is important to remember that the normal decision-makers for a department may not be available in an emergency. It can be important to designate alternate decision-makers and ensure they are empowered to take action if necessary."
+      },
+      {
+        "decision": "Recommends scenario-agnostic (impact-based) planning rather than hazard-by-hazard planning",
+        "quote": "Planning for specific scenarios - For example, instead of planning for what to do in a flood, fire, etc., plan for what to do if your normal building was inaccessible for any reason."
+      }
+    ],
+    "analyst_notes": "A 2-page COOP 'overview' / planning-guidance document that defines what a COOP is, key planning principles, and walks through the FCD-style 'Elements of a Viable Continuity of Operations Plan' (essential functions, orders of succession, delegations of authority, continuity facilities incl. telework, continuity communications, vital records management). It is guidance for writing plans rather than a populated plan, so it presents the element keys conceptually but lacks an actual essential-functions inventory, RTOs, activation triggers, dependencies, devolution/reconstitution, and a TT&E program (annual testing is stated as a principle only).",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 12,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "chabot-las-positas-ccd",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "standards_alignment",
+      "budgeting_resources",
+      "plan_maintenance",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "devolution",
+      "academic_instructional_continuity",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Critical district services and critical application servers (Banner System and interfacing third-party apps, e-mail, Internet, Intranet, file sharing, network authentication, DNS, DHCP, network management); critical computing capabilities to be restored in an orderly course of action"
+    ],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "multiple",
+    "vital_records_approach": "Banner servers backed up to tape on full/partial schedule with tapes rotated offsite weekly, plus backup to Amazon Web Services (AWS) cloud for double redundancy; 365-day minimum retention for sensitive data; data on servers/SANs in scope",
+    "tte_cadence": "No DR plan-level training/exercise/after-action program (equipment-level checks only: generator tested monthly/weekly, fire-suppression annual testing, UPS self-tests, test/replica databases)",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Documents disaster recovery/emergency activation, execution and reconstitution procedures; defines a reconstitution mechanism to get business back to normal from a disaster-recovery state; reconstitution relies on maintenance agreements for technical expertise and spare components",
+    "academic_continuity_treatment": "Context only: notes students rely on ITS to register, conduct online instruction and communicate with faculty and that 24x7 availability became business-critical with COVID-19 remote work/learning; no instructional-continuity provisions (academic continuity is not the plan's purpose)",
+    "it_continuity_treatment": "Full operational ITS Disaster Recovery Plan: IT/network infrastructure inventory across Chabot/Las Positas/EDCE/Dublin, hardware/software redundancy, backup systems, UPS/generator power and cooling resilience, fire suppression, two service-interruption levels (predictable vs. exceptional failures), DR initiation/detection, execution and reconstitution, plus detailed server/database recovery appendices",
+    "interdependencies_treatment": "Dependencies on service providers to repair their infrastructure after an earthquake; maintenance agreements with hardware/software/infrastructure vendors for spare components and expertise; insurance carriers consulted on repair-vs-temporary-facilities decisions; Banner/third-party application interfaces",
+    "unusual_decisions": [
+      {
+        "decision": "Bounds the plan's ambition explicitly, declining to plan for district-wide catastrophe while still guiding central-computing restoration",
+        "quote": "The Disaster Recovery plan is not designed to address conditions of widespread damage throughout the District."
+      },
+      {
+        "decision": "Pairs weekly offsite tape rotation with AWS cloud backup to achieve deliberate double redundancy for the Banner system",
+        "quote": "In addition to the tape backup, the systems are backed up to Amazon Web Services (AWS) in the cloud. This provides for double redundancy in the even that a backup need to be access for file recovery."
+      },
+      {
+        "decision": "Routes the repair-versus-relocate decision through ITS management together with the District's insurance carriers",
+        "quote": "ITS management and other District management would work with the District’s insurance carriers to determine whether to pursue repair or to secure temporary facilities."
+      }
+    ],
+    "analyst_notes": "A 34-page operational ITS Disaster Recovery Plan (April 2021, submitted by the CTO) for a multi-college district, organized around response/recovery/resumption/restoration/return phases plus DR initiation and reconstitution. It is detailed on IT and facility infrastructure, redundancy (hardware, UPS/generator, cooling, fire suppression), offsite+AWS backups, threat/risk profiling (earthquake/fire/computer crime), alternate/temporary facilities and a reconstitution mechanism backed by vendor maintenance agreements. Because it is IT-DR scoped and authored as a submitted technical document, it lacks a promulgation/approval grant, named doctrine, a plan-maintenance cadence, BIA, RTO/RPO, succession, delegations, devolution, academic-continuity provisions and a DR-exercise/training program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 11,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "depaul-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "delegations_of_authority",
+      "continuity_communications",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "Essential business functions identified and prioritized per unit via the BIA (no enumerated university-wide list); units identify, document, and prioritize their key business functions"
+    ],
+    "rto_tiers": "BIA establishes 'maximum allowable downtime and recovery time objectives (RTOs) for each function' and 'acceptable level of losses and recovery point objectives (RPOs)'; no fixed tier scheme",
+    "succession_depth": null,
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": null,
+    "tte_cadence": "Annual BCP review and annual training/refresh (new staff trained annually, confirmed in a Quality Assurance Review); every two years each unit conducts a tabletop exercise/drill with a documented, retained exercise assessment",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Stated as a BCP aim ('efficiently return to normal operations') but no reconstitution process described",
+    "academic_continuity_treatment": "Requires faculty inclusion per the Faculty Handbook and applies to faculty/academic officers, but no instructional-continuity, pivot-to-remote, or academic-calendar provisions",
+    "it_continuity_treatment": "Explicitly out of scope: disaster recovery plans developed by Information Systems and Facility Operations are excluded from this policy",
+    "interdependencies_treatment": "BIA requires units to 'identify, document, and communicate interdependencies with other units or among functions within a unit' and to map critical paths/dependencies for restoring functions",
+    "unusual_decisions": [
+      {
+        "decision": "Explicitly carves IT disaster recovery, emergency response, and crisis communications out of the BCM policy's scope",
+        "quote": "Out of the scope of this policy are: Emergency response plans (defined by the Emergency Procedures and Communications Policy), Crisis management and crisis communications plans, and Disaster recovery plans (developed by Information Systems and Facility Operations)."
+      },
+      {
+        "decision": "Mandates a structured six-step BCM process (BIA, risk assessment, risk-reduction strategies, BCP development, training, biennial evaluation) for every unit",
+        "quote": "Units must complete a six-step process and annually review each step to ensure currency of plans and the unit's ability to execute the plans."
+      },
+      {
+        "decision": "Stores confidential unit BCPs in access-controlled repositories (DePaul Knowledgebase wiki or OneDrive) chosen by the unit",
+        "quote": "Since BCPs may contain information about DePaul's internal business processes that is confidential in nature the repository must also have access control."
+      }
+    ],
+    "analyst_notes": "Read all 6 pages. DePaul's Business Continuity Management Policy (effective 2021, originated 2017) is a unit-level program/policy: a responsible-officer-owned policy mandating a six-step process per unit (BIA with RTO/RPO/MTD and interdependencies, risk assessment, risk-reduction strategies, a BCP that includes succession plans and facility alternatives, annual training, biennial tabletop exercises), with access-controlled plan repositories and an annual review cycle. It is deliberately subservient to the Emergency Procedures policy and EOP, and it expressly excludes IT disaster recovery and crisis communications, so it omits a CONOPS, recognized continuity-doctrine citations, budgeting, delegations of authority, resilient continuity communications, a vital-records program, activation triggers, devolution, a reconstitution process, IT-DR, and instructional continuity. Orders of succession are present because the required BCP must include 'succession plans for individuals in leadership role or with specialized expertise.'",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 11,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "north-carolina-central-university-orcp",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "devolution"
+    ],
+    "essential_functions": [
+      "(Operational-area based, not a formal MEF list) Academic Affairs / Continuity of Instruction; Research Facilities; Enrollment & Registration; Human Resources; Information Technology Services; Facility Management & Operations; Athletics; Transportation; Housing/Residential"
+    ],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Document is a recovery-and-continuity plan for resuming/sustaining campus operations under COVID-19 (move-in and re-entry testing, return-to-work, phased resumption of services); functions as recovery/return-to-operations rather than formal post-disaster reconstitution.",
+    "academic_continuity_treatment": "'Plan for Continuity of Instruction': every course maintains a Blackboard presence with an alternative syllabus; instructional delivery modes determined per course (face-to-face, internship/practicum/clinical/lab, law clinics); enrollment/registration, teaching laboratories, and research facilities addressed; explicit commitment that neither instructional effectiveness nor safety is compromised.",
+    "it_continuity_treatment": "Information Technology Services section provides loaner equipment (PCs/Apple laptops for faculty/staff; Chromebooks for students) and electronic records/reporting systems (Medicat, Veoci); supports remote work/instruction but is not an enterprise IT DR plan.",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Treats compliance with public-health community standards as a condition of employment with a defined progressive-discipline ladder ending in termination",
+        "quote": "First offense - Supervisor will counsel employee2. Second offense - Written warning3. Third offense - 10-day suspension without pay4. Fourth offense will result in termination"
+      },
+      {
+        "decision": "Explicitly defers detailed continuity elements to a separate companion plan",
+        "quote": "Specific planning elements and policies are documented in the NCCU Pandemic and Communicable Disease Emergency Response Plan which is available upon request from ehs@nccu.edu."
+      }
+    ],
+    "analyst_notes": "NCCU's Fall 2021 COVID-19 Operations, Recovery and Continuity Plan: a 39-page pandemic operations document spanning community health standards, testing/quarantine, events, travel, HR, athletics, IT services, facilities, plus a 'Plan for Continuity of Instruction' and research-facilities operations. It is organized departmentally/by operational area rather than around mission-essential functions, and explicitly points to a separate Pandemic and Communicable Disease Emergency Response Plan for detailed planning elements. Strong on continuity of instruction, activation context (CDC/UNC System guidance), communications, personnel/HR, risk (pandemic) and reconstitution-as-return-to-operations; lacks RTOs, a BIA, succession/delegations, alternate continuity facilities, vital records, devolution, and formal continuity-standards citations.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 11,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "university-of-michigan-hrpp",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "standards_alignment",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "devolution",
+      "reconstitution",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Oversight of human research / IRB review (across IRB-HSBS, IRBMED, ORCR, Minors in Research Compliance Monitoring, HPSCRO Committee, and Coordinated Services and Practices)"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Lists department leadership and emergency contacts and designates lead emergency coordinators/planners (HRPP Director and Associate Director), but no ordered line of succession for assuming authority.",
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": "Research-continuity focus: criteria for which human-subjects studies may continue, be newly implemented, postponed, or halted during an emergency; continued/remote IRB review (remote/teleconference meetings, ad hoc meetings, consent/documentation waivers, alternate safety-monitoring mechanisms), reliance on external IRBs per master agreements, and requesting relief from federal deadlines.",
+    "it_continuity_treatment": "Identifies eResearch as U-M's electronic research administration system (eResearch Regulatory Management) as an essential resource; communications fall back to phone/video/email/in-person; no separate IT DR plan.",
+    "interdependencies_treatment": "Maps reliance on OVPR coordination, external IRBs under master agreements, federal regulatory agencies, and U-M central systems (eResearch); internal/external/research-community communication plans identify dependent stakeholders and distribution lists.",
+    "unusual_decisions": [
+      {
+        "decision": "Defines explicit clinical-risk criteria for which active studies may continue during a disruption",
+        "quote": "If the study is active, discontinuing the study would present a high degree of risk to participants(e.g., implanted device)"
+      },
+      {
+        "decision": "Plans proactively to seek regulatory relief and lean on external IRBs to sustain oversight",
+        "quote": "Contact federal agencies to request relief from deadline requirements, as appropriate."
+      }
+    ],
+    "analyst_notes": "A current (May 2025) department-level COOP for the U-M Human Research Protection Program, framed within the institutional expectation that all U-M units maintain plans covering essential functions, staffing, supplies, contract services, communications, travel, and contingency planning. Essential-functions-based and notably strong on research continuity (study triage, remote IRB operations, regulatory-relief and external-IRB strategies), communications, personnel work-redesign/redeployment, interdependencies, activation (Regents' SPG 201.27 campus-closure trigger), and annual review/maintenance. As a small administrative-unit COOP it omits RTOs, BIA, alternate physical facilities, vital records, succession/delegations, devolution, reconstitution, and a TT&E program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 11,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "university-of-notre-dame",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery"
+    ],
+    "essential_functions": [
+      "Building Service",
+      "Finance",
+      "Fire Department",
+      "Health Services",
+      "Human Resources",
+      "Landscape Services",
+      "ND Research",
+      "Office of Information Technologies",
+      "Police Department",
+      "Residence Halls",
+      "University Enterprises and Events (Campus Dining, St. Michael's Laundry, Cedar Grove)",
+      "Utilities and Maintenance",
+      "Warehouse, Delivery and Transportation"
+    ],
+    "rto_tiers": "Template requires setting 'Minimum operational levels and recovery time frames' and a 'Maximum Time to go without' the essential function; no institution-wide tier scheme",
+    "succession_depth": null,
+    "alternate_facility_model": "reciprocal-mutual-aid",
+    "vital_records_approach": null,
+    "tte_cadence": "Each required area reviews its plan and exercises it at least annually (tabletop or part of the larger University annual drill); training of affected personnel is documented; RMS coordinates the University's annual drill and reports gaps",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Framed as the program's overall purpose ('managing the University's return to an operational status after an incident') but no reconstitution process is described",
+    "academic_continuity_treatment": "Guiding principle of 'Continuity of student learning, teaching and research'; ND Research (Provost) is a required-plan department; no instructional pivot or academic-calendar provisions",
+    "it_continuity_treatment": "Office of Information Technologies is on the required-plan list and the template asks units to list 'IT Infrastructure Requirements,' but no IT disaster-recovery program, backups, or alternate processing is established",
+    "interdependencies_treatment": "Template requires documenting dependencies (power, IT, people), suppliers/contractors with MOUs or open POs, and an optional table of internal/external notification and 'response to get infrastructure back online'",
+    "unusual_decisions": [
+      {
+        "decision": "Directs that any existing policy conflicting with disruption needs be amended rather than worked around",
+        "quote": "Amending existing policies that require provisions for specific recovery situations."
+      },
+      {
+        "decision": "Provides a worked template example (campus dining producing 7,500 meals/day, fire protection) showing infrastructure, dependencies, max time without, and get-back-online actions",
+        "quote": "Produce at least 7,500 meals per day ... 2 days ... Buy food from another company - list vendor"
+      },
+      {
+        "decision": "Centralizes storage of all departmental plans with Risk Management and Safety while units also retain their own copies",
+        "quote": "Risk Management and Safety shall maintain copies of the business continuity plans for each division and department required to maintain/develop one."
+      }
+    ],
+    "analyst_notes": "Read all 7 pages. Notre Dame's Business Continuity Program (SAFE028, August 2021) is a short framework/policy document plus a BCP template: it names owners and an approval date, requires 13 listed departments to build/maintain/test plans annually, defines mission-critical functions, and supplies a template covering essential functions, dependencies/suppliers (MOUs), recovery time frames, a communications plan, and outsource options. It deliberately focuses 'on critical functions rather than incident causation,' so it omits a CONOPS, recognized continuity-doctrine citations, a threat/risk assessment, succession, delegations of authority, a vital-records program, activation triggers, devolution, a reconstitution process, and an IT disaster-recovery program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 11,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "appalachian-state-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "budgeting_resources",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "vital_records_management",
+      "devolution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": "At least annual review; plan testing plus training and exercises occur in Phase I (Readiness & Preparedness).",
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Phase IV Reconstitution: return to original facility/staffing, relocate long-term if needed, and review how well the plan worked using team feedback.",
+    "academic_continuity_treatment": null,
+    "it_continuity_treatment": null,
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Organizes the entire unit-COOP program explicitly around the four FEMA continuity phases.",
+        "quote": "There are four phases of the continuity process, beginning with developing your COOP and training to stay prepared."
+      },
+      {
+        "decision": "Explicitly equates COOP and Business Continuity Plan terminology for its campus audience.",
+        "quote": "A Continuity of Operations Plan (COOP), also known as a Business Continuity Plan (BCP) is a collection of resources, actions, procedures, and information that is developed, tested and kept ready in the event of a disruption of operations."
+      }
+    ],
+    "analyst_notes": "Read in full (HTML program page). App State's Emergency Preparedness office runs a phase-based COOP program that pushes operational planning down to departments via a Quick Start Guide, so coop_treatment is 'program'. The page thoroughly describes the four phases, essential-function prioritization, alternate/telework operations, activation, and reconstitution, but as a program landing page it does not itself contain a BIA, RTOs, succession/delegation tables, or vital-records detail — those live in the unit plans.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 10,
+    "benchmark_band": "10-14"
+  },
+  {
+    "plan_id": "california-state-university-chico",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "budgeting_resources",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "continuity_communications",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "Departments providing services essential to the mission (determined by the Business Continuity Steering Committee); each department lists its own essential functions/critical processes in Chico Ready"
+    ],
+    "rto_tiers": "Function impact/criticality ratings: 1 = Must Continue (Life, Health, Security); 2 = Must Continue in reduced mode; 3 = Pause if forced but must resume within 30 days; D = Deferrable; NA = Not applicable",
+    "succession_depth": null,
+    "alternate_facility_model": null,
+    "vital_records_approach": null,
+    "tte_cadence": "Per EO 1014: a portion of each plan tested every year, with the entire plan tested once every 7 years; Risk Management provides training to each identified department",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Not addressed",
+    "academic_continuity_treatment": "Not addressed (generic essential-services framing; no instructional continuity)",
+    "it_continuity_treatment": "Not addressed (planning scenarios include operating without electricity/staffing/facility, but no IT disaster recovery)",
+    "interdependencies_treatment": "Worksheet flags impact on Vendors and mitigation of loss of power/facility, but no dependency mapping",
+    "unusual_decisions": [
+      {
+        "decision": "Delivers the entire continuity capability through a commercial planning platform (Kuali/Chico Ready) with step-by-step department self-service",
+        "quote": "The software program, Chico Ready, provides step by step instructions to assist each user in planning for continuity of operations without Electricity, Adequate Staffing or Facility/Building."
+      },
+      {
+        "decision": "Codifies a tiered testing obligation (annual partial / 7-year full) drawn from the CSU executive order",
+        "quote": "EO 1014 requires that a portion of each plan is tested every year, with the entire plan being tested once every 7 years."
+      },
+      {
+        "decision": "Requires a physical signed cover page routed to Risk Management to formalize each departmental plan",
+        "quote": "The Department head or designee will need to: 1. Print a copy of the plan 2. Sign and date the first page of the printed plan. 3. Forward a copy of the signed cover page to Risk Management."
+      }
+    ],
+    "analyst_notes": "A short program-overview / how-to deck (22 slides) for CSU Chico's Business Continuity Program, framed entirely around CSU Executive Order 1014's seven program elements and executed through the Kuali 'Chico Ready' software. It is a programmatic framework, not an operational plan, so it covers governance well (EO 1014 authority, BIA/Risk worksheet with criticality tiers, departmental essential functions, training, plan review/renewal, and tiered testing) but omits operational COOP elements such as CONOPS, succession, delegations, alternate facilities, continuity communications, vital records, activation, devolution, reconstitution, IT-DR and academic continuity, which would reside in individual departmental plans.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 9,
+    "benchmark_band": "5-9"
+  },
+  {
+    "plan_id": "georgia-tech-business-continuity-policy",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "continuity_communications",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [
+      "Critical functions identified and documented by each Unit and categorized by OEM-established levels of criticality (ranking/ordering standard)"
+    ],
+    "rto_tiers": "OEM establishes a standard for ranking/ordering critical functions by criticality; strategies for prioritizing, maintaining and/or resuming functions; no RTO/RPO/MTD times",
+    "succession_depth": null,
+    "alternate_facility_model": null,
+    "vital_records_approach": null,
+    "tte_cadence": "Each Unit conducts and documents at least one continuity exercise annually with after-action review and lessons learned (a real-world interruption may substitute); OEM conducts training for Continuity Plan Owners and Managers; Crisis Management Team participates in annual exercises",
+    "devolution_treatment": "Not addressed",
+    "reconstitution_treatment": "Recovery strategies/plans and 'resuming those functions' referenced in definitions, but no reconstitution/return-to-normal process",
+    "academic_continuity_treatment": "Schools and research institutes are scoped as 'Units' that must plan, but no instructional-continuity provisions",
+    "it_continuity_treatment": "Policy requires Units to develop, maintain and exercise business continuity AND disaster recovery plans; no IT-DR technical detail (set by OEM standard system)",
+    "interdependencies_treatment": "Mitigation strategies for each critical function must consider 'loss of infrastructure, loss of personnel, loss of financial resources, and dependencies'",
+    "unusual_decisions": [
+      {
+        "decision": "Lets a documented real-world interruption with an after-action review substitute for the required annual continuity exercise",
+        "quote": "In lieu of an exercise, Units may use real-word incidents that caused an interruption to the Unit’s critical functions. Units should still document the incident with an after-action review and incorporate appropriate lessons learned into their continuity plan."
+      },
+      {
+        "decision": "Centralizes a single criticality-ranking standard at OEM that every Unit must use, enforcing comparability across the institute",
+        "quote": "OEM shall establish a standard for ranking/ordering critical functions based on criticality and all Units shall use this same standard when identifying their critical functions."
+      },
+      {
+        "decision": "Makes the Crisis Management Team responsible for forcing resource allocation to bring lapsed unit plans into compliance",
+        "quote": "Ensures that Units with expired plans or with significant planning gaps prioritize the review of their plans and allocate appropriate resources to bring their plans into compliance."
+      }
+    ],
+    "analyst_notes": "A concise governance policy (approved by the Policy Steering Committee, October 2023) that sets institute-wide requirements for unit-level business continuity and disaster recovery planning rather than operational procedures. It mandates identification/criticality-ranking of critical functions, mitigation strategies considering dependencies, designated Continuity Plan Managers, annual exercises with after-action reviews, and annual maintenance under OEM oversight, with leadership resourcing. As a requirements policy it omits a CONOPS, named doctrine, BIA, RTOs, risk assessment, succession, delegations, alternate facilities, continuity communications, vital records, activation triggers, devolution, reconstitution and academic continuity, all of which are pushed down to the unit plans the policy requires.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 8,
+    "benchmark_band": "5-9"
+  },
+  {
+    "plan_id": "illinois-valley-community-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "standards_alignment",
+      "budgeting_resources",
+      "essential_functions",
+      "business_impact_analysis",
+      "risk_threat_assessment",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "continuity_personnel",
+      "devolution",
+      "it_disaster_recovery",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [],
+    "rto_tiers": "Time-graduated instructional response tiers: disruption lasting 1-5 days (college-wide + instructor communication); 6-10 days (add delivery of online content via email/Blackboard/faculty web pages/alternate CMS); 10+ days (administration determines viability of the semester and delivery mode).",
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": "Faculty quick reference for the Continuity of Academic Operations Plan (CAOP): syllabus CAOP statement, use of the LMS (auto-created course sites per class), tiered continuity-of-instruction timelines, and behavior when internet is/is not available; CAOP can change syllabi, assignments, assessment, evaluation, and grades.",
+    "it_continuity_treatment": "Relies on the LMS, IVCC website, email and automated phone messaging for academic continuity; CETLA support to ensure faculty can access LMS tools; no enterprise IT DR.",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Activation of academic continuity is strictly subordinate to a formal Emergency Response Plan activation",
+        "quote": "The CAOP is activated only after college officials have declared an emergency and activated the college's Emergency Response Plan (ERP). The CAOP will not be activated without an official ERP activation."
+      },
+      {
+        "decision": "Sets a hard threshold at which the institution decides whether the semester is salvageable",
+        "quote": "Should a disruption last 10 or more days, IVCC administration will determine the viability of the semester and classes delivered in any mode."
+      }
+    ],
+    "analyst_notes": "A 2-page faculty quick reference to IVCC's Continuity of Academic Operations Plan (CAOP), explicitly activated only after the college's Emergency Response Plan is activated (clear activation trigger / decision authority). Strong, distinctive feature is the day-count tiered instructional-response model (1-5 / 6-10 / 10+ days) functioning as a priority/recovery-tier scheme, plus LMS-based delivery and resilient communications. As an academic-continuity document it legitimately omits essential-functions inventory, BIA, threat assessment, succession, facilities, vital records, dedicated continuity team, devolution, IT DR, and a TT&E program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 7,
+    "benchmark_band": "5-9"
+  },
+  {
+    "plan_id": "canada-college",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "departmental",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "concept_of_operations",
+      "budgeting_resources",
+      "plan_maintenance",
+      "essential_functions",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "continuity_personnel",
+      "activation_triggers",
+      "devolution",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": "Section 10 'Recovery and Resumption of On-Campus Instruction' describes a gradual return to in-person instruction with revised course structures, extended timelines, and student support services to help students catch up.",
+    "academic_continuity_treatment": "Core of the document: transition to online/remote learning via Canvas and Zoom, alternative assignments and assessments, flexible deadlines, equitable technology access (laptops, tablets, Wi-Fi hotspots), continued academic/student services (tutoring, library, advising), backup plans for technology failures, and faculty training/support; grounded in CA Education Code (§70902(b), §84810), Title 5 (§55002, §55200), and ACCJC instructional-hour standards.",
+    "it_continuity_treatment": "Online platforms (Canvas/Zoom) plus backup options for technology failures (phone-based learning, email-based assignments, faculty tech support); no enterprise IT DR.",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Anchors instructional continuity to specific California Education Code / Title 5 instructional-hour and emergency-adjustment provisions to protect state apportionment",
+        "quote": "Lost instructional hours risk loss of state funding (apportionment) unless alternatives (e.g., online instruction) are used to meet the minimum hours."
+      },
+      {
+        "decision": "Makes equitable technology access an explicit continuity requirement",
+        "quote": "Colleges must ensure that all students, especially those lacking resources for remote learning, have access to technology such as laptops, tablets, and Wi-Fi hotspots."
+      }
+    ],
+    "analyst_notes": "A DRAFT (1.16.2025) academic/instructional-continuity plan focused entirely on keeping instruction running during emergencies: remote-learning transition, alternative assignments/assessments, equitable access, communication channels, technology-failure backups, faculty support, and recovery/resumption of on-campus instruction. Standards alignment is present but it is academic-regulatory (CA Ed Code, Title 5, ACCJC) rather than continuity standards (FCD/NIST/ISO). As an academic-continuity plan it is strong on instruction and recovery but legitimately omits essential-functions inventory, BIA, RTOs, threat assessment, succession, facilities, vital records, dedicated continuity personnel/team, and a TT&E program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 5,
+    "benchmark_band": "5-9"
+  },
+  {
+    "plan_id": "lsu-academic-continuity-plan",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "phase-based",
+    "coop_treatment": "separate",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "concept_of_operations",
+      "budgeting_resources",
+      "plan_maintenance",
+      "essential_functions",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "continuity_personnel",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": "telework-distributed",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": "Detailed instructional-continuity guidance: campus-closure communication, OAA email to faculty, required syllabus emergency-preparedness statement, and a menu of options (new independent asynchronous assignment, asynchronous recorded Zoom session, synchronous LSU virtual platform, incompletes, adjusting due dates); explicit handling of labs and online students elsewhere in the world; continuation of research mentioned; tied to PS 45 (engaged learning time) and PS 117 (make-up solution).",
+    "it_continuity_treatment": "Uses Moodle/Zoom/Teams for instruction and accessibility tooling (Ally captioning); notes power/internet outages may impair online delivery and trigger PS 117 makeup days; no enterprise IT DR.",
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Primary stated objective is to avoid weekend/break make-up classes by pivoting modality instead of cancelling",
+        "quote": "An important objective is to avoid the necessity for make-up classes on weekends or during planned breaks."
+      },
+      {
+        "decision": "Builds disability accommodations directly into the modality-shift plan, noting machine captioning is insufficient for compliance",
+        "quote": "Please note that machine captioning does not meet the threshold for accessibility compliance. For live (synchronous) meetings, there may be need for live captioning or ASL interpreter (based upon student accommodation needs)."
+      }
+    ],
+    "analyst_notes": "A focused academic-continuity plan (Office of Academic Affairs) covering continuation of LSU's academic mission during campus closures: communication flow, contingency-planning expectations for faculty, a syllabus statement template, concrete instructional-delivery options, and a substantial accessibility/accommodations section. Standards alignment is to LSU policy statements (PS 45/PS 117) governing instructional time and make-up, which counts. As an academic-continuity plan it intentionally omits essential-functions inventory, BIA, RTOs, succession, facilities, vital records, dedicated continuity team, devolution/reconstitution, IT DR, and a TT&E program.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 5,
+    "benchmark_band": "5-9"
+  },
+  {
+    "plan_id": "loyola-university-maryland",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "essential-functions-based",
+    "coop_treatment": "integrated",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "plan_maintenance",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [
+      "Health and safety of students, faculty, staff, and visitors",
+      "Delivery of teaching/learning and other student-related services",
+      "Continuation of research and maintenance of research infrastructure",
+      "Security and preservation of University facilities and equipment",
+      "Maintenance of support for partnerships with the community"
+    ],
+    "rto_tiers": null,
+    "succession_depth": "Critical Operations table provides only an 'Alternate Person #1' column per essential operation; no leadership orders of succession.",
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": "Listed only at the institutional-priority level ('Delivery of teaching/learning and other student-related services'; 'Continuation of research and maintenance of research infrastructure'); no instructional-continuity procedures.",
+    "it_continuity_treatment": null,
+    "interdependencies_treatment": "Resources/Supplies and Services tables prompt for current and alternate internal/external suppliers and service providers, but no dependency mapping is completed in the template.",
+    "unusual_decisions": [
+      {
+        "decision": "States the system-agnostic continuity design principle as a header on the Critical Operations page",
+        "quote": "Department plans should be prepared with the goal of enabling the University's essential functions to continue regardless of whether or not systems are operational, facilities and infrastructure services are available, or other organizations are viable."
+      }
+    ],
+    "analyst_notes": "A short (6-page) fill-in departmental BCP template from EHS, organized around critical/essential operations in order of importance with responsible person and alternate, a high-priority readiness checklist, and essential resources/supplies/services tables. It is almost entirely blank fields, so most program elements (RTO, vital records, IT DR, succession, activation triggers, maintenance) are not substantively present; it carries an institutional-priorities statement and a department-chair approval signature block. Coded honestly as a thin template.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 4,
+    "benchmark_band": "0-4"
+  },
+  {
+    "plan_id": "texas-am-university",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "unclear",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "concept_of_operations",
+      "standards_alignment",
+      "budgeting_resources",
+      "essential_functions",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "continuity_communications",
+      "vital_records_management",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity"
+    ],
+    "essential_functions": [],
+    "rto_tiers": null,
+    "succession_depth": null,
+    "alternate_facility_model": null,
+    "vital_records_approach": null,
+    "tte_cadence": null,
+    "devolution_treatment": null,
+    "reconstitution_treatment": null,
+    "academic_continuity_treatment": null,
+    "it_continuity_treatment": null,
+    "interdependencies_treatment": null,
+    "unusual_decisions": [
+      {
+        "decision": "Defines a fixed 3-month, 7-step department onboarding workflow culminating in submission into a records system (Laserfiche)",
+        "quote": "Submit the completed continuity plan to the Business Continuity Program Coordinator. The Office of Safety and Security will review your continuity plan and give you the go-ahead to have your plan signed by your department head."
+      }
+    ],
+    "analyst_notes": "This is a single-page 'Continuity Planning Quick Start Guide,' not a continuity plan itself - it describes the institutional program process for departments (designate a liaison, attend a workshop, draft with stakeholders, route for review/approval, submit to Laserfiche). It evidences a program with required review, department-head approval (promulgation), and a coordinator role, but contains none of the substantive plan components. Coded as coop_treatment=program; the only present benchmarks are the program/promulgation and plan-maintenance-via-review references plus the definition of a continuity plan; nearly all element keys are missing because the document is a process guide.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 4,
+    "benchmark_band": "0-4"
+  },
+  {
+    "plan_id": "texas-tech-university-system",
+    "read_confidence": "high",
+    "organizing_structure_confirmed": "FCD-element-based",
+    "coop_treatment": "program",
+    "benchmark_missing": [
+      "continuity_policy_promulgation",
+      "standards_alignment",
+      "budgeting_resources",
+      "plan_maintenance",
+      "essential_functions",
+      "business_impact_analysis",
+      "recovery_time_objectives",
+      "risk_threat_assessment",
+      "interdependencies",
+      "orders_of_succession",
+      "delegations_of_authority",
+      "continuity_facilities",
+      "continuity_communications",
+      "vital_records_management",
+      "continuity_personnel",
+      "activation_triggers",
+      "devolution",
+      "reconstitution",
+      "it_disaster_recovery",
+      "academic_instructional_continuity",
+      "tests_training_exercises"
+    ],
+    "essential_functions": [],
+    "rto_tiers": "Generic guidance only ('full operational capability for essential functions no later than 12 hours after activation... sustain operations for up to 30 days, 60 days during a Pandemic'); no institution-specific RTO/RPO/MTD",
+    "succession_depth": null,
+    "alternate_facility_model": "none-stated",
+    "vital_records_approach": "Names 'Essential Records' as one of the 10 elements but provides no TTU-System vital-records identification, protection, or access provisions",
+    "tte_cadence": "Advocates TT&E generically as Program Phase 5 and a planning consideration ('regularly scheduled testing, training & exercising'); no TTU-System cadence, exercise types, or after-action process",
+    "devolution_treatment": "Named as element 8 ('Devolution of control') with no TTU-System provisions",
+    "reconstitution_treatment": "Named as element 9 and Phase 7 ('Implementation of reconstitution and devolution if necessary') with no TTU-System provisions",
+    "academic_continuity_treatment": "Not addressed beyond listing Provost/CAO as example COOP-team contributors",
+    "it_continuity_treatment": "Not addressed",
+    "interdependencies_treatment": "Not addressed (BPA named as a Phase-2 activity but no dependency mapping)",
+    "unusual_decisions": [],
+    "analyst_notes": "Read all 15 slides. This artifact is not an operational continuity plan: it is a 2017 PowerPoint 'Continuity of Operations (COOP) Program Overview' by Kyle Gunn, Assistant Director, Office of Risk Management, that teaches what a COOP is. It enumerates the 10 FEMA/FCD continuity elements and a 7-phase program-development model and gives a Wisconsin-fire activation example, but contains no Texas Tech University System-specific provisions for any element. I therefore code only the program concept of operations (the lifecycle/program model) as present and list the remaining 21 components as missing because they are described generically rather than established for the institution. Data-quality flag: the source document_type ('full-coop') does not match this awareness/training deck.",
+    "date_coded": "2026-06-17",
+    "benchmark_present": 1,
+    "benchmark_band": "0-4"
+  }
+]

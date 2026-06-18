@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://campuscooparchive.org/schema/plan.schema.json",
+  "title": "Campus COOP Archive — Plan Record",
+  "description": "One record per publicly published higher-education continuity plan. Every record must be traceable to a primary source a skeptic can check. Sibling schema to the Higher Ed EOP Atlas, adapted for continuity (COOP/BCP/academic-continuity/IT-DR).",
+  "type": "object",
+  "required": [
+    "plan_id",
+    "institution_name",
+    "state",
+    "control",
+    "institution_type",
+    "plan_type",
+    "document_type",
+    "source_url",
+    "landing_page_url",
+    "evidence_quote",
+    "verification",
+    "date_accessed"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "plan_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable kebab-case slug, normally the institution slug; suffixed when an institution has multiple plans (e.g. 'yale-university-bcp', 'yale-university-itdr')."
+    },
+    "institution_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Kebab-case slug of the institution; joins to institutions.json."
+    },
+    "institution_name": { "type": "string", "minLength": 2 },
+    "state": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "USPS two-letter code (50 states + DC). Non-US is out of scope."
+    },
+    "city": { "type": ["string", "null"] },
+    "control": {
+      "type": "string",
+      "enum": ["public", "private-nonprofit", "private-for-profit"]
+    },
+    "institution_type": {
+      "type": "string",
+      "enum": [
+        "R1 university", "R2 university", "regional public university",
+        "community college", "technical college", "liberal arts college",
+        "HBCU", "HSI", "tribal college", "system office",
+        "religiously affiliated university", "specialized institution",
+        "other public", "other private"
+      ]
+    },
+    "system_affiliation": {
+      "type": ["string", "null"],
+      "description": "Parent system/district if any (e.g. 'University System of Georgia', 'California Community Colleges')."
+    },
+    "enrollment": {
+      "type": ["integer", "null"],
+      "description": "Approximate total enrollment, if readily sourced."
+    },
+    "plan_type": {
+      "type": "string",
+      "enum": [
+        "Continuity of Operations Plan (COOP)",
+        "Business Continuity Plan (BCP)",
+        "Business Continuity Program",
+        "Continuity Plan",
+        "Continuity of Instruction / Academic Continuity Plan",
+        "IT Disaster Recovery Plan",
+        "IT Continuity Plan",
+        "Continuity of Operations Guide/Template"
+      ],
+      "description": "The plan's own genre label."
+    },
+    "document_type": {
+      "type": "string",
+      "enum": [
+        "full-coop",
+        "business-continuity-framework",
+        "department-level",
+        "academic-continuity",
+        "it-dr",
+        "template"
+      ],
+      "description": "Structural classifier used to segment scores fairly. See taxonomies.md."
+    },
+    "organizing_structure": {
+      "type": "string",
+      "enum": [
+        "essential-functions-based",
+        "FCD-element-based",
+        "phase-based",
+        "departmental",
+        "unclear"
+      ]
+    },
+    "framework_alignment": {
+      "type": ["string", "null"],
+      "description": "Free-text list of frameworks the plan cites/aligns to (e.g. 'FEMA CGC; NIMS; ISO 22301')."
+    },
+    "recency_year": {
+      "type": ["integer", "null"],
+      "minimum": 1995,
+      "maximum": 2026,
+      "description": "Most recent public version year, if stated."
+    },
+    "published_revised": {
+      "type": ["string", "null"],
+      "description": "As-stated published/revised label (e.g. 'Revised March 2024')."
+    },
+    "version": { "type": ["string", "null"] },
+    "file_format": {
+      "type": "string",
+      "enum": ["PDF", "HTML", "DOCX", "other"],
+      "default": "PDF"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct link to the document (or the plan page for HTML plans) on an official institutional host."
+    },
+    "landing_page_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "The official page that hosts/links the document."
+    },
+    "evidence_quote": {
+      "type": "string",
+      "minLength": 8,
+      "description": "Verbatim excerpt copied from the document or its official page proving it is what we say it is. NEVER invented."
+    },
+    "verification": {
+      "type": "string",
+      "enum": ["opened-and-confirmed", "link-only"],
+      "description": "'opened-and-confirmed' if the document/page was actually rendered and the quote read directly; 'link-only' if the URL resolves on an official host but the bytes were not personally rendered."
+    },
+    "date_accessed": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD) the record was checked."
+    },
+    "catalog_notes": {
+      "type": ["string", "null"],
+      "description": "Short curatorial note (review cycle, approver, scope caveats)."
+    },
+
+    "identifies_essential_functions": { "type": "boolean", "default": false },
+    "business_impact_analysis": { "type": "boolean", "default": false },
+    "orders_of_succession": { "type": "boolean", "default": false },
+    "delegations_of_authority": { "type": "boolean", "default": false },
+    "alternate_facilities": { "type": "boolean", "default": false },
+    "continuity_communications": { "type": "boolean", "default": false },
+    "vital_records": { "type": "boolean", "default": false },
+    "defines_rto": { "type": "boolean", "default": false },
+    "tt_e_program": { "type": "boolean", "default": false },
+    "devolution": { "type": "boolean", "default": false },
+    "reconstitution": { "type": "boolean", "default": false },
+    "addresses_academic_continuity": { "type": "boolean", "default": false },
+    "addresses_it_dr": { "type": "boolean", "default": false },
+    "references_fcd1": { "type": "boolean", "default": false },
+    "references_nist80034": { "type": "boolean", "default": false },
+    "references_iso22301": { "type": "boolean", "default": false },
+    "public_redacted_version": { "type": "boolean", "default": false },
+
+    "source_lane": {
+      "type": ["string", "null"],
+      "description": "Which discovery lane / raw file this record came from (provenance)."
+    }
+  }
+}

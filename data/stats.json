@@ -1,0 +1,195 @@
+{
+  "generated_from": "data/raw/*.json",
+  "totals": {
+    "plans": 210,
+    "institutions": 207,
+    "states_covered": 48,
+    "opened_and_confirmed": 175,
+    "link_only": 35,
+    "deep_coded": 40,
+    "mean_benchmark": 13.1
+  },
+  "by_state": {
+    "CA": 21,
+    "TX": 19,
+    "MA": 12,
+    "NC": 11,
+    "VA": 11,
+    "NY": 10,
+    "FL": 9,
+    "GA": 8,
+    "OH": 7,
+    "IL": 6,
+    "MD": 6,
+    "MS": 5,
+    "PA": 5,
+    "CO": 4,
+    "MI": 4,
+    "RI": 4,
+    "WI": 4,
+    "AL": 3,
+    "AZ": 3,
+    "CT": 3,
+    "IN": 3,
+    "KS": 3,
+    "KY": 3,
+    "MN": 3,
+    "MT": 3,
+    "NJ": 3,
+    "SC": 3,
+    "TN": 3,
+    "WA": 3,
+    "AR": 2,
+    "IA": 2,
+    "LA": 2,
+    "MO": 2,
+    "ND": 2,
+    "NH": 2,
+    "OR": 2,
+    "UT": 2,
+    "WV": 2,
+    "AK": 1,
+    "DC": 1,
+    "DE": 1,
+    "ID": 1,
+    "NE": 1,
+    "NM": 1,
+    "NV": 1,
+    "OK": 1,
+    "SD": 1,
+    "VT": 1
+  },
+  "by_institution_type": {
+    "R1 university": 91,
+    "regional public university": 36,
+    "R2 university": 14,
+    "HBCU": 12,
+    "HSI": 11,
+    "community college": 11,
+    "religiously affiliated university": 9,
+    "specialized institution": 8,
+    "system office": 8,
+    "technical college": 3,
+    "tribal college": 3,
+    "liberal arts college": 2,
+    "other private": 1,
+    "other public": 1
+  },
+  "by_control": {
+    "public": 172,
+    "private-nonprofit": 38
+  },
+  "by_plan_type": {
+    "Continuity of Operations Plan (COOP)": 82,
+    "Business Continuity Plan (BCP)": 39,
+    "Business Continuity Program": 32,
+    "Continuity Plan": 18,
+    "Continuity of Instruction / Academic Continuity Plan": 13,
+    "Continuity of Operations Guide/Template": 13,
+    "IT Disaster Recovery Plan": 7,
+    "IT Continuity Plan": 6
+  },
+  "by_document_type": {
+    "business-continuity-framework": 123,
+    "full-coop": 31,
+    "template": 18,
+    "academic-continuity": 14,
+    "it-dr": 14,
+    "department-level": 10
+  },
+  "by_organizing_structure": {
+    "essential-functions-based": 115,
+    "departmental": 49,
+    "phase-based": 24,
+    "unclear": 13,
+    "FCD-element-based": 9
+  },
+  "by_verification": {
+    "opened-and-confirmed": 175,
+    "link-only": 35
+  },
+  "by_file_format": {
+    "HTML": 136,
+    "PDF": 70,
+    "DOCX": 4
+  },
+  "framework_flags": {
+    "identifies_essential_functions": 183,
+    "business_impact_analysis": 52,
+    "orders_of_succession": 41,
+    "delegations_of_authority": 29,
+    "alternate_facilities": 71,
+    "continuity_communications": 102,
+    "vital_records": 47,
+    "defines_rto": 42,
+    "tt_e_program": 92,
+    "devolution": 3,
+    "reconstitution": 80,
+    "addresses_academic_continuity": 70,
+    "addresses_it_dr": 84,
+    "references_fcd1": 3,
+    "references_nist80034": 0,
+    "references_iso22301": 1,
+    "public_redacted_version": 2
+  },
+  "deep": {
+    "deep_coded": 40,
+    "discovery_only": 170,
+    "mean_benchmark": 13.1,
+    "score_band_distribution": {
+      "0-4": 3,
+      "5-9": 5,
+      "10-14": 17,
+      "15-19": 9,
+      "20-22": 6
+    },
+    "mean_by_document_type": {
+      "full-coop": {
+        "n": 12,
+        "mean": 15.5
+      },
+      "template": {
+        "n": 9,
+        "mean": 12.6
+      },
+      "business-continuity-framework": {
+        "n": 9,
+        "mean": 13.1
+      },
+      "it-dr": {
+        "n": 5,
+        "mean": 13.4
+      },
+      "academic-continuity": {
+        "n": 4,
+        "mean": 7.0
+      },
+      "department-level": {
+        "n": 1,
+        "mean": 11.0
+      }
+    },
+    "mean_by_organizing_structure": {
+      "essential-functions-based": {
+        "n": 20,
+        "mean": 14.2
+      },
+      "phase-based": {
+        "n": 9,
+        "mean": 13.1
+      },
+      "departmental": {
+        "n": 6,
+        "mean": 12.2
+      },
+      "FCD-element-based": {
+        "n": 3,
+        "mean": 9.7
+      },
+      "unclear": {
+        "n": 2,
+        "mean": 9.0
+      }
+    }
+  }
+}

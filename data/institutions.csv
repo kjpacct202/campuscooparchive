@@ -1,0 +1,208 @@
+institution_id,institution_name,state,city,control,institution_type,system_affiliation,enrollment,plan_count,best_verification,most_recent_year
+alabama-a-m-university,Alabama A&M University,AL,Normal,public,HBCU,State of Alabama,6000,1,opened-and-confirmed,
+alcorn-state-university,Alcorn State University,MS,Lorman,public,HBCU,State of Mississippi (IHL),3500,1,opened-and-confirmed,2021
+appalachian-state-university,Appalachian State University,NC,Boone,public,regional public university,University of North Carolina System,21000,1,opened-and-confirmed,2023
+arizona-state-university,Arizona State University,AZ,Tempe,public,R1 university,Arizona Board of Regents,145000,1,opened-and-confirmed,2025
+athens-technical-college,Athens Technical College,GA,Athens,public,technical college,Technical College System of Georgia,,1,opened-and-confirmed,2025
+binghamton-university,Binghamton University,NY,Binghamton,public,R1 university,State University of New York (SUNY),18000,1,opened-and-confirmed,2026
+boise-state-university,Boise State University,ID,Boise,public,R2 university,Idaho State Board of Education,27000,1,opened-and-confirmed,2020
+boston-college,Boston College,MA,Chestnut Hill,private-nonprofit,religiously affiliated university,,15000,2,opened-and-confirmed,2015
+boston-university,Boston University,MA,Boston,private-nonprofit,R1 university,,37000,1,opened-and-confirmed,
+bowie-state-university,Bowie State University,MD,Bowie,public,HBCU,University System of Maryland,6300,1,opened-and-confirmed,
+brown-university,Brown University,RI,Providence,private-nonprofit,R1 university,,11000,1,opened-and-confirmed,
+ca-ada-college,Cañada College,CA,Redwood City,public,community college,San Mateo County Community College District / California Community Colleges,,1,opened-and-confirmed,2025
+california-polytechnic-state-university-san-luis-obispo,"California Polytechnic State University, San Luis Obispo",CA,San Luis Obispo,public,regional public university,California State University,22000,1,opened-and-confirmed,
+california-state-university-bakersfield,"California State University, Bakersfield",CA,Bakersfield,public,regional public university,California State University,11000,1,opened-and-confirmed,2023
+california-state-university-chico,"California State University, Chico",CA,Chico,public,regional public university,California State University,14000,1,opened-and-confirmed,
+california-state-university-east-bay,"California State University, East Bay",CA,Hayward,public,regional public university,California State University,13000,1,opened-and-confirmed,
+california-state-university-fullerton,"California State University, Fullerton",CA,Fullerton,public,HSI,California State University System,45000,1,opened-and-confirmed,2026
+california-state-university-long-beach,"California State University, Long Beach",CA,Long Beach,public,HSI,California State University System,39000,1,opened-and-confirmed,
+california-state-university-maritime-academy,California State University Maritime Academy,CA,Vallejo,public,specialized institution,California State University,800,1,opened-and-confirmed,2018
+california-state-university-monterey-bay,"California State University, Monterey Bay",CA,Seaside,public,HSI,California State University,7000,1,opened-and-confirmed,
+california-state-university-sacramento,"California State University, Sacramento",CA,Sacramento,public,regional public university,California State University,31000,1,opened-and-confirmed,
+california-state-university-stanislaus,"California State University, Stanislaus",CA,Turlock,public,regional public university,California State University,10000,1,opened-and-confirmed,2026
+carnegie-mellon-university,Carnegie Mellon University,PA,Pittsburgh,private-nonprofit,R1 university,,16000,1,opened-and-confirmed,2026
+case-western-reserve-university,Case Western Reserve University,OH,Cleveland,private-nonprofit,R1 university,,12000,1,link-only,2025
+central-georgia-technical-college,Central Georgia Technical College,GA,Warner Robins,public,technical college,Technical College System of Georgia,8000,1,opened-and-confirmed,2024
+chabot-las-positas-community-college-district,Chabot-Las Positas Community College District,CA,Dublin,public,community college,California Community Colleges,,1,opened-and-confirmed,2021
+clemson-university,Clemson University,SC,Clemson,public,R1 university,,28000,1,opened-and-confirmed,2021
+cleveland-state-university,Cleveland State University,OH,Cleveland,public,regional public university,,15000,1,link-only,2025
+coastal-carolina-university,Coastal Carolina University,SC,Conway,public,regional public university,,11000,1,link-only,
+colorado-state-university,Colorado State University,CO,Fort Collins,public,R1 university,Colorado State University System,33500,1,link-only,
+columbia-university,Columbia University,NY,New York,private-nonprofit,R1 university,,36000,1,opened-and-confirmed,2013
+coppin-state-university,Coppin State University,MD,Baltimore,public,HBCU,University System of Maryland,2000,1,opened-and-confirmed,
+cornell-university,Cornell University,NY,Ithaca,private-nonprofit,R1 university,,26000,1,opened-and-confirmed,2020
+dartmouth-college,Dartmouth College,NH,Hanover,private-nonprofit,R1 university,,6700,1,opened-and-confirmed,2026
+depaul-university,DePaul University,IL,Chicago,private-nonprofit,religiously affiliated university,,21000,1,opened-and-confirmed,2021
+drexel-university,Drexel University,PA,Philadelphia,private-nonprofit,R1 university,,22000,1,opened-and-confirmed,2021
+east-carolina-university,East Carolina University,NC,Greenville,public,R2 university,University of North Carolina System,28000,1,opened-and-confirmed,2026
+eastern-michigan-university,Eastern Michigan University,MI,Ypsilanti,public,regional public university,,13000,1,link-only,2025
+emerson-college,Emerson College,MA,Boston,private-nonprofit,specialized institution,,4000,1,opened-and-confirmed,
+fairmont-state-university,Fairmont State University,WV,Fairmont,public,regional public university,,3800,1,opened-and-confirmed,2022
+florida-a-m-university,Florida A&M University,FL,Tallahassee,public,HBCU,State University System of Florida,9700,1,opened-and-confirmed,2022
+florida-atlantic-university,Florida Atlantic University,FL,Boca Raton,public,R1 university,State University System of Florida,30000,1,opened-and-confirmed,2026
+florida-gulf-coast-university,Florida Gulf Coast University,FL,Fort Myers,public,regional public university,State University System of Florida,16000,1,opened-and-confirmed,
+florida-international-university,Florida International University,FL,Miami,public,HSI,State University System of Florida,56000,1,opened-and-confirmed,2020
+florida-state-university,Florida State University,FL,Tallahassee,public,R1 university,State University System of Florida,44000,1,opened-and-confirmed,
+fordham-university,Fordham University,NY,New York,private-nonprofit,religiously affiliated university,,16000,1,opened-and-confirmed,2023
+george-mason-university,George Mason University,VA,Fairfax,public,R1 university,Commonwealth of Virginia (state-supported),40000,1,opened-and-confirmed,2026
+georgia-institute-of-technology,Georgia Institute of Technology,GA,Atlanta,public,R1 university,University System of Georgia,47000,1,opened-and-confirmed,2023
+georgia-southern-university,Georgia Southern University,GA,Statesboro,public,regional public university,University System of Georgia,27000,1,link-only,
+georgia-state-university,Georgia State University,GA,Atlanta,public,R1 university,University System of Georgia,51000,1,link-only,2023
+grayson-college,Grayson College,TX,Denison,public,community college,Texas public community college district,,1,opened-and-confirmed,2020
+harvard-university,Harvard University,MA,Cambridge,private-nonprofit,R1 university,,25000,1,opened-and-confirmed,
+haskell-indian-nations-university,Haskell Indian Nations University,KS,Lawrence,public,tribal college,U.S. Bureau of Indian Education (federal TCU),800,1,opened-and-confirmed,2025
+howard-university,Howard University,DC,Washington,private-nonprofit,HBCU,,13000,1,opened-and-confirmed,2026
+illinois-state-university,Illinois State University,IL,Normal,public,regional public university,,20000,1,opened-and-confirmed,2025
+illinois-valley-community-college,Illinois Valley Community College,IL,Oglesby,public,community college,Illinois Community College Board,,1,opened-and-confirmed,2022
+indiana-university,Indiana University,IN,Bloomington,public,R1 university,Indiana University,47000,1,opened-and-confirmed,2026
+iowa-state-university,Iowa State University,IA,Ames,public,R1 university,Iowa Board of Regents,30100,1,opened-and-confirmed,
+itawamba-community-college,Itawamba Community College,MS,Fulton,public,community college,Mississippi Community College Board,,1,opened-and-confirmed,2015
+jackson-state-university,Jackson State University,MS,Jackson,public,HBCU,State of Mississippi (IHL),7000,1,opened-and-confirmed,2018
+jacksonville-state-university,Jacksonville State University,AL,Jacksonville,public,regional public university,,9600,1,opened-and-confirmed,
+james-madison-university,James Madison University,VA,Harrisonburg,public,regional public university,Commonwealth of Virginia (state-supported),22000,1,link-only,
+kennesaw-state-university,Kennesaw State University,GA,Kennesaw,public,regional public university,University System of Georgia,45000,1,opened-and-confirmed,
+lehman-college-cuny,Lehman College (CUNY),NY,Bronx,public,HSI,City University of New York (CUNY),14000,1,opened-and-confirmed,2026
+louisiana-state-university,Louisiana State University,LA,Baton Rouge,public,R1 university,Louisiana State University System,40000,1,opened-and-confirmed,
+loyola-university-maryland,Loyola University Maryland,MD,Baltimore,private-nonprofit,religiously affiliated university,,6000,1,opened-and-confirmed,2019
+marquette-university,Marquette University,WI,Milwaukee,private-nonprofit,religiously affiliated university,,11000,1,link-only,2025
+massachusetts-institute-of-technology,Massachusetts Institute of Technology,MA,Cambridge,private-nonprofit,R1 university,,11900,1,opened-and-confirmed,
+minnesota-state-colleges-and-universities-system-office,Minnesota State Colleges and Universities (System Office),MN,St. Paul,public,system office,Minnesota State Colleges and Universities,,1,link-only,
+minnesota-state-university-mankato,"Minnesota State University, Mankato",MN,Mankato,public,regional public university,Minnesota State Colleges and Universities,14000,1,link-only,2024
+mississippi-state-university,Mississippi State University,MS,Mississippi State,public,R1 university,,23000,1,opened-and-confirmed,2025
+missouri-state-university,Missouri State University,MO,Springfield,public,regional public university,Missouri State University System,23000,1,opened-and-confirmed,2023
+mitchell-community-college,Mitchell Community College,NC,Statesville,public,community college,North Carolina Community College System,,1,opened-and-confirmed,2012
+montana-state-university,Montana State University,MT,Bozeman,public,R1 university,Montana University System,16700,1,link-only,
+montclair-state-university,Montclair State University,NJ,Montclair,public,regional public university,,21000,1,opened-and-confirmed,2026
+new-mexico-state-university,New Mexico State University,NM,Las Cruces,public,HSI,New Mexico State University System,14000,1,opened-and-confirmed,2024
+north-carolina-central-university,North Carolina Central University,NC,Durham,public,HBCU,University of North Carolina System,8000,1,opened-and-confirmed,2021
+north-carolina-state-university,North Carolina State University,NC,Raleigh,public,R1 university,University of North Carolina System,38000,1,opened-and-confirmed,2024
+northern-arizona-university,Northern Arizona University,AZ,Flagstaff,public,regional public university,Arizona Board of Regents,28000,1,opened-and-confirmed,2025
+northwestern-university,Northwestern University,IL,Evanston,private-nonprofit,R1 university,,23000,1,opened-and-confirmed,2026
+ohio-university,Ohio University,OH,Athens,public,R2 university,,28000,1,opened-and-confirmed,2026
+old-dominion-university,Old Dominion University,VA,Norfolk,public,R1 university,Commonwealth of Virginia (state-supported),23000,1,opened-and-confirmed,2023
+orange-coast-college,Orange Coast College,CA,Costa Mesa,public,community college,Coast Community College District / California Community Colleges,,1,opened-and-confirmed,2016
+pace-university,Pace University,NY,New York,private-nonprofit,other private,,13500,1,opened-and-confirmed,2021
+pennsylvania-state-university,Pennsylvania State University,PA,University Park,public,R1 university,,88000,1,opened-and-confirmed,2026
+princeton-university,Princeton University,NJ,Princeton,private-nonprofit,R1 university,,8500,1,opened-and-confirmed,2023
+providence-college,Providence College,RI,Providence,private-nonprofit,religiously affiliated university,,4700,1,opened-and-confirmed,
+purdue-university,Purdue University,IN,West Lafayette,public,R1 university,Purdue University System,52000,1,link-only,2026
+radford-university,Radford University,VA,Radford,public,regional public university,Commonwealth of Virginia (state-supported),7000,1,opened-and-confirmed,2025
+rensselaer-polytechnic-institute,Rensselaer Polytechnic Institute,NY,Troy,private-nonprofit,R1 university,,8000,1,opened-and-confirmed,2026
+rhode-island-school-of-design,Rhode Island School of Design,RI,Providence,private-nonprofit,specialized institution,,2500,1,opened-and-confirmed,2025
+rutgers-the-state-university-of-new-jersey,"Rutgers, The State University of New Jersey",NJ,New Brunswick,public,R1 university,,67000,1,opened-and-confirmed,2026
+salish-kootenai-college,Salish Kootenai College,MT,Pablo,private-nonprofit,tribal college,Confederated Salish and Kootenai Tribes (TCU),800,1,opened-and-confirmed,
+salt-lake-community-college,Salt Lake Community College,UT,Salt Lake City,public,community college,Utah System of Higher Education,26000,1,link-only,
+san-diego-state-university,San Diego State University,CA,San Diego,public,HSI,California State University System,37000,1,opened-and-confirmed,
+san-jose-state-university,San Jose State University,CA,San Jose,public,regional public university,California State University,36000,1,opened-and-confirmed,
+sandhills-community-college,Sandhills Community College,NC,Pinehurst,public,community college,North Carolina Community College System,,1,opened-and-confirmed,2022
+sitting-bull-college,Sitting Bull College,ND,Fort Yates,private-nonprofit,tribal college,Standing Rock Sioux Tribe (TCU),300,1,opened-and-confirmed,2025
+smith-college,Smith College,MA,Northampton,private-nonprofit,liberal arts college,,2900,1,opened-and-confirmed,
+south-dakota-state-university,South Dakota State University,SD,Brookings,public,regional public university,South Dakota Board of Regents,11500,1,opened-and-confirmed,
+south-texas-college,South Texas College,TX,McAllen,public,community college,,28000,1,opened-and-confirmed,2020
+southern-methodist-university,Southern Methodist University,TX,Dallas,private-nonprofit,religiously affiliated university,,12000,1,opened-and-confirmed,2022
+southern-oregon-university,Southern Oregon University,OR,Ashland,public,regional public university,,5000,1,opened-and-confirmed,2017
+stony-brook-university,Stony Brook University,NY,Stony Brook,public,R1 university,State University of New York (SUNY),26000,1,opened-and-confirmed,2026
+syracuse-university,Syracuse University,NY,Syracuse,private-nonprofit,R1 university,,22000,1,opened-and-confirmed,2026
+tarleton-state-university,Tarleton State University,TX,Stephenville,public,regional public university,Texas A&M University System,16000,1,opened-and-confirmed,2022
+tarrant-county-college-district,Tarrant County College District,TX,Fort Worth,public,community college,,47000,1,opened-and-confirmed,2025
+temple-university,Temple University,PA,Philadelphia,public,R1 university,,33000,1,opened-and-confirmed,2026
+tennessee-state-university,Tennessee State University,TN,Nashville,public,HBCU,Tennessee Board of Regents / State of Tennessee,8000,1,opened-and-confirmed,
+tennessee-technological-university,Tennessee Technological University,TN,Cookeville,public,regional public university,Tennessee (state-supported; locally governed board),10000,1,link-only,2018
+texas-a-m-university,Texas A&M University,TX,College Station,public,R1 university,Texas A&M University System,74000,1,opened-and-confirmed,2023
+texas-a-m-university-corpus-christi,Texas A&M University-Corpus Christi,TX,Corpus Christi,public,HSI,Texas A&M University System,11000,1,opened-and-confirmed,
+texas-a-m-university-kingsville,Texas A&M University-Kingsville,TX,Kingsville,public,HSI,Texas A&M University System,17000,1,opened-and-confirmed,2025
+texas-state-university,Texas State University,TX,San Marcos,public,R2 university,Texas State University System,40000,1,opened-and-confirmed,2023
+texas-tech-university-system,Texas Tech University System,TX,Lubbock,public,system office,Texas Tech University System,,1,opened-and-confirmed,2017
+texas-woman-s-university,Texas Woman's University,TX,Denton,public,other public,,16000,1,opened-and-confirmed,2024
+the-ohio-state-university,The Ohio State University,OH,Columbus,public,R1 university,,60000,1,opened-and-confirmed,2025
+tufts-university,Tufts University,MA,Medford,private-nonprofit,R1 university,,13000,1,opened-and-confirmed,2021
+tulane-university,Tulane University,LA,New Orleans,private-nonprofit,R1 university,,15000,1,opened-and-confirmed,
+tuskegee-university,Tuskegee University,AL,Tuskegee,private-nonprofit,HBCU,,3000,1,link-only,
+university-of-alaska-system,University of Alaska System,AK,Fairbanks,public,system office,University of Alaska System,,1,link-only,
+university-of-arizona,University of Arizona,AZ,Tucson,public,R1 university,Arizona Board of Regents,53000,1,opened-and-confirmed,2026
+university-of-arkansas-at-little-rock,University of Arkansas at Little Rock,AR,Little Rock,public,regional public university,University of Arkansas System,8200,1,link-only,2010
+university-of-arkansas-at-monticello,University of Arkansas at Monticello,AR,Monticello,public,regional public university,University of Arkansas System,3000,1,link-only,2025
+university-of-california-davis,"University of California, Davis",CA,Davis,public,R1 university,University of California,40000,1,link-only,
+university-of-california-los-angeles,"University of California, Los Angeles",CA,Los Angeles,public,R1 university,University of California,47000,1,opened-and-confirmed,2025
+university-of-california-merced,"University of California, Merced",CA,Merced,public,R1 university,University of California,9000,1,link-only,
+university-of-california-san-diego,"University of California, San Diego",CA,La Jolla,public,R1 university,University of California,42000,1,opened-and-confirmed,2026
+university-of-california-san-francisco,"University of California, San Francisco",CA,San Francisco,public,specialized institution,University of California,3300,1,opened-and-confirmed,
+university-of-central-florida,University of Central Florida,FL,Orlando,public,R1 university,State University System of Florida,69000,1,opened-and-confirmed,2023
+university-of-cincinnati,University of Cincinnati,OH,Cincinnati,public,R1 university,,50000,1,link-only,2025
+university-of-colorado-colorado-springs,University of Colorado Colorado Springs,CO,Colorado Springs,public,R2 university,University of Colorado System,11000,1,opened-and-confirmed,
+university-of-colorado-denver-anschutz-medical-campus,University of Colorado Denver | Anschutz Medical Campus,CO,Denver,public,R1 university,University of Colorado System,24000,1,link-only,
+university-of-colorado-system-administration,University of Colorado (System Administration),CO,Denver,public,system office,University of Colorado System,,1,opened-and-confirmed,2025
+university-of-connecticut,University of Connecticut,CT,Storrs,public,R1 university,University of Connecticut,27000,1,opened-and-confirmed,2012
+university-of-delaware,University of Delaware,DE,Newark,public,R1 university,,24000,1,opened-and-confirmed,2026
+university-of-florida,University of Florida,FL,Gainesville,public,R1 university,State University System of Florida,55000,1,opened-and-confirmed,2025
+university-of-georgia,University of Georgia,GA,Athens,public,R1 university,University System of Georgia,40000,1,opened-and-confirmed,2026
+university-of-houston,University of Houston,TX,Houston,public,R1 university,University of Houston System,47000,1,opened-and-confirmed,2026
+university-of-houston-downtown,University of Houston-Downtown,TX,Houston,public,HSI,University of Houston System,15000,1,opened-and-confirmed,2023
+university-of-houston-system,University of Houston System,TX,Houston,public,system office,University of Houston System,,1,opened-and-confirmed,2022
+university-of-illinois-chicago,University of Illinois Chicago,IL,Chicago,public,R1 university,University of Illinois System,34000,1,opened-and-confirmed,2025
+university-of-illinois-urbana-champaign,University of Illinois Urbana-Champaign,IL,Urbana,public,R1 university,University of Illinois System,56000,1,opened-and-confirmed,2025
+university-of-iowa,University of Iowa,IA,Iowa City,public,R1 university,Iowa Board of Regents,30400,1,opened-and-confirmed,2024
+university-of-kansas,University of Kansas,KS,Lawrence,public,R1 university,Kansas Board of Regents,28500,1,opened-and-confirmed,2024
+university-of-kentucky,University of Kentucky,KY,Lexington,public,R1 university,Commonwealth of Kentucky (state-supported),33000,2,opened-and-confirmed,2026
+university-of-louisville,University of Louisville,KY,Louisville,public,R1 university,Commonwealth of Kentucky (state-supported),23000,1,opened-and-confirmed,2022
+university-of-mary-washington,University of Mary Washington,VA,Fredericksburg,public,regional public university,Commonwealth of Virginia (state-supported),4000,1,opened-and-confirmed,2023
+university-of-maryland-baltimore,"University of Maryland, Baltimore",MD,Baltimore,public,specialized institution,University System of Maryland,7000,1,opened-and-confirmed,2025
+university-of-maryland-baltimore-county,"University of Maryland, Baltimore County",MD,Baltimore,public,R1 university,University System of Maryland,13500,1,opened-and-confirmed,2026
+university-of-maryland-college-park,"University of Maryland, College Park",MD,College Park,public,R1 university,University System of Maryland,41000,1,opened-and-confirmed,2026
+university-of-massachusetts-boston,University of Massachusetts Boston,MA,Boston,public,R1 university,University of Massachusetts,16000,1,opened-and-confirmed,
+university-of-massachusetts-dartmouth,University of Massachusetts Dartmouth,MA,Dartmouth,public,R2 university,University of Massachusetts,8500,1,opened-and-confirmed,1999
+university-of-massachusetts-lowell,University of Massachusetts Lowell,MA,Lowell,public,R2 university,University of Massachusetts,18000,1,opened-and-confirmed,
+university-of-massachusetts-system-office,University of Massachusetts (System Office),MA,Boston,public,system office,University of Massachusetts,,1,opened-and-confirmed,2024
+university-of-miami,University of Miami,FL,Coral Gables,private-nonprofit,R1 university,,19000,1,link-only,2024
+university-of-michigan-dearborn,University of Michigan-Dearborn,MI,Dearborn,public,regional public university,University of Michigan,8600,1,opened-and-confirmed,2026
+university-of-michigan-flint,University of Michigan-Flint,MI,Flint,public,regional public university,University of Michigan,6600,1,opened-and-confirmed,2026
+university-of-michigan-human-research-protection-program,University of Michigan (Human Research Protection Program),MI,Ann Arbor,public,R1 university,University of Michigan,52000,1,opened-and-confirmed,2025
+university-of-minnesota,University of Minnesota,MN,Minneapolis,public,R1 university,University of Minnesota System,54890,1,opened-and-confirmed,2020
+university-of-mississippi-medical-center,University of Mississippi Medical Center,MS,Jackson,public,specialized institution,University of Mississippi,3000,1,opened-and-confirmed,
+university-of-missouri-system,University of Missouri System,MO,Columbia,public,system office,University of Missouri System,,1,opened-and-confirmed,2024
+university-of-montana,University of Montana,MT,Missoula,public,R1 university,Montana University System,10000,1,opened-and-confirmed,2023
+university-of-nebraska-lincoln,University of Nebraska-Lincoln,NE,Lincoln,public,R1 university,University of Nebraska System,23600,1,link-only,2022
+university-of-nevada-reno,"University of Nevada, Reno",NV,Reno,public,R1 university,Nevada System of Higher Education,21000,1,opened-and-confirmed,2020
+university-of-new-hampshire,University of New Hampshire,NH,Durham,public,R1 university,University System of New Hampshire,14000,1,opened-and-confirmed,
+university-of-north-carolina-at-chapel-hill,University of North Carolina at Chapel Hill,NC,Chapel Hill,public,R1 university,University of North Carolina System,32000,1,opened-and-confirmed,2026
+university-of-north-carolina-at-charlotte,University of North Carolina at Charlotte,NC,Charlotte,public,R2 university,University of North Carolina System,30000,1,link-only,2026
+university-of-north-carolina-at-greensboro,University of North Carolina at Greensboro,NC,Greensboro,public,R2 university,University of North Carolina System,18000,1,opened-and-confirmed,2026
+university-of-north-carolina-wilmington,University of North Carolina Wilmington,NC,Wilmington,public,R2 university,University of North Carolina System,19000,1,opened-and-confirmed,2020
+university-of-north-dakota,University of North Dakota,ND,Grand Forks,public,R1 university,North Dakota University System,15000,1,opened-and-confirmed,2025
+university-of-north-texas,University of North Texas,TX,Denton,public,R1 university,University of North Texas System,47000,1,opened-and-confirmed,2026
+university-of-notre-dame,University of Notre Dame,IN,Notre Dame,private-nonprofit,religiously affiliated university,,13000,1,opened-and-confirmed,2021
+university-of-oklahoma-health-sciences-center,University of Oklahoma Health Sciences Center,OK,Oklahoma City,public,specialized institution,University of Oklahoma,4000,1,opened-and-confirmed,2025
+university-of-oregon,University of Oregon,OR,Eugene,public,R1 university,,23000,1,opened-and-confirmed,
+university-of-pittsburgh,University of Pittsburgh,PA,Pittsburgh,public,R1 university,,33000,1,opened-and-confirmed,2024
+university-of-rhode-island,University of Rhode Island,RI,Kingston,public,R2 university,University of Rhode Island,17600,1,opened-and-confirmed,
+university-of-rochester,University of Rochester,NY,Rochester,private-nonprofit,R1 university,,12000,1,opened-and-confirmed,2022
+university-of-south-carolina,University of South Carolina,SC,Columbia,public,R1 university,University of South Carolina System,36000,1,link-only,2018
+university-of-southern-california,University of Southern California,CA,Los Angeles,private-nonprofit,R1 university,,48000,1,opened-and-confirmed,2022
+university-of-tennessee-system,University of Tennessee System,TN,Knoxville,public,system office,University of Tennessee System,,1,opened-and-confirmed,2025
+university-of-texas-at-arlington,University of Texas at Arlington,TX,Arlington,public,R1 university,University of Texas System,41000,1,opened-and-confirmed,2026
+university-of-texas-at-austin,University of Texas at Austin,TX,Austin,public,R1 university,University of Texas System,53000,1,opened-and-confirmed,2026
+university-of-texas-at-san-antonio,University of Texas at San Antonio,TX,San Antonio,public,HSI,University of Texas System,34000,1,opened-and-confirmed,2025
+university-of-texas-health-science-center-at-houston-uthealth-houston,University of Texas Health Science Center at Houston (UTHealth Houston),TX,Houston,public,specialized institution,University of Texas System,5000,1,opened-and-confirmed,2025
+university-of-toledo,University of Toledo,OH,Toledo,public,R2 university,,27000,1,link-only,2024
+university-of-utah,University of Utah,UT,Salt Lake City,public,R1 university,Utah System of Higher Education,35000,1,opened-and-confirmed,2024
+university-of-vermont,University of Vermont,VT,Burlington,public,R1 university,University of Vermont (state university),13800,1,opened-and-confirmed,2023
+university-of-virginia,University of Virginia,VA,Charlottesville,public,R1 university,Commonwealth of Virginia (state-supported),26000,1,opened-and-confirmed,2026
+university-of-washington,University of Washington,WA,Seattle,public,R1 university,,60000,1,opened-and-confirmed,2025
+university-of-washington-tacoma,University of Washington Tacoma,WA,Tacoma,public,regional public university,University of Washington,5000,1,opened-and-confirmed,2020
+university-of-west-florida,University of West Florida,FL,Pensacola,public,regional public university,State University System of Florida,13000,1,opened-and-confirmed,2024
+university-of-wisconsin-madison,University of Wisconsin-Madison,WI,Madison,public,R1 university,Universities of Wisconsin,50000,1,opened-and-confirmed,2025
+university-of-wisconsin-stevens-point,University of Wisconsin-Stevens Point,WI,Stevens Point,public,regional public university,Universities of Wisconsin,7500,1,link-only,2025
+university-of-wisconsin-stout,University of Wisconsin-Stout,WI,Menomonie,public,regional public university,Universities of Wisconsin,6800,1,link-only,2025
+virginia-commonwealth-university,Virginia Commonwealth University,VA,Richmond,public,R1 university,Commonwealth of Virginia (state-supported),28000,1,link-only,2024
+virginia-polytechnic-institute-and-state-university,Virginia Polytechnic Institute and State University,VA,Blacksburg,public,R1 university,Commonwealth of Virginia (state-supported),38000,2,opened-and-confirmed,2023
+virginia-state-university,Virginia State University,VA,Petersburg,public,HBCU,Commonwealth of Virginia,5000,1,opened-and-confirmed,2017
+washington-state-university,Washington State University,WA,Pullman,public,R1 university,,30000,1,opened-and-confirmed,
+wesleyan-university,Wesleyan University,CT,Middletown,private-nonprofit,liberal arts college,,3300,1,opened-and-confirmed,2014
+west-virginia-university,West Virginia University,WV,Morgantown,public,R1 university,West Virginia University System,24000,1,opened-and-confirmed,2024
+wichita-state-university,Wichita State University,KS,Wichita,public,R2 university,Kansas Board of Regents,23000,1,link-only,
+william-mary,William & Mary,VA,Williamsburg,public,R1 university,Commonwealth of Virginia (state-supported),9700,1,link-only,2024
+winston-salem-state-university,Winston-Salem State University,NC,Winston-Salem,public,HBCU,University of North Carolina System,5000,1,opened-and-confirmed,2026
+wiregrass-georgia-technical-college,Wiregrass Georgia Technical College,GA,Valdosta,public,technical college,Technical College System of Georgia,,1,opened-and-confirmed,2024
+wright-state-university,Wright State University,OH,Dayton,public,R2 university,,10000,1,link-only,2025
+yale-university,Yale University,CT,New Haven,private-nonprofit,R1 university,,15000,1,opened-and-confirmed,

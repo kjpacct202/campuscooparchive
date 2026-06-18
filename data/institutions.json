@@ -1,0 +1,3317 @@
+[
+  {
+    "institution_id": "alabama-a-m-university",
+    "institution_name": "Alabama A&M University",
+    "state": "AL",
+    "city": "Normal",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "State of Alabama",
+    "enrollment": 6000,
+    "plan_count": 1,
+    "plan_ids": [
+      "alabama-am-university-academic-continuity"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "alcorn-state-university",
+    "institution_name": "Alcorn State University",
+    "state": "MS",
+    "city": "Lorman",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "State of Mississippi (IHL)",
+    "enrollment": 3500,
+    "plan_count": 1,
+    "plan_ids": [
+      "alcorn-state-university-emergency-management-plan"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "appalachian-state-university",
+    "institution_name": "Appalachian State University",
+    "state": "NC",
+    "city": "Boone",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 21000,
+    "plan_count": 1,
+    "plan_ids": [
+      "appalachian-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "arizona-state-university",
+    "institution_name": "Arizona State University",
+    "state": "AZ",
+    "city": "Tempe",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Arizona Board of Regents",
+    "enrollment": 145000,
+    "plan_count": 1,
+    "plan_ids": [
+      "arizona-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "athens-technical-college",
+    "institution_name": "Athens Technical College",
+    "state": "GA",
+    "city": "Athens",
+    "control": "public",
+    "institution_type": "technical college",
+    "system_affiliation": "Technical College System of Georgia",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "athens-technical-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "binghamton-university",
+    "institution_name": "Binghamton University",
+    "state": "NY",
+    "city": "Binghamton",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University of New York (SUNY)",
+    "enrollment": 18000,
+    "plan_count": 1,
+    "plan_ids": [
+      "binghamton-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "boise-state-university",
+    "institution_name": "Boise State University",
+    "state": "ID",
+    "city": "Boise",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "Idaho State Board of Education",
+    "enrollment": 27000,
+    "plan_count": 1,
+    "plan_ids": [
+      "boise-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "boston-college",
+    "institution_name": "Boston College",
+    "state": "MA",
+    "city": "Chestnut Hill",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 15000,
+    "plan_count": 2,
+    "plan_ids": [
+      "boston-college",
+      "boston-college-bc-policy"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2015
+  },
+  {
+    "institution_id": "boston-university",
+    "institution_name": "Boston University",
+    "state": "MA",
+    "city": "Boston",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 37000,
+    "plan_count": 1,
+    "plan_ids": [
+      "boston-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "bowie-state-university",
+    "institution_name": "Bowie State University",
+    "state": "MD",
+    "city": "Bowie",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "University System of Maryland",
+    "enrollment": 6300,
+    "plan_count": 1,
+    "plan_ids": [
+      "bowie-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "brown-university",
+    "institution_name": "Brown University",
+    "state": "RI",
+    "city": "Providence",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "brown-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "ca-ada-college",
+    "institution_name": "Cañada College",
+    "state": "CA",
+    "city": "Redwood City",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "San Mateo County Community College District / California Community Colleges",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "canada-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "california-polytechnic-state-university-san-luis-obispo",
+    "institution_name": "California Polytechnic State University, San Luis Obispo",
+    "state": "CA",
+    "city": "San Luis Obispo",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 22000,
+    "plan_count": 1,
+    "plan_ids": [
+      "cal-poly-san-luis-obispo"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-bakersfield",
+    "institution_name": "California State University, Bakersfield",
+    "state": "CA",
+    "city": "Bakersfield",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-bakersfield"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "california-state-university-chico",
+    "institution_name": "California State University, Chico",
+    "state": "CA",
+    "city": "Chico",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 14000,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-chico"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-east-bay",
+    "institution_name": "California State University, East Bay",
+    "state": "CA",
+    "city": "Hayward",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-east-bay"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-fullerton",
+    "institution_name": "California State University, Fullerton",
+    "state": "CA",
+    "city": "Fullerton",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "California State University System",
+    "enrollment": 45000,
+    "plan_count": 1,
+    "plan_ids": [
+      "csu-fullerton-continuity-program-2026"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "california-state-university-long-beach",
+    "institution_name": "California State University, Long Beach",
+    "state": "CA",
+    "city": "Long Beach",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "California State University System",
+    "enrollment": 39000,
+    "plan_count": 1,
+    "plan_ids": [
+      "csu-long-beach-academic-continuity"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-maritime-academy",
+    "institution_name": "California State University Maritime Academy",
+    "state": "CA",
+    "city": "Vallejo",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "California State University",
+    "enrollment": 800,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-maritime-academy-template"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2018
+  },
+  {
+    "institution_id": "california-state-university-monterey-bay",
+    "institution_name": "California State University, Monterey Bay",
+    "state": "CA",
+    "city": "Seaside",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "California State University",
+    "enrollment": 7000,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-monterey-bay"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-sacramento",
+    "institution_name": "California State University, Sacramento",
+    "state": "CA",
+    "city": "Sacramento",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 31000,
+    "plan_count": 1,
+    "plan_ids": [
+      "sacramento-state"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "california-state-university-stanislaus",
+    "institution_name": "California State University, Stanislaus",
+    "state": "CA",
+    "city": "Turlock",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 10000,
+    "plan_count": 1,
+    "plan_ids": [
+      "california-state-university-stanislaus"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "carnegie-mellon-university",
+    "institution_name": "Carnegie Mellon University",
+    "state": "PA",
+    "city": "Pittsburgh",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "carnegie-mellon-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "case-western-reserve-university",
+    "institution_name": "Case Western Reserve University",
+    "state": "OH",
+    "city": "Cleveland",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 12000,
+    "plan_count": 1,
+    "plan_ids": [
+      "case-western-reserve-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "central-georgia-technical-college",
+    "institution_name": "Central Georgia Technical College",
+    "state": "GA",
+    "city": "Warner Robins",
+    "control": "public",
+    "institution_type": "technical college",
+    "system_affiliation": "Technical College System of Georgia",
+    "enrollment": 8000,
+    "plan_count": 1,
+    "plan_ids": [
+      "central-georgia-technical-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "chabot-las-positas-community-college-district",
+    "institution_name": "Chabot-Las Positas Community College District",
+    "state": "CA",
+    "city": "Dublin",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "California Community Colleges",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "chabot-las-positas-ccd"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "clemson-university",
+    "institution_name": "Clemson University",
+    "state": "SC",
+    "city": "Clemson",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "clemson-university-bcoop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "cleveland-state-university",
+    "institution_name": "Cleveland State University",
+    "state": "OH",
+    "city": "Cleveland",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 15000,
+    "plan_count": 1,
+    "plan_ids": [
+      "cleveland-state-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "coastal-carolina-university",
+    "institution_name": "Coastal Carolina University",
+    "state": "SC",
+    "city": "Conway",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "coastal-carolina-university-academic-continuity"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "colorado-state-university",
+    "institution_name": "Colorado State University",
+    "state": "CO",
+    "city": "Fort Collins",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Colorado State University System",
+    "enrollment": 33500,
+    "plan_count": 1,
+    "plan_ids": [
+      "colorado-state-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "columbia-university",
+    "institution_name": "Columbia University",
+    "state": "NY",
+    "city": "New York",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 36000,
+    "plan_count": 1,
+    "plan_ids": [
+      "columbia-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2013
+  },
+  {
+    "institution_id": "coppin-state-university",
+    "institution_name": "Coppin State University",
+    "state": "MD",
+    "city": "Baltimore",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "University System of Maryland",
+    "enrollment": 2000,
+    "plan_count": 1,
+    "plan_ids": [
+      "coppin-state-university-instructional-continuity"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "cornell-university",
+    "institution_name": "Cornell University",
+    "state": "NY",
+    "city": "Ithaca",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 26000,
+    "plan_count": 1,
+    "plan_ids": [
+      "cornell-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "dartmouth-college",
+    "institution_name": "Dartmouth College",
+    "state": "NH",
+    "city": "Hanover",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 6700,
+    "plan_count": 1,
+    "plan_ids": [
+      "dartmouth-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "depaul-university",
+    "institution_name": "DePaul University",
+    "state": "IL",
+    "city": "Chicago",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 21000,
+    "plan_count": 1,
+    "plan_ids": [
+      "depaul-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "drexel-university",
+    "institution_name": "Drexel University",
+    "state": "PA",
+    "city": "Philadelphia",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 22000,
+    "plan_count": 1,
+    "plan_ids": [
+      "drexel-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "east-carolina-university",
+    "institution_name": "East Carolina University",
+    "state": "NC",
+    "city": "Greenville",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "east-carolina-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "eastern-michigan-university",
+    "institution_name": "Eastern Michigan University",
+    "state": "MI",
+    "city": "Ypsilanti",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "eastern-michigan-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "emerson-college",
+    "institution_name": "Emerson College",
+    "state": "MA",
+    "city": "Boston",
+    "control": "private-nonprofit",
+    "institution_type": "specialized institution",
+    "system_affiliation": null,
+    "enrollment": 4000,
+    "plan_count": 1,
+    "plan_ids": [
+      "emerson-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "fairmont-state-university",
+    "institution_name": "Fairmont State University",
+    "state": "WV",
+    "city": "Fairmont",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 3800,
+    "plan_count": 1,
+    "plan_ids": [
+      "fairmont-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "florida-a-m-university",
+    "institution_name": "Florida A&M University",
+    "state": "FL",
+    "city": "Tallahassee",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 9700,
+    "plan_count": 1,
+    "plan_ids": [
+      "famu-essential-personnel-designation"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "florida-atlantic-university",
+    "institution_name": "Florida Atlantic University",
+    "state": "FL",
+    "city": "Boca Raton",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 30000,
+    "plan_count": 1,
+    "plan_ids": [
+      "fau-unit-coop-template"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "florida-gulf-coast-university",
+    "institution_name": "Florida Gulf Coast University",
+    "state": "FL",
+    "city": "Fort Myers",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "fgcu-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "florida-international-university",
+    "institution_name": "Florida International University",
+    "state": "FL",
+    "city": "Miami",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 56000,
+    "plan_count": 1,
+    "plan_ids": [
+      "florida-international-university-em-coop-policy-180-105"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "florida-state-university",
+    "institution_name": "Florida State University",
+    "state": "FL",
+    "city": "Tallahassee",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 44000,
+    "plan_count": 1,
+    "plan_ids": [
+      "florida-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "fordham-university",
+    "institution_name": "Fordham University",
+    "state": "NY",
+    "city": "New York",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "fordham-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "george-mason-university",
+    "institution_name": "George Mason University",
+    "state": "VA",
+    "city": "Fairfax",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 40000,
+    "plan_count": 1,
+    "plan_ids": [
+      "george-mason-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "georgia-institute-of-technology",
+    "institution_name": "Georgia Institute of Technology",
+    "state": "GA",
+    "city": "Atlanta",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of Georgia",
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "georgia-tech-business-continuity-policy"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "georgia-southern-university",
+    "institution_name": "Georgia Southern University",
+    "state": "GA",
+    "city": "Statesboro",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University System of Georgia",
+    "enrollment": 27000,
+    "plan_count": 1,
+    "plan_ids": [
+      "georgia-southern-university-coop"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "georgia-state-university",
+    "institution_name": "Georgia State University",
+    "state": "GA",
+    "city": "Atlanta",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of Georgia",
+    "enrollment": 51000,
+    "plan_count": 1,
+    "plan_ids": [
+      "georgia-state-university-eop-coop"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "grayson-college",
+    "institution_name": "Grayson College",
+    "state": "TX",
+    "city": "Denison",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "Texas public community college district",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "grayson-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "harvard-university",
+    "institution_name": "Harvard University",
+    "state": "MA",
+    "city": "Cambridge",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 25000,
+    "plan_count": 1,
+    "plan_ids": [
+      "harvard-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "haskell-indian-nations-university",
+    "institution_name": "Haskell Indian Nations University",
+    "state": "KS",
+    "city": "Lawrence",
+    "control": "public",
+    "institution_type": "tribal college",
+    "system_affiliation": "U.S. Bureau of Indian Education (federal TCU)",
+    "enrollment": 800,
+    "plan_count": 1,
+    "plan_ids": [
+      "haskell-indian-nations-university-continuity-of-operations"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "howard-university",
+    "institution_name": "Howard University",
+    "state": "DC",
+    "city": "Washington",
+    "control": "private-nonprofit",
+    "institution_type": "HBCU",
+    "system_affiliation": null,
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "howard-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "illinois-state-university",
+    "institution_name": "Illinois State University",
+    "state": "IL",
+    "city": "Normal",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 20000,
+    "plan_count": 1,
+    "plan_ids": [
+      "illinois-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "illinois-valley-community-college",
+    "institution_name": "Illinois Valley Community College",
+    "state": "IL",
+    "city": "Oglesby",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "Illinois Community College Board",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "illinois-valley-community-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "indiana-university",
+    "institution_name": "Indiana University",
+    "state": "IN",
+    "city": "Bloomington",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Indiana University",
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "indiana-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "iowa-state-university",
+    "institution_name": "Iowa State University",
+    "state": "IA",
+    "city": "Ames",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Iowa Board of Regents",
+    "enrollment": 30100,
+    "plan_count": 1,
+    "plan_ids": [
+      "iowa-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "itawamba-community-college",
+    "institution_name": "Itawamba Community College",
+    "state": "MS",
+    "city": "Fulton",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "Mississippi Community College Board",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "itawamba-community-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2015
+  },
+  {
+    "institution_id": "jackson-state-university",
+    "institution_name": "Jackson State University",
+    "state": "MS",
+    "city": "Jackson",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "State of Mississippi (IHL)",
+    "enrollment": 7000,
+    "plan_count": 1,
+    "plan_ids": [
+      "jackson-state-university-eop-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2018
+  },
+  {
+    "institution_id": "jacksonville-state-university",
+    "institution_name": "Jacksonville State University",
+    "state": "AL",
+    "city": "Jacksonville",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 9600,
+    "plan_count": 1,
+    "plan_ids": [
+      "jacksonville-state-university-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "james-madison-university",
+    "institution_name": "James Madison University",
+    "state": "VA",
+    "city": "Harrisonburg",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 22000,
+    "plan_count": 1,
+    "plan_ids": [
+      "james-madison-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "kennesaw-state-university",
+    "institution_name": "Kennesaw State University",
+    "state": "GA",
+    "city": "Kennesaw",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University System of Georgia",
+    "enrollment": 45000,
+    "plan_count": 1,
+    "plan_ids": [
+      "kennesaw-state-university-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "lehman-college-cuny",
+    "institution_name": "Lehman College (CUNY)",
+    "state": "NY",
+    "city": "Bronx",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "City University of New York (CUNY)",
+    "enrollment": 14000,
+    "plan_count": 1,
+    "plan_ids": [
+      "lehman-college-cuny"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "louisiana-state-university",
+    "institution_name": "Louisiana State University",
+    "state": "LA",
+    "city": "Baton Rouge",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Louisiana State University System",
+    "enrollment": 40000,
+    "plan_count": 1,
+    "plan_ids": [
+      "lsu-academic-continuity-plan"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "loyola-university-maryland",
+    "institution_name": "Loyola University Maryland",
+    "state": "MD",
+    "city": "Baltimore",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 6000,
+    "plan_count": 1,
+    "plan_ids": [
+      "loyola-university-maryland"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2019
+  },
+  {
+    "institution_id": "marquette-university",
+    "institution_name": "Marquette University",
+    "state": "WI",
+    "city": "Milwaukee",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "marquette-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "massachusetts-institute-of-technology",
+    "institution_name": "Massachusetts Institute of Technology",
+    "state": "MA",
+    "city": "Cambridge",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 11900,
+    "plan_count": 1,
+    "plan_ids": [
+      "massachusetts-institute-of-technology"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "minnesota-state-colleges-and-universities-system-office",
+    "institution_name": "Minnesota State Colleges and Universities (System Office)",
+    "state": "MN",
+    "city": "St. Paul",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "Minnesota State Colleges and Universities",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "minnesota-state-system-office"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "minnesota-state-university-mankato",
+    "institution_name": "Minnesota State University, Mankato",
+    "state": "MN",
+    "city": "Mankato",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Minnesota State Colleges and Universities",
+    "enrollment": 14000,
+    "plan_count": 1,
+    "plan_ids": [
+      "minnesota-state-university-mankato"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "mississippi-state-university",
+    "institution_name": "Mississippi State University",
+    "state": "MS",
+    "city": "Mississippi State",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "mississippi-state-university-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "missouri-state-university",
+    "institution_name": "Missouri State University",
+    "state": "MO",
+    "city": "Springfield",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Missouri State University System",
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "missouri-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "mitchell-community-college",
+    "institution_name": "Mitchell Community College",
+    "state": "NC",
+    "city": "Statesville",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "North Carolina Community College System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "mitchell-community-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2012
+  },
+  {
+    "institution_id": "montana-state-university",
+    "institution_name": "Montana State University",
+    "state": "MT",
+    "city": "Bozeman",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Montana University System",
+    "enrollment": 16700,
+    "plan_count": 1,
+    "plan_ids": [
+      "montana-state-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "montclair-state-university",
+    "institution_name": "Montclair State University",
+    "state": "NJ",
+    "city": "Montclair",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 21000,
+    "plan_count": 1,
+    "plan_ids": [
+      "montclair-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "new-mexico-state-university",
+    "institution_name": "New Mexico State University",
+    "state": "NM",
+    "city": "Las Cruces",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "New Mexico State University System",
+    "enrollment": 14000,
+    "plan_count": 1,
+    "plan_ids": [
+      "new-mexico-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "north-carolina-central-university",
+    "institution_name": "North Carolina Central University",
+    "state": "NC",
+    "city": "Durham",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 8000,
+    "plan_count": 1,
+    "plan_ids": [
+      "north-carolina-central-university-orcp"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "north-carolina-state-university",
+    "institution_name": "North Carolina State University",
+    "state": "NC",
+    "city": "Raleigh",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 38000,
+    "plan_count": 1,
+    "plan_ids": [
+      "nc-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "northern-arizona-university",
+    "institution_name": "Northern Arizona University",
+    "state": "AZ",
+    "city": "Flagstaff",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Arizona Board of Regents",
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "northern-arizona-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "northwestern-university",
+    "institution_name": "Northwestern University",
+    "state": "IL",
+    "city": "Evanston",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "northwestern-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "ohio-university",
+    "institution_name": "Ohio University",
+    "state": "OH",
+    "city": "Athens",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": null,
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "ohio-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "old-dominion-university",
+    "institution_name": "Old Dominion University",
+    "state": "VA",
+    "city": "Norfolk",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "old-dominion-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "orange-coast-college",
+    "institution_name": "Orange Coast College",
+    "state": "CA",
+    "city": "Costa Mesa",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "Coast Community College District / California Community Colleges",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "orange-coast-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2016
+  },
+  {
+    "institution_id": "pace-university",
+    "institution_name": "Pace University",
+    "state": "NY",
+    "city": "New York",
+    "control": "private-nonprofit",
+    "institution_type": "other private",
+    "system_affiliation": null,
+    "enrollment": 13500,
+    "plan_count": 1,
+    "plan_ids": [
+      "pace-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "pennsylvania-state-university",
+    "institution_name": "Pennsylvania State University",
+    "state": "PA",
+    "city": "University Park",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 88000,
+    "plan_count": 1,
+    "plan_ids": [
+      "penn-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "princeton-university",
+    "institution_name": "Princeton University",
+    "state": "NJ",
+    "city": "Princeton",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 8500,
+    "plan_count": 1,
+    "plan_ids": [
+      "princeton-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "providence-college",
+    "institution_name": "Providence College",
+    "state": "RI",
+    "city": "Providence",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 4700,
+    "plan_count": 1,
+    "plan_ids": [
+      "providence-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "purdue-university",
+    "institution_name": "Purdue University",
+    "state": "IN",
+    "city": "West Lafayette",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Purdue University System",
+    "enrollment": 52000,
+    "plan_count": 1,
+    "plan_ids": [
+      "purdue-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "radford-university",
+    "institution_name": "Radford University",
+    "state": "VA",
+    "city": "Radford",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 7000,
+    "plan_count": 1,
+    "plan_ids": [
+      "radford-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "rensselaer-polytechnic-institute",
+    "institution_name": "Rensselaer Polytechnic Institute",
+    "state": "NY",
+    "city": "Troy",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 8000,
+    "plan_count": 1,
+    "plan_ids": [
+      "rensselaer-polytechnic-institute"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "rhode-island-school-of-design",
+    "institution_name": "Rhode Island School of Design",
+    "state": "RI",
+    "city": "Providence",
+    "control": "private-nonprofit",
+    "institution_type": "specialized institution",
+    "system_affiliation": null,
+    "enrollment": 2500,
+    "plan_count": 1,
+    "plan_ids": [
+      "rhode-island-school-of-design"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "rutgers-the-state-university-of-new-jersey",
+    "institution_name": "Rutgers, The State University of New Jersey",
+    "state": "NJ",
+    "city": "New Brunswick",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 67000,
+    "plan_count": 1,
+    "plan_ids": [
+      "rutgers-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "salish-kootenai-college",
+    "institution_name": "Salish Kootenai College",
+    "state": "MT",
+    "city": "Pablo",
+    "control": "private-nonprofit",
+    "institution_type": "tribal college",
+    "system_affiliation": "Confederated Salish and Kootenai Tribes (TCU)",
+    "enrollment": 800,
+    "plan_count": 1,
+    "plan_ids": [
+      "salish-kootenai-college-incident-management-recovery"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "salt-lake-community-college",
+    "institution_name": "Salt Lake Community College",
+    "state": "UT",
+    "city": "Salt Lake City",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "Utah System of Higher Education",
+    "enrollment": 26000,
+    "plan_count": 1,
+    "plan_ids": [
+      "salt-lake-community-college"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "san-diego-state-university",
+    "institution_name": "San Diego State University",
+    "state": "CA",
+    "city": "San Diego",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "California State University System",
+    "enrollment": 37000,
+    "plan_count": 1,
+    "plan_ids": [
+      "san-diego-state-university-business-continuity-plan"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "san-jose-state-university",
+    "institution_name": "San Jose State University",
+    "state": "CA",
+    "city": "San Jose",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "California State University",
+    "enrollment": 36000,
+    "plan_count": 1,
+    "plan_ids": [
+      "san-jose-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "sandhills-community-college",
+    "institution_name": "Sandhills Community College",
+    "state": "NC",
+    "city": "Pinehurst",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": "North Carolina Community College System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "sandhills-community-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "sitting-bull-college",
+    "institution_name": "Sitting Bull College",
+    "state": "ND",
+    "city": "Fort Yates",
+    "control": "private-nonprofit",
+    "institution_type": "tribal college",
+    "system_affiliation": "Standing Rock Sioux Tribe (TCU)",
+    "enrollment": 300,
+    "plan_count": 1,
+    "plan_ids": [
+      "sitting-bull-college-continuity-of-operations"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "smith-college",
+    "institution_name": "Smith College",
+    "state": "MA",
+    "city": "Northampton",
+    "control": "private-nonprofit",
+    "institution_type": "liberal arts college",
+    "system_affiliation": null,
+    "enrollment": 2900,
+    "plan_count": 1,
+    "plan_ids": [
+      "smith-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "south-dakota-state-university",
+    "institution_name": "South Dakota State University",
+    "state": "SD",
+    "city": "Brookings",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "South Dakota Board of Regents",
+    "enrollment": 11500,
+    "plan_count": 1,
+    "plan_ids": [
+      "south-dakota-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "south-texas-college",
+    "institution_name": "South Texas College",
+    "state": "TX",
+    "city": "McAllen",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": null,
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "south-texas-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "southern-methodist-university",
+    "institution_name": "Southern Methodist University",
+    "state": "TX",
+    "city": "Dallas",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 12000,
+    "plan_count": 1,
+    "plan_ids": [
+      "southern-methodist-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "southern-oregon-university",
+    "institution_name": "Southern Oregon University",
+    "state": "OR",
+    "city": "Ashland",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": null,
+    "enrollment": 5000,
+    "plan_count": 1,
+    "plan_ids": [
+      "southern-oregon-university-itdr"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2017
+  },
+  {
+    "institution_id": "stony-brook-university",
+    "institution_name": "Stony Brook University",
+    "state": "NY",
+    "city": "Stony Brook",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University of New York (SUNY)",
+    "enrollment": 26000,
+    "plan_count": 1,
+    "plan_ids": [
+      "stony-brook-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "syracuse-university",
+    "institution_name": "Syracuse University",
+    "state": "NY",
+    "city": "Syracuse",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 22000,
+    "plan_count": 1,
+    "plan_ids": [
+      "syracuse-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "tarleton-state-university",
+    "institution_name": "Tarleton State University",
+    "state": "TX",
+    "city": "Stephenville",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Texas A&M University System",
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tarleton-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "tarrant-county-college-district",
+    "institution_name": "Tarrant County College District",
+    "state": "TX",
+    "city": "Fort Worth",
+    "control": "public",
+    "institution_type": "community college",
+    "system_affiliation": null,
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tarrant-county-college-district"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "temple-university",
+    "institution_name": "Temple University",
+    "state": "PA",
+    "city": "Philadelphia",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 33000,
+    "plan_count": 1,
+    "plan_ids": [
+      "temple-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "tennessee-state-university",
+    "institution_name": "Tennessee State University",
+    "state": "TN",
+    "city": "Nashville",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "Tennessee Board of Regents / State of Tennessee",
+    "enrollment": 8000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tennessee-state-university-continuity-of-instruction"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "tennessee-technological-university",
+    "institution_name": "Tennessee Technological University",
+    "state": "TN",
+    "city": "Cookeville",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Tennessee (state-supported; locally governed board)",
+    "enrollment": 10000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tennessee-tech-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2018
+  },
+  {
+    "institution_id": "texas-a-m-university",
+    "institution_name": "Texas A&M University",
+    "state": "TX",
+    "city": "College Station",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Texas A&M University System",
+    "enrollment": 74000,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-am-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "texas-a-m-university-corpus-christi",
+    "institution_name": "Texas A&M University-Corpus Christi",
+    "state": "TX",
+    "city": "Corpus Christi",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "Texas A&M University System",
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-am-corpus-christi-business-continuity-plan"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "texas-a-m-university-kingsville",
+    "institution_name": "Texas A&M University-Kingsville",
+    "state": "TX",
+    "city": "Kingsville",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "Texas A&M University System",
+    "enrollment": 17000,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-am-university-kingsville"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "texas-state-university",
+    "institution_name": "Texas State University",
+    "state": "TX",
+    "city": "San Marcos",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "Texas State University System",
+    "enrollment": 40000,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "texas-tech-university-system",
+    "institution_name": "Texas Tech University System",
+    "state": "TX",
+    "city": "Lubbock",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "Texas Tech University System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-tech-university-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2017
+  },
+  {
+    "institution_id": "texas-woman-s-university",
+    "institution_name": "Texas Woman's University",
+    "state": "TX",
+    "city": "Denton",
+    "control": "public",
+    "institution_type": "other public",
+    "system_affiliation": null,
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "texas-womans-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "the-ohio-state-university",
+    "institution_name": "The Ohio State University",
+    "state": "OH",
+    "city": "Columbus",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 60000,
+    "plan_count": 1,
+    "plan_ids": [
+      "ohio-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "tufts-university",
+    "institution_name": "Tufts University",
+    "state": "MA",
+    "city": "Medford",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tufts-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "tulane-university",
+    "institution_name": "Tulane University",
+    "state": "LA",
+    "city": "New Orleans",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 15000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tulane-university-coop"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "tuskegee-university",
+    "institution_name": "Tuskegee University",
+    "state": "AL",
+    "city": "Tuskegee",
+    "control": "private-nonprofit",
+    "institution_type": "HBCU",
+    "system_affiliation": null,
+    "enrollment": 3000,
+    "plan_count": 1,
+    "plan_ids": [
+      "tuskegee-university-it-disaster-recovery-plan"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-alaska-system",
+    "institution_name": "University of Alaska System",
+    "state": "AK",
+    "city": "Fairbanks",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Alaska System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-alaska-system"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-arizona",
+    "institution_name": "University of Arizona",
+    "state": "AZ",
+    "city": "Tucson",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Arizona Board of Regents",
+    "enrollment": 53000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-arizona"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-arkansas-at-little-rock",
+    "institution_name": "University of Arkansas at Little Rock",
+    "state": "AR",
+    "city": "Little Rock",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of Arkansas System",
+    "enrollment": 8200,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-arkansas-little-rock"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2010
+  },
+  {
+    "institution_id": "university-of-arkansas-at-monticello",
+    "institution_name": "University of Arkansas at Monticello",
+    "state": "AR",
+    "city": "Monticello",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of Arkansas System",
+    "enrollment": 3000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-arkansas-monticello-emp-bcp"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-california-davis",
+    "institution_name": "University of California, Davis",
+    "state": "CA",
+    "city": "Davis",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of California",
+    "enrollment": 40000,
+    "plan_count": 1,
+    "plan_ids": [
+      "uc-davis"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-california-los-angeles",
+    "institution_name": "University of California, Los Angeles",
+    "state": "CA",
+    "city": "Los Angeles",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of California",
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "uc-los-angeles"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-california-merced",
+    "institution_name": "University of California, Merced",
+    "state": "CA",
+    "city": "Merced",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of California",
+    "enrollment": 9000,
+    "plan_count": 1,
+    "plan_ids": [
+      "uc-merced"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-california-san-diego",
+    "institution_name": "University of California, San Diego",
+    "state": "CA",
+    "city": "La Jolla",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of California",
+    "enrollment": 42000,
+    "plan_count": 1,
+    "plan_ids": [
+      "uc-san-diego"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-california-san-francisco",
+    "institution_name": "University of California, San Francisco",
+    "state": "CA",
+    "city": "San Francisco",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "University of California",
+    "enrollment": 3300,
+    "plan_count": 1,
+    "plan_ids": [
+      "uc-san-francisco"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-central-florida",
+    "institution_name": "University of Central Florida",
+    "state": "FL",
+    "city": "Orlando",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 69000,
+    "plan_count": 1,
+    "plan_ids": [
+      "ucf-coop-policy-3-117"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "university-of-cincinnati",
+    "institution_name": "University of Cincinnati",
+    "state": "OH",
+    "city": "Cincinnati",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 50000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-cincinnati"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-colorado-colorado-springs",
+    "institution_name": "University of Colorado Colorado Springs",
+    "state": "CO",
+    "city": "Colorado Springs",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of Colorado System",
+    "enrollment": 11000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-colorado-colorado-springs"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-colorado-denver-anschutz-medical-campus",
+    "institution_name": "University of Colorado Denver | Anschutz Medical Campus",
+    "state": "CO",
+    "city": "Denver",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Colorado System",
+    "enrollment": 24000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-colorado-denver"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-colorado-system-administration",
+    "institution_name": "University of Colorado (System Administration)",
+    "state": "CO",
+    "city": "Denver",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Colorado System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-colorado-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-connecticut",
+    "institution_name": "University of Connecticut",
+    "state": "CT",
+    "city": "Storrs",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Connecticut",
+    "enrollment": 27000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-connecticut"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2012
+  },
+  {
+    "institution_id": "university-of-delaware",
+    "institution_name": "University of Delaware",
+    "state": "DE",
+    "city": "Newark",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 24000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-delaware"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-florida",
+    "institution_name": "University of Florida",
+    "state": "FL",
+    "city": "Gainesville",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 55000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-florida-coop-template"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-georgia",
+    "institution_name": "University of Georgia",
+    "state": "GA",
+    "city": "Athens",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of Georgia",
+    "enrollment": 40000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-georgia-bcp"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-houston",
+    "institution_name": "University of Houston",
+    "state": "TX",
+    "city": "Houston",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Houston System",
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-houston"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-houston-downtown",
+    "institution_name": "University of Houston-Downtown",
+    "state": "TX",
+    "city": "Houston",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "University of Houston System",
+    "enrollment": 15000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-houston-downtown"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "university-of-houston-system",
+    "institution_name": "University of Houston System",
+    "state": "TX",
+    "city": "Houston",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Houston System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-houston-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "university-of-illinois-chicago",
+    "institution_name": "University of Illinois Chicago",
+    "state": "IL",
+    "city": "Chicago",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Illinois System",
+    "enrollment": 34000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-illinois-chicago"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-illinois-urbana-champaign",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "state": "IL",
+    "city": "Urbana",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Illinois System",
+    "enrollment": 56000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-illinois-urbana-champaign"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-iowa",
+    "institution_name": "University of Iowa",
+    "state": "IA",
+    "city": "Iowa City",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Iowa Board of Regents",
+    "enrollment": 30400,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-iowa"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-kansas",
+    "institution_name": "University of Kansas",
+    "state": "KS",
+    "city": "Lawrence",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Kansas Board of Regents",
+    "enrollment": 28500,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-kansas"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-kentucky",
+    "institution_name": "University of Kentucky",
+    "state": "KY",
+    "city": "Lexington",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Kentucky (state-supported)",
+    "enrollment": 33000,
+    "plan_count": 2,
+    "plan_ids": [
+      "university-of-kentucky-bcp",
+      "university-of-kentucky-continuity-of-instruction"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-louisville",
+    "institution_name": "University of Louisville",
+    "state": "KY",
+    "city": "Louisville",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Kentucky (state-supported)",
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-louisville"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "university-of-mary-washington",
+    "institution_name": "University of Mary Washington",
+    "state": "VA",
+    "city": "Fredericksburg",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 4000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-mary-washington"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "university-of-maryland-baltimore",
+    "institution_name": "University of Maryland, Baltimore",
+    "state": "MD",
+    "city": "Baltimore",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "University System of Maryland",
+    "enrollment": 7000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-maryland-baltimore"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-maryland-baltimore-county",
+    "institution_name": "University of Maryland, Baltimore County",
+    "state": "MD",
+    "city": "Baltimore",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of Maryland",
+    "enrollment": 13500,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-maryland-baltimore-county"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-maryland-college-park",
+    "institution_name": "University of Maryland, College Park",
+    "state": "MD",
+    "city": "College Park",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of Maryland",
+    "enrollment": 41000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-maryland-college-park"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-massachusetts-boston",
+    "institution_name": "University of Massachusetts Boston",
+    "state": "MA",
+    "city": "Boston",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Massachusetts",
+    "enrollment": 16000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-massachusetts-boston"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-massachusetts-dartmouth",
+    "institution_name": "University of Massachusetts Dartmouth",
+    "state": "MA",
+    "city": "Dartmouth",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of Massachusetts",
+    "enrollment": 8500,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-massachusetts-dartmouth"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 1999
+  },
+  {
+    "institution_id": "university-of-massachusetts-lowell",
+    "institution_name": "University of Massachusetts Lowell",
+    "state": "MA",
+    "city": "Lowell",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of Massachusetts",
+    "enrollment": 18000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-massachusetts-lowell"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-massachusetts-system-office",
+    "institution_name": "University of Massachusetts (System Office)",
+    "state": "MA",
+    "city": "Boston",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Massachusetts",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-massachusetts-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-miami",
+    "institution_name": "University of Miami",
+    "state": "FL",
+    "city": "Coral Gables",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 19000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-miami-cemp-uready"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-michigan-dearborn",
+    "institution_name": "University of Michigan-Dearborn",
+    "state": "MI",
+    "city": "Dearborn",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of Michigan",
+    "enrollment": 8600,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-michigan-dearborn"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-michigan-flint",
+    "institution_name": "University of Michigan-Flint",
+    "state": "MI",
+    "city": "Flint",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of Michigan",
+    "enrollment": 6600,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-michigan-flint"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-michigan-human-research-protection-program",
+    "institution_name": "University of Michigan (Human Research Protection Program)",
+    "state": "MI",
+    "city": "Ann Arbor",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Michigan",
+    "enrollment": 52000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-michigan-hrpp"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-minnesota",
+    "institution_name": "University of Minnesota",
+    "state": "MN",
+    "city": "Minneapolis",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Minnesota System",
+    "enrollment": 54890,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-minnesota"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "university-of-mississippi-medical-center",
+    "institution_name": "University of Mississippi Medical Center",
+    "state": "MS",
+    "city": "Jackson",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "University of Mississippi",
+    "enrollment": 3000,
+    "plan_count": 1,
+    "plan_ids": [
+      "ummc-department-disaster-business-continuity-template"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-missouri-system",
+    "institution_name": "University of Missouri System",
+    "state": "MO",
+    "city": "Columbia",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Missouri System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-missouri-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-montana",
+    "institution_name": "University of Montana",
+    "state": "MT",
+    "city": "Missoula",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Montana University System",
+    "enrollment": 10000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-montana"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "university-of-nebraska-lincoln",
+    "institution_name": "University of Nebraska-Lincoln",
+    "state": "NE",
+    "city": "Lincoln",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Nebraska System",
+    "enrollment": 23600,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-nebraska-lincoln-instructional-continuity"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "university-of-nevada-reno",
+    "institution_name": "University of Nevada, Reno",
+    "state": "NV",
+    "city": "Reno",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Nevada System of Higher Education",
+    "enrollment": 21000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-nevada-reno"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "university-of-new-hampshire",
+    "institution_name": "University of New Hampshire",
+    "state": "NH",
+    "city": "Durham",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University System of New Hampshire",
+    "enrollment": 14000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-new-hampshire"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-north-carolina-at-chapel-hill",
+    "institution_name": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "city": "Chapel Hill",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 32000,
+    "plan_count": 1,
+    "plan_ids": [
+      "unc-chapel-hill"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-north-carolina-at-charlotte",
+    "institution_name": "University of North Carolina at Charlotte",
+    "state": "NC",
+    "city": "Charlotte",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 30000,
+    "plan_count": 1,
+    "plan_ids": [
+      "unc-charlotte"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-north-carolina-at-greensboro",
+    "institution_name": "University of North Carolina at Greensboro",
+    "state": "NC",
+    "city": "Greensboro",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 18000,
+    "plan_count": 1,
+    "plan_ids": [
+      "unc-greensboro"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-north-carolina-wilmington",
+    "institution_name": "University of North Carolina Wilmington",
+    "state": "NC",
+    "city": "Wilmington",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 19000,
+    "plan_count": 1,
+    "plan_ids": [
+      "unc-wilmington"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "university-of-north-dakota",
+    "institution_name": "University of North Dakota",
+    "state": "ND",
+    "city": "Grand Forks",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "North Dakota University System",
+    "enrollment": 15000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-north-dakota"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-north-texas",
+    "institution_name": "University of North Texas",
+    "state": "TX",
+    "city": "Denton",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of North Texas System",
+    "enrollment": 47000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-north-texas"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-notre-dame",
+    "institution_name": "University of Notre Dame",
+    "state": "IN",
+    "city": "Notre Dame",
+    "control": "private-nonprofit",
+    "institution_type": "religiously affiliated university",
+    "system_affiliation": null,
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-notre-dame"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2021
+  },
+  {
+    "institution_id": "university-of-oklahoma-health-sciences-center",
+    "institution_name": "University of Oklahoma Health Sciences Center",
+    "state": "OK",
+    "city": "Oklahoma City",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "University of Oklahoma",
+    "enrollment": 4000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-oklahoma-health-sciences-center"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-oregon",
+    "institution_name": "University of Oregon",
+    "state": "OR",
+    "city": "Eugene",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-oregon"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-pittsburgh",
+    "institution_name": "University of Pittsburgh",
+    "state": "PA",
+    "city": "Pittsburgh",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 33000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-pittsburgh"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-rhode-island",
+    "institution_name": "University of Rhode Island",
+    "state": "RI",
+    "city": "Kingston",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "University of Rhode Island",
+    "enrollment": 17600,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-rhode-island"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "university-of-rochester",
+    "institution_name": "University of Rochester",
+    "state": "NY",
+    "city": "Rochester",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 12000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-rochester"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "university-of-south-carolina",
+    "institution_name": "University of South Carolina",
+    "state": "SC",
+    "city": "Columbia",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of South Carolina System",
+    "enrollment": 36000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-south-carolina-eop"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2018
+  },
+  {
+    "institution_id": "university-of-southern-california",
+    "institution_name": "University of Southern California",
+    "state": "CA",
+    "city": "Los Angeles",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 48000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-southern-california"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2022
+  },
+  {
+    "institution_id": "university-of-tennessee-system",
+    "institution_name": "University of Tennessee System",
+    "state": "TN",
+    "city": "Knoxville",
+    "control": "public",
+    "institution_type": "system office",
+    "system_affiliation": "University of Tennessee System",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-tennessee-system"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-texas-at-arlington",
+    "institution_name": "University of Texas at Arlington",
+    "state": "TX",
+    "city": "Arlington",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Texas System",
+    "enrollment": 41000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-texas-arlington"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-texas-at-austin",
+    "institution_name": "University of Texas at Austin",
+    "state": "TX",
+    "city": "Austin",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Texas System",
+    "enrollment": 53000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-texas-austin"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-texas-at-san-antonio",
+    "institution_name": "University of Texas at San Antonio",
+    "state": "TX",
+    "city": "San Antonio",
+    "control": "public",
+    "institution_type": "HSI",
+    "system_affiliation": "University of Texas System",
+    "enrollment": 34000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-texas-san-antonio"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-texas-health-science-center-at-houston-uthealth-houston",
+    "institution_name": "University of Texas Health Science Center at Houston (UTHealth Houston)",
+    "state": "TX",
+    "city": "Houston",
+    "control": "public",
+    "institution_type": "specialized institution",
+    "system_affiliation": "University of Texas System",
+    "enrollment": 5000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-texas-health-science-center-houston"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-toledo",
+    "institution_name": "University of Toledo",
+    "state": "OH",
+    "city": "Toledo",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": null,
+    "enrollment": 27000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-toledo"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-utah",
+    "institution_name": "University of Utah",
+    "state": "UT",
+    "city": "Salt Lake City",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Utah System of Higher Education",
+    "enrollment": 35000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-utah"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-vermont",
+    "institution_name": "University of Vermont",
+    "state": "VT",
+    "city": "Burlington",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "University of Vermont (state university)",
+    "enrollment": 13800,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-vermont"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "university-of-virginia",
+    "institution_name": "University of Virginia",
+    "state": "VA",
+    "city": "Charlottesville",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 26000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-virginia"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "university-of-washington",
+    "institution_name": "University of Washington",
+    "state": "WA",
+    "city": "Seattle",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 60000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-washington-research-continuity"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-washington-tacoma",
+    "institution_name": "University of Washington Tacoma",
+    "state": "WA",
+    "city": "Tacoma",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "University of Washington",
+    "enrollment": 5000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-washington-tacoma-academic"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2020
+  },
+  {
+    "institution_id": "university-of-west-florida",
+    "institution_name": "University of West Florida",
+    "state": "FL",
+    "city": "Pensacola",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "State University System of Florida",
+    "enrollment": 13000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-west-florida-coop-template"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "university-of-wisconsin-madison",
+    "institution_name": "University of Wisconsin-Madison",
+    "state": "WI",
+    "city": "Madison",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Universities of Wisconsin",
+    "enrollment": 50000,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-wisconsin-madison"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-wisconsin-stevens-point",
+    "institution_name": "University of Wisconsin-Stevens Point",
+    "state": "WI",
+    "city": "Stevens Point",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Universities of Wisconsin",
+    "enrollment": 7500,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-wisconsin-stevens-point"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "university-of-wisconsin-stout",
+    "institution_name": "University of Wisconsin-Stout",
+    "state": "WI",
+    "city": "Menomonie",
+    "control": "public",
+    "institution_type": "regional public university",
+    "system_affiliation": "Universities of Wisconsin",
+    "enrollment": 6800,
+    "plan_count": 1,
+    "plan_ids": [
+      "university-of-wisconsin-stout"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "virginia-commonwealth-university",
+    "institution_name": "Virginia Commonwealth University",
+    "state": "VA",
+    "city": "Richmond",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 28000,
+    "plan_count": 1,
+    "plan_ids": [
+      "virginia-commonwealth-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "virginia-polytechnic-institute-and-state-university",
+    "institution_name": "Virginia Polytechnic Institute and State University",
+    "state": "VA",
+    "city": "Blacksburg",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 38000,
+    "plan_count": 2,
+    "plan_ids": [
+      "virginia-tech",
+      "virginia-tech-continuity-of-instruction"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2023
+  },
+  {
+    "institution_id": "virginia-state-university",
+    "institution_name": "Virginia State University",
+    "state": "VA",
+    "city": "Petersburg",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "Commonwealth of Virginia",
+    "enrollment": 5000,
+    "plan_count": 1,
+    "plan_ids": [
+      "virginia-state-university-it-contingency-6135"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2017
+  },
+  {
+    "institution_id": "washington-state-university",
+    "institution_name": "Washington State University",
+    "state": "WA",
+    "city": "Pullman",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 30000,
+    "plan_count": 1,
+    "plan_ids": [
+      "washington-state-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "wesleyan-university",
+    "institution_name": "Wesleyan University",
+    "state": "CT",
+    "city": "Middletown",
+    "control": "private-nonprofit",
+    "institution_type": "liberal arts college",
+    "system_affiliation": null,
+    "enrollment": 3300,
+    "plan_count": 1,
+    "plan_ids": [
+      "wesleyan-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2014
+  },
+  {
+    "institution_id": "west-virginia-university",
+    "institution_name": "West Virginia University",
+    "state": "WV",
+    "city": "Morgantown",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "West Virginia University System",
+    "enrollment": 24000,
+    "plan_count": 1,
+    "plan_ids": [
+      "west-virginia-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "wichita-state-university",
+    "institution_name": "Wichita State University",
+    "state": "KS",
+    "city": "Wichita",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": "Kansas Board of Regents",
+    "enrollment": 23000,
+    "plan_count": 1,
+    "plan_ids": [
+      "wichita-state-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": null
+  },
+  {
+    "institution_id": "william-mary",
+    "institution_name": "William & Mary",
+    "state": "VA",
+    "city": "Williamsburg",
+    "control": "public",
+    "institution_type": "R1 university",
+    "system_affiliation": "Commonwealth of Virginia (state-supported)",
+    "enrollment": 9700,
+    "plan_count": 1,
+    "plan_ids": [
+      "william-and-mary"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "winston-salem-state-university",
+    "institution_name": "Winston-Salem State University",
+    "state": "NC",
+    "city": "Winston-Salem",
+    "control": "public",
+    "institution_type": "HBCU",
+    "system_affiliation": "University of North Carolina System",
+    "enrollment": 5000,
+    "plan_count": 1,
+    "plan_ids": [
+      "winston-salem-state-university-campus-continuity"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2026
+  },
+  {
+    "institution_id": "wiregrass-georgia-technical-college",
+    "institution_name": "Wiregrass Georgia Technical College",
+    "state": "GA",
+    "city": "Valdosta",
+    "control": "public",
+    "institution_type": "technical college",
+    "system_affiliation": "Technical College System of Georgia",
+    "enrollment": null,
+    "plan_count": 1,
+    "plan_ids": [
+      "wiregrass-georgia-technical-college"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": 2024
+  },
+  {
+    "institution_id": "wright-state-university",
+    "institution_name": "Wright State University",
+    "state": "OH",
+    "city": "Dayton",
+    "control": "public",
+    "institution_type": "R2 university",
+    "system_affiliation": null,
+    "enrollment": 10000,
+    "plan_count": 1,
+    "plan_ids": [
+      "wright-state-university"
+    ],
+    "best_verification": "link-only",
+    "most_recent_year": 2025
+  },
+  {
+    "institution_id": "yale-university",
+    "institution_name": "Yale University",
+    "state": "CT",
+    "city": "New Haven",
+    "control": "private-nonprofit",
+    "institution_type": "R1 university",
+    "system_affiliation": null,
+    "enrollment": 15000,
+    "plan_count": 1,
+    "plan_ids": [
+      "yale-university"
+    ],
+    "best_verification": "opened-and-confirmed",
+    "most_recent_year": null
+  }
+]
