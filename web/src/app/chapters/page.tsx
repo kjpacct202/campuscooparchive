@@ -5,7 +5,7 @@ import { chapterSummaries } from "@/lib/chapters";
 export const metadata: Metadata = {
   title: "Chapters",
   description:
-    "Curated collections of campus continuity (COOP) plans — perfect-scoring exemplars, essential-functions-based plans, IT disaster recovery, academic continuity, and more.",
+    "Curated collections of campus continuity (COOP) plans: perfect-scoring exemplars, essential-functions-based plans, IT disaster recovery, academic continuity, and more.",
 };
 
 export default function ChaptersPage() {
@@ -16,7 +16,7 @@ export default function ChaptersPage() {
         <div className="eyebrow">Curated collections</div>
         <h1>Chapters</h1>
         <p className="lead">
-          Hand-picked slices of the catalog — entry points into the plans worth studying
+          Hand-picked slices of the catalog: entry points into the plans worth studying
           together. Every chapter is generated live from the dataset.
         </p>
       </div>

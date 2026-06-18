@@ -100,7 +100,7 @@ export default function InsightsPage() {
           </span>
         ))}
         . Succession, delegation, and devolution planning are precisely what a continuity
-        program exists to provide &mdash; yet they are the first things public plans leave
+        program exists to provide, yet they are the first things public plans leave
         out.
       </p>
       {missItems.length > 0 && (
@@ -125,7 +125,7 @@ export default function InsightsPage() {
             <strong>
               {bottomDoc.value}/{BENCHMARK_MAX}
             </strong>{" "}
-            ({bottomDoc.n}) &mdash; low by design, since they cover a single slice of continuity.
+            ({bottomDoc.n}), low by design, since they cover a single slice of continuity.
           </>
         ) : (
           <>full plans score far higher than narrower, single-purpose documents.</>
@@ -148,8 +148,8 @@ export default function InsightsPage() {
           {topStruct?.value}/{BENCHMARK_MAX}
         </strong>{" "}
         across {topStruct?.n} plans). Building a plan around an explicit inventory of
-        essential functions &mdash; rather than around departments or incident phases
-        &mdash; is generally the mark of a more developed program. Explore them in the{" "}
+        essential functions (rather than around departments or incident phases)
+        is generally the mark of a more developed program. Explore them in the{" "}
         <Link href="/chapters/essential-functions-based/">essential-functions-based exemplars</Link> chapter.
       </p>
       {structItems.length > 0 && (
@@ -175,8 +175,8 @@ export default function InsightsPage() {
       <h2>Continuity-facility models</h2>
       <p>
         When the primary site is lost, where does the work go? Plans name a range of
-        strategies &mdash; physical alternate sites, distributed telework, reciprocal
-        mutual-aid arrangements, and cloud-hosted operations &mdash; and a notable share
+        strategies (physical alternate sites, distributed telework, reciprocal
+        mutual-aid arrangements, and cloud-hosted operations), and a notable share
         state no model at all.
       </p>
       {altFacility.length > 0 && (
@@ -189,15 +189,15 @@ export default function InsightsPage() {
       <h2>Notable design decisions</h2>
       <p>
         The real payoff of reading plans in full is the transferable ideas. A few examples
-        (each quoted verbatim from its source) &mdash; then the full gallery:
+        (each quoted verbatim from its source), then the full gallery:
       </p>
       {highlights.length > 0 ? (
         highlights.map((d) => (
           <div className="unusual" key={d.plan_id + d.decision.slice(0, 24)}>
             <div className="obs">
-              {d.decision}{" "}
+              {d.decision},{" "}
               <Link href={`/plans/${d.plan_id}/`} style={{ fontWeight: 400 }}>
-                &mdash; {d.institution_name}
+                {d.institution_name}
               </Link>
             </div>
             <div className="ev">&ldquo;{d.quote}&rdquo;</div>
@@ -219,7 +219,7 @@ export default function InsightsPage() {
       )}
 
       <div className="callout">
-        These are observations from a fully sourced dataset &mdash; every figure traces back
+        These are observations from a fully sourced dataset. Every figure traces back
         to a plan you can open, and every quote is verbatim. Want to run your own analysis?{" "}
         <Link href="/downloads/">Download the data</Link>.
       </div>

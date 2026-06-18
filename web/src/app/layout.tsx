@@ -8,7 +8,7 @@ import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/format";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — sourced catalog of campus continuity of operations plans`,
+    default: `${SITE_NAME}: a sourced catalog of campus continuity of operations plans`,
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_TAGLINE,

@@ -16,7 +16,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!inst) return { title: "Institution not found" };
   return {
     title: inst.institution_name,
-    description: `${inst.institution_name} (${inst.state}) — institution profile and its publicly published continuity plans.`,
+    description: `${inst.institution_name} (${inst.state}): institution profile and its publicly published continuity plans.`,
   };
 }
 
