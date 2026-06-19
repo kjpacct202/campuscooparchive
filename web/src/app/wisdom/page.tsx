@@ -6,7 +6,7 @@ import { getDeepList, getStats } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Wisdom",
   description:
-    "The best transferable lessons synthesized from every deep-coded campus continuity plan — each backed by a verbatim quote from its source.",
+    "The best transferable lessons synthesized from every deep-coded campus continuity plan, each backed by a verbatim quote from its source.",
 };
 
 export default function WisdomPage() {
@@ -27,7 +27,7 @@ export default function WisdomPage() {
         <strong> verbatim</strong> from its source plan and links to that plan. Go deeper in the{" "}
         <Link href="/insights/">findings</Link>, the{" "}
         <Link href="/insights/notable-decisions/">full decisions gallery</Link>, and the{" "}
-        <Link href="/statistics/">statistics</Link> — or read the{" "}
+        <Link href="/statistics/">statistics</Link>, or read the{" "}
         <Link href="/methodology/">methodology</Link>.
       </div>
 
@@ -46,7 +46,7 @@ export default function WisdomPage() {
               <blockquote className="quote" key={j}>
                 &ldquo;{e.quote}&rdquo;
                 <footer>
-                  &mdash;{" "}
+                  {", "}
                   {e.link ? (
                     <Link href={`/plans/${e.plan_id}/`}>{e.institution}</Link>
                   ) : (

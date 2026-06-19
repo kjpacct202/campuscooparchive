@@ -17,7 +17,7 @@ function mark(on: boolean | undefined, deep: boolean) {
   return on ? (
     <span style={{ color: "var(--green)", fontWeight: 700 }}>✓</span>
   ) : (
-    <span className="muted">—</span>
+    <span className="muted">No</span>
   );
 }
 
@@ -75,7 +75,7 @@ export function CompareClient() {
           className="search-input"
           placeholder={
             selected.length >= MAX
-              ? `Max ${MAX} plans — remove one to add another`
+              ? `Max ${MAX} plans, remove one to add another`
               : "Search to add a plan to compare…"
           }
           value={q}
@@ -120,26 +120,26 @@ export function CompareClient() {
                 <td>Benchmark</td>
                 {cols.map((c) => (
                   <td key={c.plan_id}>
-                    {c.benchmark_present != null ? `${c.benchmark_present}/22` : "—"}
+                    {c.benchmark_present != null ? `${c.benchmark_present}/22` : "n/a"}
                   </td>
                 ))}
               </tr>
               <tr>
                 <td>Structure</td>
                 {cols.map((c) => (
-                  <td key={c.plan_id}>{c.organizing_structure || "—"}</td>
+                  <td key={c.plan_id}>{c.organizing_structure || "n/a"}</td>
                 ))}
               </tr>
               <tr>
                 <td>Plan type</td>
                 {cols.map((c) => (
-                  <td key={c.plan_id}>{c.plan_type || "—"}</td>
+                  <td key={c.plan_id}>{c.plan_type || "n/a"}</td>
                 ))}
               </tr>
               <tr>
                 <td>Document type</td>
                 {cols.map((c) => (
-                  <td key={c.plan_id}>{c.document_type || "—"}</td>
+                  <td key={c.plan_id}>{c.document_type || "n/a"}</td>
                 ))}
               </tr>
               <tr>
@@ -179,7 +179,7 @@ export function CompareClient() {
                     {c.coop_treatment
                       ? prettyTag(c.coop_treatment)
                       : deepOf(c)
-                      ? "—"
+                      ? "n/a"
                       : <span className="muted">·</span>}
                   </td>
                 ))}
@@ -191,7 +191,7 @@ export function CompareClient() {
                     {c.alternate_facility_model
                       ? prettyTag(c.alternate_facility_model)
                       : deepOf(c)
-                      ? "—"
+                      ? "n/a"
                       : <span className="muted">·</span>}
                   </td>
                 ))}
@@ -205,7 +205,7 @@ export function CompareClient() {
                       {deepOf(c)
                         ? fns.length
                           ? `${fns.length} identified`
-                          : "—"
+                          : "n/a"
                         : <span className="muted">·</span>}
                     </td>
                   );

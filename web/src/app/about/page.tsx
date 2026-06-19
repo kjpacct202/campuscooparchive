@@ -38,7 +38,7 @@ export default function AboutPage() {
       <p>
         The catalog was compiled with AI research agents that searched official{" "}
         <code>.edu</code> hosts and public-safety pages, opened candidate documents, and
-        returned structured records — each with a verbatim evidence quote. A
+        returned structured records, each with a verbatim evidence quote. A
         deterministic Python pipeline de-duplicates and normalizes those records into the
         master datasets that drive this site. No datapoint is published without a primary
         source: see the <Link href="/methodology/">methodology</Link>.
@@ -60,21 +60,21 @@ export default function AboutPage() {
       <ul>
         <li>
           <strong>Discovery waves.</strong> Successive parallel research passes swept
-          distinct lanes — US regions, private/liberal-arts, community colleges and
+          distinct lanes (US regions, private/liberal-arts, community colleges and
           system offices, and gap-filling sweeps for HBCUs, HSIs, tribal colleges, and
-          specialized institutions — growing the catalog to national coverage across{" "}
+          specialized institutions), growing the catalog to national coverage across{" "}
           {stats.totals.states_covered} states and DC.
         </li>
         <li>
           <strong>The continuity benchmark.</strong> A fully cited reference catalogs the
-          federal and consensus continuity doctrine — FCD&nbsp;1, FCD&nbsp;2, the FEMA
+          federal and consensus continuity doctrine (FCD&nbsp;1, FCD&nbsp;2, the FEMA
           Continuity Guidance Circular (CGC), NIST&nbsp;SP&nbsp;800-34, ISO&nbsp;22301,
-          and NFPA&nbsp;1600 — and synthesizes them into a 22-component scoring checklist.
+          and NFPA&nbsp;1600) and synthesizes them into a 22-component scoring checklist.
         </li>
         <li>
           <strong>Deep-analysis layer.</strong> A growing subset of plans is read in
           full and coded against that benchmark, with essential-function inventories,
-          alternate-facility models, and notable decisions — each backed by an evidence
+          alternate-facility models, and notable decisions, each backed by an evidence
           quote.
         </li>
       </ul>
@@ -84,7 +84,7 @@ export default function AboutPage() {
         AI-assisted compilation; sources linked, not redistributed. Source documents
         remain the work of their respective institutions. This is a research index and
         analysis layer over
-        publicly available material — not a census: institutions that keep their plans
+        publicly available material, not a census: institutions that keep their plans
         internal are absent, and that absence is not evidence they lack a plan.
       </p>
     </div>

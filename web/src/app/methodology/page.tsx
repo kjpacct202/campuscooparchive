@@ -54,14 +54,14 @@ export default function MethodologyPage() {
       <p>Every record carries three verification fields:</p>
       <ul>
         <li>
-          <strong>Source URL</strong> — a direct link to the document (PDF/HTML/DOCX) on
+          <strong>Source URL</strong>: a direct link to the document (PDF/HTML/DOCX) on
           an official institutional host, or the plan page itself for HTML plans.
         </li>
         <li>
-          <strong>Date accessed</strong> — the ISO date the record was checked.
+          <strong>Date accessed</strong>: the ISO date the record was checked.
         </li>
         <li>
-          <strong>Evidence quote</strong> — a short verbatim excerpt from the document
+          <strong>Evidence quote</strong>: a short verbatim excerpt from the document
           or its official hosting page (typically the title block, a promulgation line,
           or a framework-adoption sentence) that proves the document is what we say it
           is.
@@ -70,12 +70,12 @@ export default function MethodologyPage() {
       <p>Records are then graded with a verification badge:</p>
       <ul>
         <li>
-          <span className="badge badge--ok">&#10003; Confirmed</span> &mdash;{" "}
+          <span className="badge badge--ok">&#10003; Confirmed</span>,{" "}
           <strong>opened-and-confirmed</strong>: a researcher loaded the document or its
           official page and read the evidence quote directly from it.
         </li>
         <li>
-          <span className="badge badge--link">Link-only</span> &mdash; the direct URL
+          <span className="badge badge--link">Link-only</span>: the direct URL
           resolves on an official host and the title/quote are confirmed via a search
           index or landing page, but the document bytes were not personally rendered
           (usually a transient fetch limit or a viewer that blocks text extraction).
@@ -96,7 +96,7 @@ export default function MethodologyPage() {
         academic continuity, addresses IT disaster recovery, references FCD&nbsp;1,
         references NIST&nbsp;SP&nbsp;800-34, references ISO&nbsp;22301, and a public
         redacted version. At the discovery stage these are derived from the brief text
-        each researcher captured — not from a full read of every plan body. They are
+        each researcher captured, not from a full read of every plan body. They are
         therefore <strong>conservative lower bounds</strong>: a flag only fires where
         the captured text shows it, so a plan can address a continuity element without
         the flag firing. The deep-analysis layer replaces these with
@@ -106,7 +106,7 @@ export default function MethodologyPage() {
       <h2>The benchmark</h2>
       <p>
         For the 40 deep-coded plans we score each plan against a 22-component
-        continuity benchmark drawn from the same framework family — FEMA&rsquo;s
+        continuity benchmark drawn from the same framework family: FEMA&rsquo;s
         Continuity Guidance Circular (CGC) and Federal Continuity Directives,
         NIST&nbsp;SP&nbsp;800-34, ISO&nbsp;22301, and NFPA&nbsp;1600. A plan&rsquo;s
         score is the count of components present, from 0 to a maximum of 22. The

@@ -82,7 +82,7 @@ export default function OpengraphImage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", fontSize: 30, color: "#9aa0aa", marginTop: 34, lineHeight: 1.35 }}>
             <div style={{ display: "flex" }}>A fully sourced catalog of US college &amp; university</div>
-            <div style={{ display: "flex" }}>continuity plans — read, scored, and free to download.</div>
+            <div style={{ display: "flex" }}>continuity plans, read, scored, and free to download.</div>
           </div>
         </div>
       </div>

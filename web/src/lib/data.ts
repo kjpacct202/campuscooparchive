@@ -43,7 +43,7 @@ export function getDeepMap(): Map<string, DeepRecord> {
   try {
     const nameOf = new Map(getPlans().map((p) => [p.plan_id, p.institution_name]));
     for (const d of read<DeepRecord[]>("deep_analysis.json")) {
-      // deep_analysis.json has no institution_name — join it from the plans table.
+      // deep_analysis.json has no institution_name: join it from the plans table.
       d.institution_name ??= nameOf.get(d.plan_id) ?? d.plan_id;
       m.set(d.plan_id, d);
     }

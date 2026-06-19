@@ -48,7 +48,7 @@ export default function InstitutionsPage() {
               <td>{i.institution_type}</td>
               <td>{i.control}</td>
               <td>{i.plan_count}</td>
-              <td>{i.most_recent_year ?? "—"}</td>
+              <td>{i.most_recent_year ?? "N/A"}</td>
             </tr>
           ))}
         </tbody>

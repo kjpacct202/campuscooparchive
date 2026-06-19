@@ -9,7 +9,7 @@ import { getStats, getDeepList } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Download the data",
   description:
-    "Download the entire Campus COOP Archive for free — CSV, JSON, Excel, or one combined file — and drop it into ChatGPT, Claude, NotebookLM, or Copilot to ask your own questions. No account needed.",
+    "Download the entire Campus COOP Archive for free (CSV, JSON, Excel, or one combined file) and drop it into ChatGPT, Claude, NotebookLM, or Copilot to ask your own questions. No account needed.",
 };
 
 function loadManifest(): DownloadItem[] {
@@ -19,9 +19,9 @@ function loadManifest(): DownloadItem[] {
 }
 
 const GROUPS: { name: string; blurb: string }[] = [
-  { name: "Everything", blurb: "The whole archive — plans, deep analysis, institutions, and aggregate stats — in one file. Best for uploading to an AI tool." },
+  { name: "Everything", blurb: "The whole archive (plans, deep analysis, institutions, and aggregate stats) in one file. Best for uploading to an AI tool." },
   { name: "Catalog", blurb: "The full catalog: one row per plan (210) and per institution, with every field and the verbatim evidence quote." },
-  { name: "Deep analysis", blurb: "The plans read in full and scored against the 22-component continuity benchmark — essential functions, recovery time objectives, and notable decisions." },
+  { name: "Deep analysis", blurb: "The plans read in full and scored against the 22-component continuity benchmark: essential functions, recovery time objectives, and notable decisions." },
   { name: "Reference", blurb: "A plain-language field guide so you (and your AI) interpret every column correctly." },
 ];
 
@@ -44,8 +44,8 @@ export default function DownloadsPage() {
         <div className="eyebrow">Open data · free · no account needed</div>
         <h1>Take the continuity data with you</h1>
         <p className="lead">
-          The entire Archive — {stats.totals.plans} sourced plans, {deep.length} read in
-          full against the 22-component continuity benchmark — free to export in one
+          The entire Archive ({stats.totals.plans} sourced plans, {deep.length} read in
+          full against the 22-component continuity benchmark) is free to export in one
           click. Pull the whole dataset below, or filter to just the slice you want on{" "}
           <Link href="/browse/">Browse</Link>, then drop it into ChatGPT, Claude,
           Google NotebookLM, or Microsoft Copilot and ask your own questions.
@@ -88,7 +88,7 @@ export default function DownloadsPage() {
         <strong>Every datapoint is checkable.</strong> Each plan carries a direct{" "}
         <code>source_url</code>, the <code>date_accessed</code>, and a verbatim{" "}
         <code>evidence_quote</code>. Source documents remain the work of their
-        institutions and are linked, not redistributed — see the{" "}
+        institutions and are linked, not redistributed. See the{" "}
         <Link href="/methodology/">methodology</Link>. The download includes a{" "}
         <code>DATA_DICTIONARY.md</code> explaining every field.
       </div>

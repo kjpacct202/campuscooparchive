@@ -83,7 +83,7 @@ export default function StatisticsPage() {
         <h1>Statistics</h1>
         <p className="lead">
           Aggregates across all {totalPlans} cataloged continuity plans.
-          Catalog-stage framework flags are conservative lower bounds — the
+          Catalog-stage framework flags are conservative lower bounds. The
           deep-analysis layer below replaces them with full-text-verified values.
         </p>
       </div>
@@ -166,7 +166,7 @@ export default function StatisticsPage() {
 
       <h2 style={{ marginTop: 34 }}>Inside the {deepCoded} deep-coded plans</h2>
       <p className="muted" style={{ marginTop: 0 }}>
-        What full-text reading reveals — how continuity is housed, which
+        What full-text reading reveals: how continuity is housed, which
         alternate-facility models plans rely on, and which structures score best.
         See the{" "}
         <Link href="/insights/">narrative findings</Link> and the{" "}

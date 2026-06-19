@@ -36,7 +36,7 @@ function xmlEscape(s) {
 }
 
 /**
- * Excel-openable SpreadsheetML 2003 (.xls) — dependency-free, opens natively in Excel.
+ * Excel-openable SpreadsheetML 2003 (.xls): dependency-free, opens natively in Excel.
  * @param {Record<string, unknown>[]} rows
  * @param {string[]} columns
  * @param {string} [sheetName]

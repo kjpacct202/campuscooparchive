@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* ============================================================================
-   Design tokens — shared design language with the Campus Alert Archive
+   Design tokens: shared design language with the Campus Alert Archive
    (CSS-variable-backed, AA-verified), re-accented teal for COOP / continuity.
    Geist (--font-sans/--font-mono) and Fraunces (--font-fraunces) load via
    next/font in app/layout.tsx. Light values live in :root; dark values in
@@ -21,7 +21,7 @@
   --text-body: #3d3d39;
   --text-secondary: #5c5c56;
   --text-muted: #6b6b64;
-  /* COOP accent — teal (continuity/resilience). AA-verified on cream & white. */
+  /* COOP accent: teal (continuity/resilience). AA-verified on cream & white. */
   --accent: #0f766e;
   --accent-hover: #115e59;
   --accent-light: #e7f5f2;

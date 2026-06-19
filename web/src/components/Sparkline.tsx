@@ -1,4 +1,4 @@
-/* Pure-SVG inline sparkline — hook-free, server-safe. Renders a value series as
+/* Pure-SVG inline sparkline. Hook-free, server-safe. Renders a value series as
  * a smooth trend line tinted with the accent color. Used on Statistics. */
 export default function Sparkline({
   values,

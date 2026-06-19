@@ -7,7 +7,7 @@ import { componentLabel, BENCHMARK_MAX } from "@/lib/format";
 export const metadata: Metadata = {
   title: "The continuity benchmark",
   description:
-    "The 22-component continuity benchmark synthesized from FCD 1, FCD 2, the FEMA Continuity Guidance Circular, NIST SP 800-34, ISO 22301, and NFPA 1600 — the standard every deep-coded campus COOP is scored against, fully cited.",
+    "The 22-component continuity benchmark synthesized from FCD 1, FCD 2, the FEMA Continuity Guidance Circular, NIST SP 800-34, ISO 22301, and NFPA 1600: the standard every deep-coded campus COOP is scored against, fully cited.",
 };
 
 export default function BenchmarkPage() {
@@ -31,7 +31,7 @@ export default function BenchmarkPage() {
         <h1>The continuity benchmark</h1>
         <p className="lead">
           A &ldquo;complete&rdquo; higher-ed continuity plan contains the {BENCHMARK_MAX}{" "}
-          components below — a {BENCHMARK_MAX}-component continuity benchmark synthesized
+          components below: a {BENCHMARK_MAX}-component continuity benchmark synthesized
           from FCD&nbsp;1, FCD&nbsp;2, the FEMA Continuity Guidance Circular, NIST
           SP&nbsp;800-34, ISO&nbsp;22301, and NFPA&nbsp;1600. Each deep-coded plan is scored
           as the count of components clearly present: <code>benchmark_present = {BENCHMARK_MAX} −
@@ -53,7 +53,7 @@ export default function BenchmarkPage() {
         near-universal, while advanced practices like devolution and formal RTO targets are
         the rarest. Note that many publicly posted &ldquo;plans&rdquo; are framework
         summaries or base-document-only releases, so low scores are often document-scope
-        artifacts — see the <Link href="/methodology/">methodology</Link>.
+        artifacts. See the <Link href="/methodology/">methodology</Link>.
       </div>
 
       <h2 style={{ marginTop: 30 }}>The {BENCHMARK_MAX} components</h2>

@@ -123,7 +123,7 @@ export interface DeepRecord {
   date_coded?: string;
   benchmark_present: number;
   benchmark_band?: string;
-  // Joined in at load time (NOT present in the deep source — see data.ts).
+  // Joined in at load time (NOT present in the deep source; see data.ts).
   institution_name?: string;
 }
 
