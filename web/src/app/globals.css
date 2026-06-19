@@ -100,6 +100,22 @@ html.dark { color-scheme: dark; }
 .skip-to-content:focus { left: 0; }
 .touch-target { min-width: 44px; min-height: 44px; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stat-value {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.stat-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-top: 5px;
+}
 
 * {
   box-sizing: border-box;
