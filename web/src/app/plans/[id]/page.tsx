@@ -9,6 +9,7 @@ import { SourceLinks } from "@/components/SourceLinks";
 import { CopyButton } from "@/components/CopyButton";
 import { PlanCard } from "@/components/PlanCard";
 import CiteCard from "@/components/CiteCard";
+import JumpNav from "@/components/JumpNav";
 import {
   ALL_COMPONENT_KEYS,
   componentLabel,
@@ -83,6 +84,8 @@ export default function PlanPage({ params }: { params: { id: string } }) {
           {deep && <Badge variant="score">Benchmark {deep.benchmark_present}/22</Badge>}
         </div>
       </div>
+
+      <JumpNav />
 
       <div className="detail-grid">
         <div>

@@ -116,6 +116,42 @@ html.dark { color-scheme: dark; }
   color: var(--muted);
   margin-top: 5px;
 }
+.jumpnav {
+  position: sticky;
+  top: 60px;
+  z-index: 20;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 8px 0;
+  margin: 0 0 18px;
+  background: color-mix(in srgb, var(--background) 86%, transparent);
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.jumpnav a {
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.jumpnav a:hover {
+  color: var(--ink);
+  background: var(--bg-soft);
+  text-decoration: none;
+}
+.jumpnav a.active {
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+}
+@media (max-width: 560px) {
+  .jumpnav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+}
 
 * {
   box-sizing: border-box;
