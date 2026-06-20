@@ -2,6 +2,34 @@
 
 All notable changes to the Campus COOP Archive data foundation. Newest first.
 
+## Session 3 — 2026-06-19 — Premium redesign (sister to the Campus Alert Archive)
+
+Re-skinned the website to the Campus Alert Archive design language so the two
+read as siblings, re-accented teal for continuity. All on branch
+`feat/premium-redesign`; pure static export preserved.
+
+### Added — design system & dark mode
+- Tailwind 3.4 with CSS-variable design tokens (light + dark), a distinct COOP
+  **teal accent**, Geist + **Fraunces** (editorial headlines), shadcn/ui
+  primitives (button, dialog, dropdown-menu) on Radix.
+- First-class **dark mode** (next-themes, system default, persistent toggle);
+  every existing page inherits it through a legacy-variable bridge.
+- `enhance.css` motion layer: hero aurora, gradient-text keyword, scroll-reveal
+  (`RevealController`), hover-lift, tasteful `EasterEggs` (Konami / confetti /
+  `g`-nav); all reduced-motion-safe. Glass sticky `Header` + richer `Footer`.
+
+### Added — features
+- **StateCoverageMap** cartogram on Statistics (+ screen-reader data table);
+  `Sparkline` and `AnimatedStat` components.
+- A dedicated **/search/** page (token full-text over institutions, metadata,
+  and verbatim quotes; reads `?q=`/`?state=`).
+- Real **xlsx + PDF** exports (lazy-loaded `xlsx` / `jspdf`) plus CSV/JSON via an
+  `ExportMenu` + confirm dialog, on Browse and Search.
+- Build-time **OG image**, **PWA manifest**, **JSON-LD**, theme-color.
+- Six new pages: privacy, terms, disclaimer, accessibility, contribute, contact
+  (static, GitHub-routed). A **CiteCard** (APA / MLA / BibTeX) on plan detail.
+- Re-ran the em-dash cleanup so the branch ships em-dash-free.
+
 ## Session 2 — 2026-06-17 — Public website (Next.js → Vercel)
 
 Built the public website in `web/`, mirroring the Higher Ed EOP Atlas page-for-page

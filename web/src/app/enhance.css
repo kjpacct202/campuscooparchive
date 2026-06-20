@@ -1,0 +1,122 @@
+/* ============================================================================
+   enhance.css: the motion & polish layer (sister to Campus Alert Archive),
+   tuned to COOP's teal accent and fully reduced-motion-safe. Loaded after
+   globals.css in app/layout.tsx.
+   ============================================================================ */
+
+/* --- Gradient (aurora-drift) text for the hero keyword --- */
+.gradient-text {
+  background: linear-gradient(
+    100deg,
+    var(--accent) 0%,
+    color-mix(in srgb, var(--accent) 55%, var(--violet)) 45%,
+    var(--accent-hover) 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: grad-drift 9s var(--ease-out-soft) infinite alternate;
+}
+@keyframes grad-drift {
+  from { background-position: 0% 50%; }
+  to   { background-position: 100% 50%; }
+}
+
+/* --- Hero aurora glow (decorative, non-interactive) --- */
+.aurora { position: relative; isolation: isolate; }
+.aurora::before,
+.aurora::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 46vw;
+  height: 46vw;
+  max-width: 620px;
+  max-height: 620px;
+  border-radius: 50%;
+  filter: blur(72px);
+  opacity: 0.5;
+  pointer-events: none;
+  mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+}
+.aurora::before {
+  top: -14%;
+  left: -6%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 60%, transparent), transparent 70%);
+  animation: aurora-a 18s var(--ease-out-soft) infinite alternate;
+}
+.aurora::after {
+  top: -22%;
+  right: -8%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--violet) 50%, transparent), transparent 70%);
+  animation: aurora-b 22s var(--ease-out-soft) infinite alternate;
+}
+html.dark .aurora::before,
+html.dark .aurora::after { opacity: 0.32; }
+@keyframes aurora-a { to { transform: translate3d(6%, 4%, 0) scale(1.12); } }
+@keyframes aurora-b { to { transform: translate3d(-5%, 6%, 0) scale(1.08); } }
+
+/* --- Scroll reveal (RevealController toggles .reveal-ready on <html>) --- */
+.reveal-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s var(--ease-out-soft), transform 0.7s var(--ease-out-soft);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal-ready [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* --- Glass surfaces (sticky header / bars) --- */
+.glass {
+  background: color-mix(in srgb, var(--background) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+}
+
+/* --- Hover lift for cards / KPI tiles --- */
+.lift {
+  transition: transform 0.28s var(--ease-out-soft), box-shadow 0.28s var(--ease-out-soft),
+    border-color 0.28s var(--ease-out-soft);
+}
+.lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(0, 0, 0, 0.05);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+}
+
+/* --- Command-palette entrance --- */
+@keyframes cmdk-pop {
+  from { opacity: 0; transform: translateY(-8px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* --- Easter-egg flourishes --- */
+.confetti-piece {
+  position: fixed;
+  top: -12px;
+  width: 9px;
+  height: 14px;
+  z-index: 300;
+  pointer-events: none;
+  border-radius: 2px;
+  animation: confetti-fall 1.9s var(--ease-out-soft) forwards;
+}
+@keyframes confetti-fall {
+  to { transform: translateY(102vh) rotate(540deg); opacity: 0; }
+}
+html.rainbow .gradient-text { animation: grad-drift 1.6s linear infinite; }
+
+/* --- Respect reduced-motion everywhere --- */
+@media (prefers-reduced-motion: reduce) {
+  .gradient-text { animation: none; background-position: 50% 50%; }
+  .aurora::before, .aurora::after { animation: none; }
+  .reveal-ready [data-reveal] { transition: none; opacity: 1; transform: none; }
+  .lift { transition: none; }
+  .confetti-piece { display: none !important; }
+  html.rainbow .gradient-text { animation: none; }
+}

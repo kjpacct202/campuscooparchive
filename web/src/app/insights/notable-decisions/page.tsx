@@ -5,7 +5,7 @@ import { notableDecisions, notableDecisionsByPlan } from "@/lib/insights";
 export const metadata: Metadata = {
   title: "Notable decisions",
   description:
-    "A gallery of transferable and unusual design decisions found by reading campus continuity plans in full: each backed by a verbatim quote and a link to its source plan.",
+    "A gallery of transferable and unusual design decisions found by reading campus continuity plans in full, each backed by a verbatim quote and a link to its source plan.",
 };
 
 export default function NotableDecisionsPage() {

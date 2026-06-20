@@ -30,7 +30,7 @@ export const CHAPTERS: Chapter[] = [
     slug: "with-devolution",
     title: "Plans that address devolution",
     blurb:
-      "Devolution, transferring essential functions to a separate site or staff, is the field's single biggest blind spot (38 of 40 deep-coded plans miss it). These are the exceptions.",
+      "Devolution (transferring essential functions to a separate site or staff) is the field's single biggest blind spot (38 of 40 deep-coded plans miss it). These are the exceptions.",
     match: (_p, d) => !!d && !d.benchmark_missing.includes("devolution"),
   },
   {

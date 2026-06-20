@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { SlimPlan } from "@/lib/types";
 import { PlanCard } from "./PlanCard";
-import { exportCSV, exportExcel, exportJSON } from "@/lib/export";
+import ExportMenu from "@/components/ExportMenu";
 
 function uniq(plans: SlimPlan[], key: keyof SlimPlan): string[] {
   const set = new Set<string>();
@@ -34,6 +34,9 @@ export function BrowseClient() {
   const [sort, setSort] = useState<SortKey>("az");
 
   useEffect(() => {
+    const sp = new URLSearchParams(window.location.search);
+    const st = sp.get("state");
+    if (st) setFilters((prev) => ({ ...prev, state: st }));
     fetch("/data/plans.slim.json")
       .then((r) => r.json())
       .then((d: SlimPlan[]) => setPlans(d))
@@ -157,16 +160,7 @@ export function BrowseClient() {
           Showing <strong>{view.length}</strong> of {plans.length} plans
         </span>
         <span className="pill-row">
-          <span>Export:</span>
-          <button className="btn" onClick={() => exportCSV(view)}>
-            CSV
-          </button>
-          <button className="btn" onClick={() => exportExcel(view)}>
-            Excel
-          </button>
-          <button className="btn" onClick={() => exportJSON(view)}>
-            JSON
-          </button>
+          <ExportMenu rows={view} baseName="campus-coop-archive-filtered" />
           <span style={{ marginLeft: 8 }}>Sort:</span>
           <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
             <option value="az">Institution A–Z</option>

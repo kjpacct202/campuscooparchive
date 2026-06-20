@@ -8,6 +8,8 @@ import { EvidenceQuote } from "@/components/EvidenceQuote";
 import { SourceLinks } from "@/components/SourceLinks";
 import { CopyButton } from "@/components/CopyButton";
 import { PlanCard } from "@/components/PlanCard";
+import CiteCard from "@/components/CiteCard";
+import JumpNav from "@/components/JumpNav";
 import {
   ALL_COMPONENT_KEYS,
   componentLabel,
@@ -26,7 +28,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!plan) return { title: "Plan not found" };
   const deepNote = getDeep(params.id) ? " Deep-coded against the 22-component continuity benchmark." : "";
   return {
-    title: `${plan.institution_name}, ${plan.plan_type}`,
+    title: `${plan.institution_name}: ${plan.plan_type}`,
     description: `${plan.institution_name} (${plan.state}) ${plan.plan_type}. Sourced from a publicly published document with a verbatim evidence quote.${deepNote}`,
   };
 }
@@ -82,6 +84,8 @@ export default function PlanPage({ params }: { params: { id: string } }) {
           {deep && <Badge variant="score">Benchmark {deep.benchmark_present}/22</Badge>}
         </div>
       </div>
+
+      <JumpNav />
 
       <div className="detail-grid">
         <div>
@@ -155,7 +159,7 @@ export default function PlanPage({ params }: { params: { id: string } }) {
                       </span>
                     ))}
                     {missingSet.size === 0 && (
-                      <span className="muted small">Nothing missing: a perfect 22/22.</span>
+                      <span className="muted small">Nothing missing. A perfect 22/22.</span>
                     )}
                   </div>
                 </div>
@@ -315,6 +319,18 @@ export default function PlanPage({ params }: { params: { id: string } }) {
           </div>
         </aside>
       </div>
+
+      <section className="section">
+        <h2>Cite this record</h2>
+        <CiteCard
+          planId={plan.plan_id}
+          institution={plan.institution_name}
+          planType={plan.plan_type}
+          url={plan.source_url}
+          year={plan.recency_year}
+          accessed={plan.date_accessed}
+        />
+      </section>
 
       {related.length > 0 && (
         <section className="section">

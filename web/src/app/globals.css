@@ -1,30 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   Design tokens: shared design language with the Campus Alert Archive
+   (CSS-variable-backed, AA-verified), re-accented teal for COOP / continuity.
+   Geist (--font-sans/--font-mono) and Fraunces (--font-fraunces) load via
+   next/font in app/layout.tsx. Light values live in :root; dark values in
+   html.dark. COOP's legacy class vars (--bg/--panel/--ink/--line/--accent…)
+   are aliased onto these tokens so every existing component flips themes.
+   ============================================================================ */
 :root {
-  /* Light, clean palette (sister to Campus Alert Archive). */
-  --bg: #fbfbfa;
-  --bg-soft: #f4f4f2;
-  --panel: #ffffff;
-  --panel-2: #f7f7f6;
-  --line: #e6e5e1;
-  --line-strong: #d6d5cf;
-  --ink: #1a1a17;
-  --ink-soft: #4a4a44;
-  --muted: #76756d;
-  --accent: #2b5fd0;
-  --accent-soft: #eaf0fd;
-  --accent-ink: #1b3d8a;
-  --green: #1f8a4c;
-  --green-soft: #e7f4ec;
-  --amber: #b5791b;
-  --amber-soft: #fbf1dd;
-  --violet: #6b3fb0;
-  --violet-soft: #f1ebfb;
+  /* Base surfaces & text (Campus Alert tokens) */
+  --background: #fafaf7;
+  --background-alt: #f4f1ec;
+  --surface: #ffffff;
+  --border: #e8e4dd;
+  --border-strong: #d4cfc7;
+  --text-primary: #1a1a17;
+  --text-body: #3d3d39;
+  --text-secondary: #5c5c56;
+  --text-muted: #6b6b64;
+  /* COOP accent: teal (continuity/resilience). AA-verified on cream & white. */
+  --accent: #0f766e;
+  --accent-hover: #115e59;
+  --accent-light: #e7f5f2;
+  --accent-ink: #0b5a52;
+  --accent-border: #bfe3dd;
+  --on-accent: #ffffff;
+  /* Chart / badge hues (theme-aware) */
+  --green: #1f8a4c; --green-soft: #e7f4ec; --green-border: #b9e0c8;
+  --amber: #b5791b; --amber-soft: #fbf1dd; --amber-border: #ecd6a8;
+  --violet: #6b3fb0; --violet-soft: #f1ebfb; --violet-border: #d8c7f1;
+  --danger: #c0392b;
+  --selection-bg: rgba(15, 118, 110, 0.16);
+  /* Fluid spacing primitives */
+  --space-section: clamp(2rem, 6vw, 6rem);
+  --space-page-y: clamp(2rem, 5vw, 5rem);
+  /* Soft elevation easing (used by enhance.css) */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* --- Legacy COOP aliases → tokens (keep existing classes working) --- */
+  --bg: var(--background);
+  --bg-soft: var(--background-alt);
+  --panel: var(--surface);
+  --panel-2: var(--background-alt);
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --ink: var(--text-primary);
+  --ink-soft: var(--text-body);
+  --muted: var(--text-secondary);
+  --accent-soft: var(--accent-light);
   --radius: 12px;
   --radius-sm: 8px;
-  --shadow: 0 1px 2px rgba(20, 20, 16, 0.04), 0 1px 3px rgba(20, 20, 16, 0.06);
+  --shadow: 0 1px 3px rgba(20, 20, 16, 0.05), 0 1px 2px rgba(20, 20, 16, 0.04);
   --maxw: 1180px;
-  --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif;
-  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-sans: var(--font-geist-sans, ui-sans-serif, system-ui, -apple-system, sans-serif);
+  --font-mono: var(--font-geist-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  --font: var(--font-sans);
+  --mono: var(--font-mono);
+  --font-display: var(--font-fraunces, "Fraunces", Georgia, serif);
+}
+
+html.dark {
+  --background: #0b0b0e;
+  --background-alt: #14141a;
+  --surface: #1a1a22;
+  --border: #2a2a33;
+  --border-strong: #3a3a45;
+  --text-primary: #f5f5f2;
+  --text-body: #d8d8d2;
+  --text-secondary: #a6a6ac;
+  --text-muted: #8a8a92;
+  --accent: #5eead4;
+  --accent-hover: #99f6e4;
+  --accent-light: rgba(94, 234, 212, 0.12);
+  --accent-ink: #99f6e4;
+  --accent-border: rgba(94, 234, 212, 0.32);
+  --on-accent: #07110f;
+  --green: #4ade80; --green-soft: rgba(34, 197, 94, 0.14); --green-border: rgba(34, 197, 94, 0.32);
+  --amber: #fbbf24; --amber-soft: rgba(245, 158, 11, 0.14); --amber-border: rgba(245, 158, 11, 0.32);
+  --violet: #c4b5fd; --violet-soft: rgba(139, 92, 246, 0.16); --violet-border: rgba(139, 92, 246, 0.34);
+  --danger: #f87171;
+  --selection-bg: rgba(94, 234, 212, 0.22);
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+html { color-scheme: light; background-color: var(--background); }
+html.dark { color-scheme: dark; }
+::selection { background: var(--selection-bg); color: var(--text-primary); }
+
+/* Accessibility utilities used by the shell */
+.skip-to-content {
+  position: absolute; left: -9999px; top: 0; z-index: 200;
+  background: var(--accent); color: var(--on-accent);
+  padding: 10px 16px; border-radius: 0 0 8px 0; font-weight: 600; font-size: 0.9rem;
+}
+.skip-to-content:focus { left: 0; }
+.touch-target { min-width: 44px; min-height: 44px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.stat-value {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.stat-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.jumpnav {
+  position: sticky;
+  top: 60px;
+  z-index: 20;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 8px 0;
+  margin: 0 0 18px;
+  background: color-mix(in srgb, var(--background) 86%, transparent);
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.jumpnav a {
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.jumpnav a:hover {
+  color: var(--ink);
+  background: var(--bg-soft);
+  text-decoration: none;
+}
+.jumpnav a.active {
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+}
+@media (max-width: 560px) {
+  .jumpnav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
 }
 
 * {
@@ -62,6 +188,14 @@ h4 {
   line-height: 1.2;
   color: var(--ink);
   margin: 0 0 0.4em;
+}
+/* Editorial display voice (Fraunces) for the major headings. */
+h1,
+h2,
+.hero h1,
+.section-eyebrow {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
 }
 h1 {
   font-size: 2.1rem;
@@ -432,22 +566,22 @@ a.card:hover {
 }
 .badge--ok {
   color: var(--green);
-  border-color: #b9e0c8;
+  border-color: var(--green-border);
   background: var(--green-soft);
 }
 .badge--link {
   color: var(--amber);
-  border-color: #ecd6a8;
+  border-color: var(--amber-border);
   background: var(--amber-soft);
 }
 .badge--score {
   color: var(--accent-ink);
-  border-color: #c4d6f7;
+  border-color: var(--accent-border);
   background: var(--accent-soft);
 }
 .badge--doctype {
   color: var(--violet);
-  border-color: #d8c7f1;
+  border-color: var(--violet-border);
   background: var(--violet-soft);
 }
 
@@ -559,7 +693,7 @@ a.card:hover {
   color: var(--amber);
 }
 .scoremeter .num.low {
-  color: #c0392b;
+  color: var(--danger);
 }
 
 /* ---------- Prose (content pages) ---------- */

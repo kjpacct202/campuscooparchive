@@ -8,6 +8,7 @@ import {
   altFacilityModels,
   mostMissing,
 } from "@/lib/insights";
+import StateCoverageMap from "@/components/StateCoverageMap";
 
 export const metadata: Metadata = {
   title: "Statistics",
@@ -86,6 +87,8 @@ export default function StatisticsPage() {
           deep-analysis layer below replaces them with full-text-verified values.
         </p>
       </div>
+
+      <StateCoverageMap counts={stats.by_state} />
 
       <h2>Catalog</h2>
       <div className="panels">

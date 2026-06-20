@@ -27,7 +27,7 @@ export default function WisdomPage() {
         <strong> verbatim</strong> from its source plan and links to that plan. Go deeper in the{" "}
         <Link href="/insights/">findings</Link>, the{" "}
         <Link href="/insights/notable-decisions/">full decisions gallery</Link>, and the{" "}
-        <Link href="/statistics/">statistics</Link>. You can also read the{" "}
+        <Link href="/statistics/">statistics</Link>, or read the{" "}
         <Link href="/methodology/">methodology</Link>.
       </div>
 
@@ -46,6 +46,7 @@ export default function WisdomPage() {
               <blockquote className="quote" key={j}>
                 &ldquo;{e.quote}&rdquo;
                 <footer>
+                  {", "}
                   {e.link ? (
                     <Link href={`/plans/${e.plan_id}/`}>{e.institution}</Link>
                   ) : (

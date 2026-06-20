@@ -7,7 +7,7 @@ import { componentLabel, BENCHMARK_MAX } from "@/lib/format";
 export const metadata: Metadata = {
   title: "The continuity benchmark",
   description:
-    "The 22-component continuity benchmark synthesized from FCD 1, FCD 2, the FEMA Continuity Guidance Circular, NIST SP 800-34, ISO 22301, and NFPA 1600. It is the standard every deep-coded campus COOP is scored against, fully cited.",
+    "The 22-component continuity benchmark synthesized from FCD 1, FCD 2, the FEMA Continuity Guidance Circular, NIST SP 800-34, ISO 22301, and NFPA 1600: the standard every deep-coded campus COOP is scored against, fully cited.",
 };
 
 export default function BenchmarkPage() {

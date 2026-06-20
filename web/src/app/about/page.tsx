@@ -67,9 +67,9 @@ export default function AboutPage() {
         </li>
         <li>
           <strong>The continuity benchmark.</strong> A fully cited reference catalogs the
-          federal and consensus continuity doctrine, drawing on FCD&nbsp;1, FCD&nbsp;2, the
-          FEMA Continuity Guidance Circular (CGC), NIST&nbsp;SP&nbsp;800-34, ISO&nbsp;22301,
-          and NFPA&nbsp;1600, and synthesizes them into a 22-component scoring checklist.
+          federal and consensus continuity doctrine (FCD&nbsp;1, FCD&nbsp;2, the FEMA
+          Continuity Guidance Circular (CGC), NIST&nbsp;SP&nbsp;800-34, ISO&nbsp;22301,
+          and NFPA&nbsp;1600) and synthesizes them into a 22-component scoring checklist.
         </li>
         <li>
           <strong>Deep-analysis layer.</strong> A growing subset of plans is read in

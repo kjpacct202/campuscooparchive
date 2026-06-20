@@ -219,7 +219,7 @@ export default function InsightsPage() {
       )}
 
       <div className="callout">
-        These are observations from a fully sourced dataset. Every figure traces back
+        These are observations from a fully sourced dataset: every figure traces back
         to a plan you can open, and every quote is verbatim. Want to run your own analysis?{" "}
         <Link href="/downloads/">Download the data</Link>.
       </div>

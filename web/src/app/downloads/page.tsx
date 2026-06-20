@@ -9,7 +9,7 @@ import { getStats, getDeepList } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Download the data",
   description:
-    "Download the entire Campus COOP Archive for free, as CSV, JSON, Excel, or one combined file, and drop it into ChatGPT, Claude, NotebookLM, or Copilot to ask your own questions. No account needed.",
+    "Download the entire Campus COOP Archive for free (CSV, JSON, Excel, or one combined file) and drop it into ChatGPT, Claude, NotebookLM, or Copilot to ask your own questions. No account needed.",
 };
 
 function loadManifest(): DownloadItem[] {

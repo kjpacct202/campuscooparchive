@@ -117,7 +117,7 @@ export const BENCHMARK_GROUPS: BenchmarkGroup[] = [
         key: "continuity_communications",
         label: "Continuity communications",
         description:
-          "Continuity communications capabilities that are resilient and interoperable, covering how leadership, responders, and the community stay connected when primary channels fail.",
+          "Continuity communications capabilities that are resilient and interoperable: how leadership, responders, and the community stay connected when primary channels fail.",
       },
       {
         key: "vital_records_management",
@@ -245,7 +245,7 @@ export const FRAMEWORK_SOURCES: FrameworkSource[] = [
     date: "2019 edition (7th ed.)",
     url: "https://www.nfpa.org/codes-and-standards/nfpa-1600-standard-development/1600",
     summary:
-      "The overarching U.S. preparedness/resilience standard. Defines the interconnected program elements (program management, risk assessment, business impact analysis, prevention/mitigation, emergency management, business continuity, and crisis management), all aligned to PDCA.",
+      "The overarching U.S. preparedness/resilience standard. Defines the interconnected program elements (program management, risk assessment, business impact analysis, prevention/mitigation, emergency management, business continuity, and crisis management) aligned to PDCA.",
   },
   {
     name: "Higher-ed academic & instructional continuity (supporting)",

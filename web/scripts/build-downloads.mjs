@@ -183,7 +183,7 @@ ${readDoc("schema/taxonomies.md") || "(taxonomies unavailable)"}
 - \`alternate_facility_model\`: physical-alternate-site / telework-distributed / reciprocal-mutual-aid / cloud-hosted / multiple / none-stated.
 - \`essential_functions\`: array of identified essential/critical functions.
 - \`rto_tiers\`, \`succession_depth\`, \`vital_records_approach\`, \`tte_cadence\`, \`devolution_treatment\`, \`reconstitution_treatment\`, \`academic_continuity_treatment\`, \`it_continuity_treatment\`, \`interdependencies_treatment\`: prose summaries of how each is handled.
-- \`unusual_decisions\`: array of { decision, quote }, one per notable design choice, each with a verbatim quote.
+- \`unusual_decisions\`: array of { decision, quote }: notable design choices, each with a verbatim quote.
 - \`analyst_notes\`: human-readable summary of the full-text reading.
 
 ### The 22-component continuity benchmark (keys used in benchmark_missing)

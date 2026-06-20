@@ -38,9 +38,12 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Hero */}
-      <section className="hero">
+      <section className="hero aurora">
         <div className="eyebrow">{SITE_EYEBROW}</div>
-        <h1>The continuity plans US campuses actually publish, read, scored, and free to download.</h1>
+        <h1>
+          The continuity plans US campuses actually publish:{" "}
+          <span className="gradient-text">read, scored, and free to download.</span>
+        </h1>
         <p className="lead">
           {SITE_TAGLINE} Every record links to its primary source and a verbatim evidence
           quote. A growing subset is read in full and scored against the 22-component
@@ -57,7 +60,7 @@ export default function HomePage() {
       </section>
 
       {/* At a glance */}
-      <section>
+      <section data-reveal>
         <h2 className="section-eyebrow">The Archive at a glance</h2>
         <div className="statgrid">
           <StatChip value={stats.totals.plans} label="Plans cataloged" />
@@ -69,7 +72,7 @@ export default function HomePage() {
       </section>
 
       {/* The bigger idea */}
-      <section className="bigidea">
+      <section className="bigidea" data-reveal>
         <h2>The bigger idea</h2>
         <p>
           Most campus continuity plans sit in administrative PDFs nobody compares. There is
@@ -79,14 +82,14 @@ export default function HomePage() {
         <p>
           AI changes the economics of that work. Every plan in this Archive was found on an
           official source, captured with a verbatim quote a skeptic can check, and a subset
-          has been read end-to-end and scored against the same continuity standard,
-          so a continuity planner can finally <em>learn from the field</em> instead of
-          starting from a blank page.
+          has been read end-to-end and scored against the same continuity standard, so a
+          continuity planner can finally <em>learn from the field</em> instead of starting
+          from a blank page.
         </p>
       </section>
 
       {/* How it works */}
-      <section>
+      <section data-reveal>
         <h2 className="section-eyebrow">How it works</h2>
         <div className="steps">
           <div className="step">
@@ -104,7 +107,7 @@ export default function HomePage() {
           <div className="step">
             <span className="step-n">3</span>
             <h3>Analyze with your AI</h3>
-            <p>Drop the file into ChatGPT, Claude, NotebookLM, or Copilot and ask your own continuity questions, with prompt starters included.</p>
+            <p>Drop the file into ChatGPT, Claude, NotebookLM, or Copilot and ask your own continuity questions; prompt starters included.</p>
             <Link href="/downloads/">See prompt starters &rarr;</Link>
           </div>
         </div>
@@ -112,7 +115,7 @@ export default function HomePage() {
 
       {/* Featured exemplars */}
       {featured.length > 0 && (
-        <section>
+        <section data-reveal>
           <h2 className="section-eyebrow">Featured exemplars</h2>
           <p className="muted" style={{ marginTop: 0 }}>
             Plans that score a perfect 22/22 against the continuity benchmark: a good place to
@@ -125,10 +128,10 @@ export default function HomePage() {
       )}
 
       {/* Take the data with you */}
-      <section className="callout" style={{ borderLeftColor: "var(--green)" }}>
+      <section className="callout" data-reveal style={{ borderLeftColor: "var(--accent)" }}>
         <h2 style={{ marginTop: 0 }}>Take the data with you</h2>
         <p style={{ marginBottom: 12 }}>
-          Every plan, every field, every citation: free to export in one click. Pull the
+          Every plan, every field, every citation, free to export in one click. Pull the
           whole archive or filter to the slice you want, then analyze it with your own tools.
         </p>
         <Link href="/downloads/" className="btn btn-primary" style={{ padding: "10px 16px" }}>
@@ -137,38 +140,38 @@ export default function HomePage() {
       </section>
 
       {/* Explore */}
-      <section>
+      <section data-reveal>
         <h2 className="section-eyebrow">Explore</h2>
         <div className="entrygrid">
-          <Link href="/wisdom/" className="entry">
+          <Link href="/wisdom/" className="entry lift">
             <h3>Wisdom</h3>
             <p>The best transferable lessons synthesized from the whole corpus, each backed by a verbatim quote.</p>
           </Link>
-          <Link href="/insights/" className="entry">
+          <Link href="/insights/" className="entry lift">
             <h3>Insights</h3>
             <p>What reading every deep-coded plan reveals: findings plus a gallery of notable design decisions.</p>
           </Link>
-          <Link href="/chapters/" className="entry">
+          <Link href="/chapters/" className="entry lift">
             <h3>Chapters</h3>
             <p>Curated collections: perfect 22/22 plans, full-COOP documents, IT-DR plans, academic-continuity plans, and templates.</p>
           </Link>
-          <Link href="/compare/" className="entry">
+          <Link href="/compare/" className="entry lift">
             <h3>Compare</h3>
             <p>Put up to four plans side by side across the 22 continuity components.</p>
           </Link>
-          <Link href="/statistics/" className="entry">
+          <Link href="/statistics/" className="entry lift">
             <h3>Statistics</h3>
             <p>Document-type mix, organizing-structure patterns, framework alignment, currency, and benchmark distribution.</p>
           </Link>
-          <Link href="/benchmark/" className="entry">
+          <Link href="/benchmark/" className="entry lift">
             <h3>The benchmark</h3>
             <p>The 22-component continuity standard (FCD&nbsp;1/2, FEMA&nbsp;CGC, NIST&nbsp;800-34, ISO&nbsp;22301, NFPA&nbsp;1600), fully cited.</p>
           </Link>
-          <Link href="/institutions/" className="entry">
+          <Link href="/institutions/" className="entry lift">
             <h3>Institutions</h3>
             <p>The full roster of {stats.totals.institutions} institutions across 47 states and DC.</p>
           </Link>
-          <Link href="/methodology/" className="entry">
+          <Link href="/methodology/" className="entry lift">
             <h3>Methodology</h3>
             <p>What qualifies, how each record is verified, and an honest account of the limits.</p>
           </Link>

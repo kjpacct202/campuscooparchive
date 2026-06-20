@@ -54,14 +54,14 @@ export default function MethodologyPage() {
       <p>Every record carries three verification fields:</p>
       <ul>
         <li>
-          <strong>Source URL.</strong> A direct link to the document (PDF/HTML/DOCX) on
+          <strong>Source URL</strong>: a direct link to the document (PDF/HTML/DOCX) on
           an official institutional host, or the plan page itself for HTML plans.
         </li>
         <li>
-          <strong>Date accessed.</strong> The ISO date the record was checked.
+          <strong>Date accessed</strong>: the ISO date the record was checked.
         </li>
         <li>
-          <strong>Evidence quote.</strong> A short verbatim excerpt from the document
+          <strong>Evidence quote</strong>: a short verbatim excerpt from the document
           or its official hosting page (typically the title block, a promulgation line,
           or a framework-adoption sentence) that proves the document is what we say it
           is.
@@ -70,12 +70,12 @@ export default function MethodologyPage() {
       <p>Records are then graded with a verification badge:</p>
       <ul>
         <li>
-          <span className="badge badge--ok">&#10003; Confirmed</span>{" "}
-          means <strong>opened-and-confirmed</strong>: a researcher loaded the document or its
+          <span className="badge badge--ok">&#10003; Confirmed</span>,{" "}
+          <strong>opened-and-confirmed</strong>: a researcher loaded the document or its
           official page and read the evidence quote directly from it.
         </li>
         <li>
-          <span className="badge badge--link">Link-only</span> means the direct URL
+          <span className="badge badge--link">Link-only</span>: the direct URL
           resolves on an official host and the title/quote are confirmed via a search
           index or landing page, but the document bytes were not personally rendered
           (usually a transient fetch limit or a viewer that blocks text extraction).

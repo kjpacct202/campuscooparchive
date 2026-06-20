@@ -1,17 +1,32 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import { Fraunces } from "next/font/google";
 import "./globals.css";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import "./enhance.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import ThemeProvider from "@/components/ThemeProvider";
+import RevealController from "@/components/RevealController";
+import EasterEggs from "@/components/EasterEggs";
 import { CommandPalette } from "@/components/CommandPalette";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/format";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-fraunces",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME}: a sourced catalog of campus continuity of operations plans`,
+    default: `${SITE_NAME}: sourced catalog of campus continuity of operations plans`,
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_TAGLINE,
+  applicationName: SITE_NAME,
+  alternates: { canonical: "/" },
   keywords: [
     "continuity of operations",
     "COOP",
@@ -39,18 +54,37 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FAFAF7" },
+    { media: "(prefers-color-scheme: dark)", color: "#0B0B0E" },
+  ],
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${GeistSans.variable} ${GeistMono.variable} ${fraunces.variable}`}
+      suppressHydrationWarning
+    >
       <body>
-        <SiteHeader />
-        <main className="container page">{children}</main>
-        <SiteFooter />
-        <CommandPalette />
+        <ThemeProvider>
+          <a href="#main-content" className="skip-to-content">
+            Skip to content
+          </a>
+          <Header />
+          <main id="main-content" className="container page">
+            {children}
+          </main>
+          <Footer />
+          <CommandPalette />
+          <RevealController />
+          <EasterEggs />
+        </ThemeProvider>
       </body>
     </html>
   );
